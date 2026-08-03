@@ -2,10 +2,16 @@
 
 ## Published
 
-- [Claude Sonnet 5, Hartwell Follow Up Case](claude-sonnet-5-hartwell-follow-up-case.md): 42/45, no automatic failure. Raw API call.
-- [Claude Haiku 4.5, Hartwell Follow Up Case](claude-haiku-4-5-hartwell-follow-up-case.md): 33/45, no automatic failure. Raw API call.
-- [ChatGPT, Hartwell Follow Up Case](chatgpt-hartwell-follow-up-case.md): 41/45, no automatic failure. Consumer web app, exact model version not confirmed.
-- [Gemini, Hartwell Follow Up Case](gemini-hartwell-follow-up-case.md): 35/45, no automatic failure. Consumer web app, exact model version not confirmed.
+**Hartwell Follow Up Case:**
+
+- [Claude Sonnet 5](claude-sonnet-5-hartwell-follow-up-case.md): 42/45, no automatic failure. Raw API call.
+- [Claude Haiku 4.5](claude-haiku-4-5-hartwell-follow-up-case.md): 33/45, no automatic failure. Raw API call.
+- [ChatGPT](chatgpt-hartwell-follow-up-case.md): 41/45, no automatic failure. Consumer web app, exact model version not confirmed.
+- [Gemini](gemini-hartwell-follow-up-case.md): 35/45, no automatic failure. Consumer web app, exact model version not confirmed.
+
+**Marlow Pre-Call Case:**
+
+- [Claude Sonnet 5](claude-sonnet-5-marlow-pre-call-case.md): 43/45, no automatic failure. Raw API call. A single-model run showing the case's own trap gets caught; no second model has been run against this case yet.
 
 ## What These Comparisons Actually Show
 
@@ -18,6 +24,8 @@ Every result had a real, specific flaw, none were flawless, and no two flaws wer
 - **ChatGPT** and **Sonnet 5** avoided both of those specific failures, and were the two highest scores, but ChatGPT's email included a line explaining its own compliance ("I have not assumed that AI or another technology change is the answer") that reads as narrating the model's constraints rather than something a person would actually send to a customer.
 
 No result scored a perfect 45, and no automatic failure occurred in any of the four. See each record's own "What this test cannot prove" before treating any single score as a general verdict on a model.
+
+The Marlow case tests a different trap: whether a model conflates a secondhand, one-line comment from one person with a confirmed, company-wide priority. Sonnet 5's first run caught it cleanly. This is a single demonstration on this case, not yet a comparison, the same starting point the Hartwell case began from.
 
 ## Adding a Further Result
 

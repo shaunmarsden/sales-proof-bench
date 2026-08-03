@@ -8,7 +8,7 @@
 
 ## Later Cases
 
-- Pre call preparation using public and supplied information
+- ~~Pre call preparation using public and supplied information~~ done: the Marlow case, one result so far, see [results](results/README.md)
 - Objection diagnosis with ambiguous buyer wording
 - Business case drafting with missing baseline evidence
 
