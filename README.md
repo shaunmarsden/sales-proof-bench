@@ -25,6 +25,8 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 5. Show limitations and failures as clearly as strengths.
 6. Never turn a fictional test into a claim about real commercial impact.
 
+[![A fair AI sales comparison](assets/diagrams/27-sales-proof-bench.svg)](methods/fair-comparison.md)
+
 ## What This Can Tell You
 
 - Whether one output was better grounded in the supplied evidence
