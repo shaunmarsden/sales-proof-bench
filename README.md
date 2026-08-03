@@ -12,6 +12,7 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 | --- | --- |
 | Understand a fair comparison | [Fair Comparison Method](methods/fair-comparison.md) |
 | Run the first fictional case | [Hartwell Follow Up Case](cases/hartwell-follow-up-case.md) |
+| Run the pre-call prep case | [Marlow Pre-Call Case](cases/marlow-pre-call-case.md) |
 | Score an output | [Sales Output Rubric](rubrics/sales-output-rubric.md) |
 | Record a model run | [Model Run Record](templates/model-run-record.md) |
 | See what results are ready | [Results](results/README.md) |
@@ -43,7 +44,7 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 
 ## Current Status
 
-The bench foundation and first fictional case are ready. Four results have been published against the same case, prompt and rubric: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini. See the [results](results/README.md) for what these comparisons actually show and do not.
+The bench has two fictional cases now. Four results have been published against the Hartwell case: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini. The newer Marlow pre-call case has one result so far, Claude Sonnet 5. See the [results](results/README.md) for what these actually show and do not.
 
 See the [roadmap](ROADMAP.md) for the next tests.
 
