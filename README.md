@@ -41,6 +41,6 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 
 ## Current Status
 
-The bench foundation and first fictional case are ready. No public model score has been published yet. A result should appear only when the full input, output, score and limitations can be shown together.
+The bench foundation and first fictional case are ready. One result has been published, a single model run showing the record format working end to end. It is not yet a comparison; no second model has been run against the same case.
 
 See the [roadmap](ROADMAP.md) for the next tests.
