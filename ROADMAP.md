@@ -2,7 +2,7 @@
 
 ## First Results
 
-- A cold comparison using the Hartwell follow up case
+- ~~A cold comparison using the Hartwell follow up case~~ done: Claude Sonnet 5 versus Claude Haiku 4.5, see [results](results/README.md)
 - A setup comparison showing cold versus a carefully scoped instruction
 - A workflow comparison showing one off prompting versus a repeatable checklist
 
