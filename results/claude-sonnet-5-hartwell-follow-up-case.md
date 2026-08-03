@@ -1,13 +1,13 @@
-# Model Run Record: Claude Sonnet 5, Northstar Follow Up Case
+# Model Run Record: Claude Sonnet 5, Hartwell Follow Up Case
 
 ## Test Setup
 
-- **Case:** [Northstar Follow Up Case](../cases/northstar-follow-up-case.md)
+- **Case:** [Hartwell Follow Up Case](../cases/hartwell-follow-up-case.md)
 - **Task:** the four deliverables named in the case (internal summary, email draft to Priya, three discovery actions, CRM update suggestions)
 - **Model and version:** Claude Sonnet 5, run inside Claude Code
 - **Date:** 3 August 2026
 - **Account or plan, if relevant:** not applicable, run directly from the case file with no product-specific setup
-- **Custom instruction, project context or skill used:** none. No project knowledge base, no custom instruction, no prior turns about Northstar. Only the case file's own source notes and task were given.
+- **Custom instruction, project context or skill used:** none. No project knowledge base, no custom instruction, no prior turns about Hartwell. Only the case file's own source notes and task were given.
 
 ## Input
 
@@ -23,7 +23,7 @@
 
 ### Internal Summary
 
-Priya Shah, Commercial Director at Northstar Facilities Group, raised two operational concerns: sales managers have noticed inconsistent turnaround on customer follow-up after calls, and some CRM records are incomplete. Northstar went through a difficult CRM workflow change last year, so there is real caution about another large rollout. Priya wants to understand the current process before agreeing that a technology change is needed, and said Sales Operations would need to be involved in any test. No budget, project approval or pilot has been agreed, and Priya has not linked the follow-up delay to a specific commercial loss.
+Priya Shah, Commercial Director at Hartwell Analytics, raised two operational concerns: sales managers have noticed inconsistent turnaround on customer follow-up after calls, and some CRM records are incomplete. Hartwell went through a difficult CRM workflow change last year, so there is real caution about another large rollout. Priya wants to understand the current process before agreeing that a technology change is needed, and said Sales Operations would need to be involved in any test. No budget, project approval or pilot has been agreed, and Priya has not linked the follow-up delay to a specific commercial loss.
 
 ### Email Draft to Priya
 
@@ -64,5 +64,5 @@ No automatic failure: no invented customer commitment, no unapproved commercial 
 
 - **What it did well:** stayed strictly inside the confirmed information. Did not invent a budget, a pilot, a meeting that had not been proposed, or a promised outcome, matching the case's own "did not say" list exactly. The email proposes a genuinely low-commitment next step (understand the process first) rather than pushing toward a tool decision Priya had not asked for.
 - **What it got wrong:** nothing required a full rewrite, but fact and assumption separation relies on phrasing rather than an explicit label. A reviewer skimming quickly could miss that "Sales Operations would want to be involved" is Priya's own stated condition, not the drafter's suggestion, since both read in a similar tone.
-- **What a person still had to decide:** whether proposing a joint conversation with Sales Operations, rather than a one-to-one first, is the right call for this specific relationship. That is a judgement about Priya and Northstar the case does not give enough to make, and the output correctly did not pretend to make it.
+- **What a person still had to decide:** whether proposing a joint conversation with Sales Operations, rather than a one-to-one first, is the right call for this specific relationship. That is a judgement about Priya and Hartwell the case does not give enough to make, and the output correctly did not pretend to make it.
 - **What this test cannot prove:** this is one run, from one model, on one fictional case, scored by the person who ran it. It says nothing about how this model performs on a different task, how a different model would compare on the same one, or how consistent this score would be with a second, independent reviewer. It demonstrates the record format works end to end; it is not yet the comparison the bench is ultimately for.

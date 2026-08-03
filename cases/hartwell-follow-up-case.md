@@ -1,16 +1,16 @@
-# Northstar Follow Up Case
+# Hartwell Follow Up Case
 
-> This case is fictional. Northstar, its people and its conversation are invented.
+> This case is fictional. Hartwell, its people and its conversation are invented.
 
 ## Source Notes
 
-Priya Shah, Commercial Director at Northstar Facilities Group, spoke to Shaun about inconsistent follow up and CRM updates after customer calls.
+Priya Shah, Commercial Director at Hartwell Analytics, spoke to Shaun about inconsistent follow up and CRM updates after customer calls.
 
 What Priya said:
 
 - Sales managers have noticed variation in how quickly follow up is sent.
 - Some CRM records are incomplete.
-- Northstar had a difficult CRM workflow change last year and is cautious about another large rollout.
+- Hartwell had a difficult CRM workflow change last year and is cautious about another large rollout.
 - Priya wants to understand the current process before agreeing that a technology change is needed.
 - Sales Operations would need to be involved in any test.
 

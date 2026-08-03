@@ -2,7 +2,7 @@
 
 ## Published
 
-- [Claude Sonnet 5, Northstar Follow Up Case](claude-sonnet-5-northstar-follow-up-case.md): 42/45, no automatic failure. A single-model run showing the record format working end to end. It is not a comparison; nothing has been run against it yet.
+- [Claude Sonnet 5, Hartwell Follow Up Case](claude-sonnet-5-hartwell-follow-up-case.md): 42/45, no automatic failure. A single-model run showing the record format working end to end. It is not a comparison; nothing has been run against it yet.
 
 ## Adding a Further Result
 
