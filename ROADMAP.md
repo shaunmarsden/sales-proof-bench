@@ -2,7 +2,7 @@
 
 ## First Results
 
-- A cold comparison using the Northstar follow up case
+- A cold comparison using the Hartwell follow up case
 - A setup comparison showing cold versus a carefully scoped instruction
 - A workflow comparison showing one off prompting versus a repeatable checklist
 

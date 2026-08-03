@@ -11,7 +11,7 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 | If you want to... | Open this |
 | --- | --- |
 | Understand a fair comparison | [Fair Comparison Method](methods/fair-comparison.md) |
-| Run the first fictional case | [Northstar Follow Up Case](cases/northstar-follow-up-case.md) |
+| Run the first fictional case | [Hartwell Follow Up Case](cases/hartwell-follow-up-case.md) |
 | Score an output | [Sales Output Rubric](rubrics/sales-output-rubric.md) |
 | Record a model run | [Model Run Record](templates/model-run-record.md) |
 | See what results are ready | [Results](results/README.md) |
