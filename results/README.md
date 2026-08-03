@@ -2,16 +2,22 @@
 
 ## Published
 
-- [Claude Sonnet 5, Hartwell Follow Up Case](claude-sonnet-5-hartwell-follow-up-case.md): 42/45, no automatic failure.
-- [Claude Haiku 4.5, Hartwell Follow Up Case](claude-haiku-4-5-hartwell-follow-up-case.md): 33/45, no automatic failure.
+- [Claude Sonnet 5, Hartwell Follow Up Case](claude-sonnet-5-hartwell-follow-up-case.md): 42/45, no automatic failure. Raw API call.
+- [Claude Haiku 4.5, Hartwell Follow Up Case](claude-haiku-4-5-hartwell-follow-up-case.md): 33/45, no automatic failure. Raw API call.
+- [ChatGPT, Hartwell Follow Up Case](chatgpt-hartwell-follow-up-case.md): 41/45, no automatic failure. Consumer web app, exact model version not confirmed.
+- [Gemini, Hartwell Follow Up Case](gemini-hartwell-follow-up-case.md): 35/45, no automatic failure. Consumer web app, exact model version not confirmed.
 
-## What the First Comparison Actually Shows
+## What These Comparisons Actually Show
 
-Same prompt, same source notes, same rubric, same reviewer, run once each: this is a genuine Model comparison in the [fair-comparison method](../methods/fair-comparison.md)'s own sense, not a Setup or Workflow one.
+Same prompt, same source notes, same rubric, same reviewer, run once each. The Sonnet 5 versus Haiku 4.5 pair are raw API calls with nothing else layered on; the ChatGPT and Gemini runs went through each product's consumer web app, so an unknown system prompt or product feature may have shaped their output. Treat the two pairs as separately informative, not as one clean four-way ranking.
 
-Sonnet 5 scored higher for one concrete reason, not a vague impression: its email draft stayed inside the source notes throughout. Haiku 4.5's email invented a specific detail the notes never gave, "this should take 2-3 weeks", stated confidently rather than flagged as a guess. That single invented detail accounts for most of the gap between 42 and 33.
+Every result had a real, specific flaw, none were flawless, and no two flaws were the same shape:
 
-Haiku 4.5's internal summary used clearer Confirmed / Assumptions / Unknowns labels than Sonnet 5's more narrative version, so this is not simply "one model is better at everything." It is one case each, scored once, by one reviewer. See each record's own "What this test cannot prove" for the honest limits.
+- **Haiku 4.5** invented a detail the notes never gave: its email stated "this should take 2-3 weeks" for a proposed set of discovery calls, with no basis, confidently rather than flagged as a guess.
+- **Gemini** did not invent a new fact, but turned a real, stated concern into a formal certainty: it logged "Account Risk / Sensitivity: High" in the CRM suggestions from Tunde's actual caution about "another large rollout", a caution, not a quantified risk rating.
+- **ChatGPT** and **Sonnet 5** avoided both of those specific failures, and were the two highest scores, but ChatGPT's email included a line explaining its own compliance ("I have not assumed that AI or another technology change is the answer") that reads as narrating the model's constraints rather than something a person would actually send to a customer.
+
+No result scored a perfect 45, and no automatic failure occurred in any of the four. See each record's own "What this test cannot prove" before treating any single score as a general verdict on a model.
 
 ## Adding a Further Result
 
