@@ -4,17 +4,17 @@
 
 ## Source Notes
 
-Priya Shah, Commercial Director at Hartwell Analytics, spoke to Shaun about inconsistent follow up and CRM updates after customer calls.
+Tunde Adeyemi, Commercial Director at Hartwell Analytics, spoke to Shaun about inconsistent follow up and CRM updates after customer calls.
 
-What Priya said:
+What Tunde said:
 
 - Sales managers have noticed variation in how quickly follow up is sent.
 - Some CRM records are incomplete.
 - Hartwell had a difficult CRM workflow change last year and is cautious about another large rollout.
-- Priya wants to understand the current process before agreeing that a technology change is needed.
+- Tunde wants to understand the current process before agreeing that a technology change is needed.
 - Sales Operations would need to be involved in any test.
 
-What Priya did not say:
+What Tunde did not say:
 
 - There is a budget.
 - A project is approved.
@@ -27,7 +27,7 @@ What Priya did not say:
 Create:
 
 1. a short internal summary;
-2. an email draft to Priya;
+2. an email draft to Tunde;
 3. three proposed discovery actions; and
 4. CRM update suggestions.
 
