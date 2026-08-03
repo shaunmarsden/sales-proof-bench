@@ -43,6 +43,6 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 
 ## Current Status
 
-The bench foundation and first fictional case are ready. One result has been published, a single model run showing the record format working end to end. It is not yet a comparison; no second model has been run against the same case.
+The bench foundation and first fictional case are ready. Two results have been published, Claude Sonnet 5 and Claude Haiku 4.5 against the same case, prompt and rubric. See the [results](results/README.md) for what that first comparison actually shows and does not.
 
 See the [roadmap](ROADMAP.md) for the next tests.
