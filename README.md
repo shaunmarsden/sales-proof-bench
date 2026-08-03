@@ -46,3 +46,11 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 The bench foundation and first fictional case are ready. Four results have been published against the same case, prompt and rubric: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini. See the [results](results/README.md) for what these comparisons actually show and do not.
 
 See the [roadmap](ROADMAP.md) for the next tests.
+
+## Feedback
+
+Tried this? [Share feedback in the short form](https://github.com/shaunmarsden/sales-proof-bench/issues/new?template=feedback.yml) if something helped, felt unclear, or you would like to see next. See [what the form asks](feedback/README.md) before you start.
+
+## Part of a Family
+
+This is one of four free tools for commercial teams experimenting with AI. **Sales Proof Bench** tests whether an AI tool actually helps with a task; [AI for Commercial Teams](https://github.com/shaunmarsden/ai-for-commercial-teams) is the starting point for adopting AI as a team; [Sales Conversation Gym](https://github.com/shaunmarsden/sales-conversation-gym) practises the conversations themselves; [Sales Value Workshop](https://github.com/shaunmarsden/sales-value-workshop) turns a vague ambition into a real first test.
