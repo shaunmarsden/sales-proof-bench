@@ -54,4 +54,6 @@ Tried this? [Share feedback in the short form](https://github.com/shaunmarsden/s
 
 ## Part of a Family
 
-This is one of four free tools for commercial teams experimenting with AI. **Sales Proof Bench** tests whether an AI tool actually helps with a task; [AI for Commercial Teams](https://github.com/shaunmarsden/ai-for-commercial-teams) is the starting point for adopting AI as a team; [Sales Conversation Gym](https://github.com/shaunmarsden/sales-conversation-gym) practises the conversations themselves; [Sales Value Workshop](https://github.com/shaunmarsden/sales-value-workshop) turns a vague ambition into a real first test.
+This is one of four free tools for commercial teams experimenting with AI, generalising patterns from [Practical AI Sales Workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows). **Sales Proof Bench** tests whether an AI tool actually helps with a task; [AI for Commercial Teams](https://github.com/shaunmarsden/ai-for-commercial-teams) is the starting point for adopting AI as a team; [Sales Conversation Gym](https://github.com/shaunmarsden/sales-conversation-gym) practises the conversations themselves; [Sales Value Workshop](https://github.com/shaunmarsden/sales-value-workshop) turns a vague ambition into a real first test.
+
+This repo's own cross-model comparison method builds on the one already run and scored in Practical AI Sales Workflows' [evaluations](https://github.com/shaunmarsden/practical-ai-sales-workflows/tree/main/evaluations); its next case should extend that work, not repeat it.
