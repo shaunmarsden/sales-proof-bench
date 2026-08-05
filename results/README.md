@@ -12,11 +12,17 @@
 **Marlow Pre-Call Case:**
 
 - [Claude Sonnet 5](claude-sonnet-5-marlow-pre-call-case.md): 43/45, no automatic failure. Raw API call.
-- [Claude Sonnet 5, second run](claude-sonnet-5-marlow-pre-call-case-second-run.md): 41/45, no automatic failure. Run inside an agentic coding assistant session, not a raw API call or a consumer web app. This is a second independent run of the same model, not a second model; a genuine cross-model comparison for this case is still outstanding.
+- [Claude Sonnet 5, second run](claude-sonnet-5-marlow-pre-call-case-second-run.md): 41/45, no automatic failure. Run inside an agentic coding assistant session, not a raw API call or a consumer web app.
+- [Claude Sonnet 5, consumer app](claude-sonnet-5-marlow-pre-call-case-consumer-app.md): 41/45, no automatic failure. Claude.ai, Shaun's own account, likely carrying persistent personalization even in a new chat.
+- [ChatGPT](chatgpt-marlow-pre-call-case.md): 45/45, no automatic failure. Consumer web app.
+- [Gemini](gemini-marlow-pre-call-case.md): 36/45, no automatic failure. Consumer web app.
 
 **Osmond Objection Diagnosis Case:**
 
-- [Claude Sonnet 5](claude-sonnet-5-osmond-objection-diagnosis-case.md): 45/45, no automatic failure. Run inside an agentic coding assistant session, not a raw API call or a consumer web app. A single-model run; a genuine cross-model comparison for this case is still outstanding.
+- [Claude Sonnet 5](claude-sonnet-5-osmond-objection-diagnosis-case.md): 45/45, no automatic failure. Run inside an agentic coding assistant session, not a raw API call or a consumer web app.
+- [Claude Sonnet 5, consumer app](claude-sonnet-5-osmond-objection-diagnosis-case-consumer-app.md): 37/45, no automatic failure. Claude.ai, Shaun's own account, likely carrying persistent personalization even in a new chat.
+- [ChatGPT](chatgpt-osmond-objection-diagnosis-case.md): 45/45, no automatic failure. Consumer web app.
+- [Gemini](gemini-osmond-objection-diagnosis-case.md): 43/45, no automatic failure. Consumer web app.
 
 ## What These Comparisons Actually Show
 
@@ -30,9 +36,11 @@ Every result had a real, specific flaw, none were flawless, and no two flaws wer
 
 No result scored a perfect 45, and no automatic failure occurred in any of the four. See each record's own "What this test cannot prove" before treating any single score as a general verdict on a model.
 
-The Marlow case tests a different trap: whether a model conflates a secondhand, one-line comment from one person with a confirmed, company-wide priority. Both Sonnet 5 runs caught it cleanly, reproducibly, across two independent attempts. The second run also surfaced a failure the first did not: it signed the outreach message with an invented sender name that appears nowhere in the case, a concrete instance of filling a gap with plausible, unrequested detail. Two runs of one model is evidence the core trap is reliably caught by this model, and that a specific new failure mode exists worth watching for; it is not yet a cross-model comparison, the same starting point the Hartwell case began from.
+The Marlow case tests whether a model conflates a secondhand, one-line comment from one person with a confirmed, company-wide priority. All five runs across three models caught the core trap. The differences show up elsewhere: ChatGPT scored a clean 45/45 with no flaw found; Gemini's outreach message contradicted its own prep summary, asserting the fix is specifically "data bottlenecks" right after its own assumptions list flagged that exact link as unconfirmed; and both Claude runs, one an isolated subagent with no legitimate basis for a name at all, one a consumer-app run drawing on Shaun's own account context, signed the outreach message with a name the case never asked for. Two independent occurrences of that same signature pattern is a real, reproducible-looking guardrail, not a one-off.
 
-The Osmond case tests a third trap: whether a model treats a genuinely ambiguous objection as if it only had one obvious reading, the naive and most likely wrong response being to answer it as a plain price objection. Sonnet 5 produced three distinct readings, kept every piece of support explicitly hedged, and avoided every assumption the case named as forbidden, scoring 45/45 with no flaw found on review. That clean score is stated plainly rather than smoothed into a manufactured deduction; it is one run of one model on one case, not evidence the trap is hard to fail in general, and it is not yet a cross-model comparison either.
+The Osmond case tests whether a model treats a genuinely ambiguous objection as if it only had one obvious reading, the naive and most likely wrong response being to answer it as a plain price objection. All four runs correctly refused to treat it as one-dimensional. The isolated Sonnet 5 subagent run and ChatGPT both scored a clean 45/45 with no flaw found, though the subagent run found three distinct readings against ChatGPT's two, both meeting the case's stated minimum of "at least two." Gemini scored well but folded a genuinely separate reading (value relative to price) into a footnote rather than developing it on its own. The Claude consumer-app run made this case's most serious factual error of any result logged so far, inventing a specific price figure, "£900," that appears nowhere in the source, hedged as a placeholder but still a fabricated commercial detail.
+
+**A pattern across both cases, worth a guardrail of its own:** every flaw found in a consumer-app run, the invented Marlow signature (both times), the invented Osmond price figure, and the Gemini Marlow self-contradiction, came from a run through a consumer product carrying its own account-level context or default behaviour, not from the raw API or isolated-subagent runs. This is not proof that consumer products are categorically worse; it is a real, observed pattern across the results logged here, and it means a consumer-app result in this repository should always be read as "this model plus whatever that account happened to be carrying," not as a clean read on the model alone.
 
 ## Adding a Further Result
 
