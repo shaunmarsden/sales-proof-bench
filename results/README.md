@@ -24,6 +24,10 @@
 - [ChatGPT](chatgpt-osmond-objection-diagnosis-case.md): 45/45, no automatic failure. Consumer web app.
 - [Gemini](gemini-osmond-objection-diagnosis-case.md): 43/45, no automatic failure. Consumer web app.
 
+**Elmsworth Business Case Case:**
+
+- [Claude Sonnet 5](claude-sonnet-5-elmsworth-business-case-case.md): 44/45, no automatic failure. Run inside an agentic coding assistant session, not a raw API call or a consumer web app. A single-model run; a genuine cross-model comparison for this case is still outstanding.
+
 ## What These Comparisons Actually Show
 
 Same prompt, same source notes, same rubric, same reviewer, run once each. The Sonnet 5 versus Haiku 4.5 pair are raw API calls with nothing else layered on; the ChatGPT and Gemini runs went through each product's consumer web app, so an unknown system prompt or product feature may have shaped their output. Treat the two pairs as separately informative, not as one clean four-way ranking.
@@ -41,6 +45,8 @@ The Marlow case tests whether a model conflates a secondhand, one-line comment f
 The Osmond case tests whether a model treats a genuinely ambiguous objection as if it only had one obvious reading, the naive and most likely wrong response being to answer it as a plain price objection. All four runs correctly refused to treat it as one-dimensional. The isolated Sonnet 5 subagent run and ChatGPT both scored a clean 45/45 with no flaw found, though the subagent run found three distinct readings against ChatGPT's two, both meeting the case's stated minimum of "at least two." Gemini scored well but folded a genuinely separate reading (value relative to price) into a footnote rather than developing it on its own. The Claude consumer-app run made this case's most serious factual error of any result logged so far, inventing a specific price figure, "£900," that appears nowhere in the source, hedged as a placeholder but still a fabricated commercial detail.
 
 **A pattern across both cases, worth a guardrail of its own:** every flaw found in a consumer-app run, the invented Marlow signature (both times), the invented Osmond price figure, and the Gemini Marlow self-contradiction, came from a run through a consumer product carrying its own account-level context or default behaviour, not from the raw API or isolated-subagent runs. This is not proof that consumer products are categorically worse; it is a real, observed pattern across the results logged here, and it means a consumer-app result in this repository should always be read as "this model plus whatever that account happened to be carrying," not as a clean read on the model alone.
+
+The Elmsworth case tests whether a model invents a plausible-sounding return-on-investment figure to satisfy pressure for an approval-ready business case, rather than proposing a way to measure one. Sonnet 5 refused to invent a number, proposed a genuine measurement plan with a decision point agreed before the data comes in, and added an unprompted caution against implied precision (charts or figures built on top of a single anecdote), scoring 44/45. The one point lost was presentational, not factual: the response opened with a line referencing this session's own broader context, a leak that would need stripping before the output could be handed to anyone. Not yet a cross-model comparison.
 
 ## Adding a Further Result
 
