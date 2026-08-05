@@ -10,7 +10,9 @@
 
 - ~~Pre call preparation using public and supplied information~~ done: the Marlow case, a genuine cross-model comparison across Sonnet 5, ChatGPT and Gemini, see [results](results/README.md)
 - ~~Objection diagnosis with ambiguous buyer wording~~ done: the Osmond case, a genuine cross-model comparison across Sonnet 5, ChatGPT and Gemini, see [results](results/README.md)
-- Business case drafting with missing baseline evidence
+- ~~Business case drafting with missing baseline evidence~~ done: the Elmsworth case, one Sonnet 5 run scoring 44/45, a genuine cross-model comparison for this case is still outstanding, see [results](results/README.md)
+
+All three cases originally listed here are now built. The next expansion here should come from real use exposing a genuine new trap, not from adding a fourth case for its own sake.
 
 ## Guardrails Before Expansion
 
