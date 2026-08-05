@@ -8,7 +8,7 @@
 
 ## Later Cases
 
-- ~~Pre call preparation using public and supplied information~~ done: the Marlow case, one result so far, see [results](results/README.md)
+- ~~Pre call preparation using public and supplied information~~ done: the Marlow case, two independent Sonnet 5 runs so far, a genuine cross-model comparison is still outstanding, see [results](results/README.md)
 - Objection diagnosis with ambiguous buyer wording
 - Business case drafting with missing baseline evidence
 
@@ -18,3 +18,4 @@
 - Do not compare tools using changing or hidden context
 - Do not claim a result means a model is generally best
 - Keep failures visible
+- Watch for an invented sender identity or other unrequested personal detail filling a gap a case does not specify; a second Marlow run showed this specifically
