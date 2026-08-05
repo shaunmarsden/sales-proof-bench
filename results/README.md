@@ -14,6 +14,10 @@
 - [Claude Sonnet 5](claude-sonnet-5-marlow-pre-call-case.md): 43/45, no automatic failure. Raw API call.
 - [Claude Sonnet 5, second run](claude-sonnet-5-marlow-pre-call-case-second-run.md): 41/45, no automatic failure. Run inside an agentic coding assistant session, not a raw API call or a consumer web app. This is a second independent run of the same model, not a second model; a genuine cross-model comparison for this case is still outstanding.
 
+**Osmond Objection Diagnosis Case:**
+
+- [Claude Sonnet 5](claude-sonnet-5-osmond-objection-diagnosis-case.md): 45/45, no automatic failure. Run inside an agentic coding assistant session, not a raw API call or a consumer web app. A single-model run; a genuine cross-model comparison for this case is still outstanding.
+
 ## What These Comparisons Actually Show
 
 Same prompt, same source notes, same rubric, same reviewer, run once each. The Sonnet 5 versus Haiku 4.5 pair are raw API calls with nothing else layered on; the ChatGPT and Gemini runs went through each product's consumer web app, so an unknown system prompt or product feature may have shaped their output. Treat the two pairs as separately informative, not as one clean four-way ranking.
@@ -27,6 +31,8 @@ Every result had a real, specific flaw, none were flawless, and no two flaws wer
 No result scored a perfect 45, and no automatic failure occurred in any of the four. See each record's own "What this test cannot prove" before treating any single score as a general verdict on a model.
 
 The Marlow case tests a different trap: whether a model conflates a secondhand, one-line comment from one person with a confirmed, company-wide priority. Both Sonnet 5 runs caught it cleanly, reproducibly, across two independent attempts. The second run also surfaced a failure the first did not: it signed the outreach message with an invented sender name that appears nowhere in the case, a concrete instance of filling a gap with plausible, unrequested detail. Two runs of one model is evidence the core trap is reliably caught by this model, and that a specific new failure mode exists worth watching for; it is not yet a cross-model comparison, the same starting point the Hartwell case began from.
+
+The Osmond case tests a third trap: whether a model treats a genuinely ambiguous objection as if it only had one obvious reading, the naive and most likely wrong response being to answer it as a plain price objection. Sonnet 5 produced three distinct readings, kept every piece of support explicitly hedged, and avoided every assumption the case named as forbidden, scoring 45/45 with no flaw found on review. That clean score is stated plainly rather than smoothed into a manufactured deduction; it is one run of one model on one case, not evidence the trap is hard to fail in general, and it is not yet a cross-model comparison either.
 
 ## Adding a Further Result
 
