@@ -11,7 +11,8 @@
 
 **Marlow Pre-Call Case:**
 
-- [Claude Sonnet 5](claude-sonnet-5-marlow-pre-call-case.md): 43/45, no automatic failure. Raw API call. A single-model run showing the case's own trap gets caught; no second model has been run against this case yet.
+- [Claude Sonnet 5](claude-sonnet-5-marlow-pre-call-case.md): 43/45, no automatic failure. Raw API call.
+- [Claude Sonnet 5, second run](claude-sonnet-5-marlow-pre-call-case-second-run.md): 41/45, no automatic failure. Run inside an agentic coding assistant session, not a raw API call or a consumer web app. This is a second independent run of the same model, not a second model; a genuine cross-model comparison for this case is still outstanding.
 
 ## What These Comparisons Actually Show
 
@@ -25,7 +26,7 @@ Every result had a real, specific flaw, none were flawless, and no two flaws wer
 
 No result scored a perfect 45, and no automatic failure occurred in any of the four. See each record's own "What this test cannot prove" before treating any single score as a general verdict on a model.
 
-The Marlow case tests a different trap: whether a model conflates a secondhand, one-line comment from one person with a confirmed, company-wide priority. Sonnet 5's first run caught it cleanly. This is a single demonstration on this case, not yet a comparison, the same starting point the Hartwell case began from.
+The Marlow case tests a different trap: whether a model conflates a secondhand, one-line comment from one person with a confirmed, company-wide priority. Both Sonnet 5 runs caught it cleanly, reproducibly, across two independent attempts. The second run also surfaced a failure the first did not: it signed the outreach message with an invented sender name that appears nowhere in the case, a concrete instance of filling a gap with plausible, unrequested detail. Two runs of one model is evidence the core trap is reliably caught by this model, and that a specific new failure mode exists worth watching for; it is not yet a cross-model comparison, the same starting point the Hartwell case began from.
 
 ## Adding a Further Result
 
