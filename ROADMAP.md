@@ -9,7 +9,7 @@
 ## Later Cases
 
 - ~~Pre call preparation using public and supplied information~~ done: the Marlow case, two independent Sonnet 5 runs so far, a genuine cross-model comparison is still outstanding, see [results](results/README.md)
-- Objection diagnosis with ambiguous buyer wording
+- ~~Objection diagnosis with ambiguous buyer wording~~ done: the Osmond case, one Sonnet 5 run scoring 45/45 with no flaw found on review, a genuine cross-model comparison is still outstanding, see [results](results/README.md)
 - Business case drafting with missing baseline evidence
 
 ## Guardrails Before Expansion
