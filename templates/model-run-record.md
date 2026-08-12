@@ -3,6 +3,7 @@
 ## Test Setup
 
 - **Case**
+- **Test category**: Control, Edge or Handoff or refusal. See [Fair Comparison Method](../methods/fair-comparison.md).
 - **Task**
 - **Model and version**
 - **Date**
