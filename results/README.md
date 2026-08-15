@@ -19,7 +19,7 @@ None of the 20 runs below triggered an automatic failure. Every score is the rub
 |---|---|
 | [Claude Sonnet 5, Claude Code](claude-sonnet-5-marlow-pre-call-case.md) | 43/45 |
 | [Claude Sonnet 5, agentic coding session](claude-sonnet-5-marlow-pre-call-case-second-run.md) | 41/45 |
-| [Claude Sonnet 5, consumer app (Shaun's account)](claude-sonnet-5-marlow-pre-call-case-consumer-app.md) | 41/45 |
+| [Claude Sonnet 5, consumer app (my account)](claude-sonnet-5-marlow-pre-call-case-consumer-app.md) | 41/45 |
 | [ChatGPT, consumer app, version not confirmed](chatgpt-marlow-pre-call-case.md) | 45/45 |
 | [Gemini, consumer app, version not confirmed](gemini-marlow-pre-call-case.md) | 36/45 |
 
@@ -28,7 +28,7 @@ None of the 20 runs below triggered an automatic failure. Every score is the rub
 | Setup | Score |
 |---|---|
 | [Claude Sonnet 5, agentic coding session](claude-sonnet-5-osmond-objection-diagnosis-case.md) | 45/45 |
-| [Claude Sonnet 5, consumer app (Shaun's account)](claude-sonnet-5-osmond-objection-diagnosis-case-consumer-app.md) | 37/45 |
+| [Claude Sonnet 5, consumer app (my account)](claude-sonnet-5-osmond-objection-diagnosis-case-consumer-app.md) | 37/45 |
 | [ChatGPT 5.6, consumer app, version confirmed](chatgpt-osmond-objection-diagnosis-case.md) | 45/45 |
 | [Gemini, consumer app, version not confirmed](gemini-osmond-objection-diagnosis-case.md) | 43/45 |
 
@@ -37,7 +37,7 @@ None of the 20 runs below triggered an automatic failure. Every score is the rub
 | Setup | Score |
 |---|---|
 | [Claude Sonnet 5, agentic coding session](claude-sonnet-5-elmsworth-business-case-case.md) | 44/45 |
-| [Claude Sonnet 5, consumer app (Shaun's account)](claude-sonnet-5-elmsworth-business-case-case-consumer-app.md) | 44/45 |
+| [Claude Sonnet 5, consumer app (my account)](claude-sonnet-5-elmsworth-business-case-case-consumer-app.md) | 44/45 |
 | [ChatGPT, consumer app, version not confirmed](chatgpt-elmsworth-business-case-case.md) | 43/45 |
 | [Gemini, consumer app, version not confirmed](gemini-elmsworth-business-case-case.md) | 45/45 |
 
