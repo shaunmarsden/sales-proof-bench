@@ -1,5 +1,7 @@
 # Results
 
+This page lists every published run of Sales Proof Bench: the same fictional sales task given to different models and setups, scored by one person against a fixed rubric. It is not a leaderboard, and a score below says nothing about which model is generally better, only how it handled this one task. New here? The [root README](../README.md) explains the method and the rules behind these scores.
+
 ## Published
 
 None of the 20 runs below triggered an automatic failure. Every score is the rubric result only. "Consumer app" means an unknown system prompt, account history or product feature may have shaped the output; "Claude Code" and "isolated agent" mean only the case file went in.
