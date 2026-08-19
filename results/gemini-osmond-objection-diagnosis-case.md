@@ -4,9 +4,9 @@
 
 - **Case:** [Osmond Objection Diagnosis Case](../cases/osmond-objection-diagnosis-case.md)
 - **Task:** the four deliverables named in the case (distinct readings of the objection, support and gaps for each, one clarifying question, what must not be assumed)
-- **Model and version:** Gemini, via the consumer web app. Shaun ran this himself in a fresh chat with no custom instructions, project, or Gem attached. Exact underlying model version not confirmed and not claimed here.
+- **Model and version:** Gemini, via the consumer web app. I ran this myself in a fresh chat with no custom instructions, project, or Gem attached. Exact underlying model version not confirmed and not claimed here.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** Shaun's own Gemini account and plan; not specified further
+- **Account or plan, if relevant:** my own Gemini account and plan; not specified further
 - **Custom instruction, project context or skill used:** none confirmed. This went through the consumer product, not the raw API, so any default system prompt Gemini applies may have shaped the output. Treat this alongside the other consumer-app results in this set, not as directly equivalent in method to a raw API or isolated-subagent run.
 
 ## Input
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from the Gemini web app
+- **Link or file path:** raw output retained below, as I pasted it from the Gemini web app
 - **Raw output retained:** yes
 - **Any human editing before scoring:** none
 

@@ -6,8 +6,8 @@
 - **Task:** the four deliverables named in the case (prep summary, first outreach message, three call questions, what must not be assumed)
 - **Model and version:** Claude Sonnet 5, via the consumer Claude.ai web app.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** Shaun's own Claude.ai account and plan; not specified further
-- **Custom instruction, project context or skill used:** no project or skill was manually attached to this chat. Shaun's account likely has persistent, account-level memory or personalization enabled that can apply even in a brand new chat, which he identified after this run and the Osmond consumer-app run. The output signing off "Best, Shaun" is consistent with that: the case never names a sender, so this is the account's own stored context filling that gap, not a blind invention the way the same signature was when it appeared in an isolated subagent run of this case with no legitimate access to any name at all. Both are logged as the same underlying pattern, with the difference in legitimacy stated plainly rather than smoothed over.
+- **Account or plan, if relevant:** my own Claude.ai account and plan; not specified further
+- **Custom instruction, project context or skill used:** no project or skill was manually attached to this chat. My account likely has persistent, account-level memory or personalization enabled that can apply even in a brand new chat, which I identified after this run and the Osmond consumer-app run. The output signing off "Best, Shaun" is consistent with that: the case never names a sender, so this is the account's own stored context filling that gap, not a blind invention the way the same signature was when it appeared in an isolated subagent run of this case with no legitimate access to any name at all. Both are logged as the same underlying pattern, with the difference in legitimacy stated plainly rather than smoothed over.
 
 ## Input
 
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from Claude.ai
+- **Link or file path:** raw output retained below, as I pasted it from Claude.ai
 - **Raw output retained:** yes
 - **Any human editing before scoring:** none
 

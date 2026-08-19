@@ -6,8 +6,8 @@
 - **Task:** the four deliverables named in the case (prep summary, first outreach message, three call questions, what must not be assumed)
 - **Model and version:** ChatGPT, via the consumer web app. Exact underlying model version not confirmed and not claimed here.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** Shaun's own ChatGPT account and plan; not specified further
-- **Custom instruction, project context or skill used:** no project was manually attached, but Shaun's account likely has persistent, account-level memory or personalization enabled that can apply even in a brand new chat. This went through the consumer product, not the raw API. No artifact of this was visibly present in this particular response.
+- **Account or plan, if relevant:** my own ChatGPT account and plan; not specified further
+- **Custom instruction, project context or skill used:** no project was manually attached, but my account likely has persistent, account-level memory or personalization enabled that can apply even in a brand new chat. This went through the consumer product, not the raw API. No artifact of this was visibly present in this particular response.
 
 ## Input
 
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from ChatGPT
+- **Link or file path:** raw output retained below, as I pasted it from ChatGPT
 - **Raw output retained:** yes
 - **Any human editing before scoring:** none
 
