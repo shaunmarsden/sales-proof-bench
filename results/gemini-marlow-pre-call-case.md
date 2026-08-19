@@ -6,7 +6,7 @@
 - **Task:** the four deliverables named in the case (prep summary, first outreach message, three call questions, what must not be assumed)
 - **Model and version:** Gemini, via the consumer web app. Exact underlying model version not confirmed and not claimed here.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** Shaun's own Gemini account and plan; not specified further
+- **Account or plan, if relevant:** my own Gemini account and plan; not specified further
 - **Custom instruction, project context or skill used:** none confirmed. This went through the consumer product, not the raw API.
 
 ## Input
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from the Gemini web app
+- **Link or file path:** raw output retained below, as I pasted it from the Gemini web app
 - **Raw output retained:** yes
 - **Any human editing before scoring:** none
 
@@ -61,7 +61,7 @@ No automatic failure.
 ## Honest Notes
 
 - **What it did well:** the prep summary itself is accurate and cleanly separates public information, supplied information, and assumptions, including a genuinely useful assumption the case did not explicitly flag ("whether the job posting is meant to solve onboarding bottlenecks specifically or general supply chain data workflows"). The four forbidden assumptions were all correctly avoided in the final section.
-- **What it got wrong, a real flaw:** the outreach message itself contradicts the prep summary's own caution. It states "we help food distributors streamline supplier onboarding workflows and eliminate data bottlenecks", asserting the problem is specifically a data bottleneck, which is exactly the link the prep summary's own assumptions list says is unconfirmed ("whether the procurement team's frustration... reflects Priya's top operational focus"). The right hand correctly flagged the assumption; the left hand then wrote around it as if it were settled. This is a fact-separation and hallucination issue, not a factual error about the source material itself.
+- **What it got wrong, a real flaw:** the outreach message contradicts the prep summary's own caution. It states "we help food distributors streamline supplier onboarding workflows and eliminate data bottlenecks", asserting as settled fact that the problem is specifically a data bottleneck. Nothing in the source says this: the procurement contact only said onboarding "takes forever", with no mention of data anywhere. This is precisely the question the prep summary's own assumptions list left open, "whether the Supply Chain Data Analyst job posting is meant to solve onboarding bottlenecks specifically or general supply chain data workflows", not the priority-focused assumption about whether onboarding speed is Priya's top concern. The right hand correctly flagged the assumption; the left hand then wrote around it as if it were settled. This is a fact-separation and hallucination issue, not a factual error about the source material itself.
 - **A separate, milder issue:** the response ends with a conversational question directed at whoever is using the tool ("Would you like to tailor the outreach message...") rather than stopping at the four requested deliverables. A minor format lapse, not a content error.
 - **What a person still had to decide:** whether to rewrite the outreach message before sending, given the internal inconsistency above, and whether to strip the trailing meta-question before using the output.
 - **What this test cannot prove:** this is one run, one product, one reviewer. It went through Gemini's consumer web app, not a raw API.
