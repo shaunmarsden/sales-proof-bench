@@ -4,10 +4,10 @@
 
 - **Case:** [Osmond Objection Diagnosis Case](../cases/osmond-objection-diagnosis-case.md)
 - **Task:** the four deliverables named in the case (distinct readings of the objection, support and gaps for each, one clarifying question, what must not be assumed)
-- **Model and version:** ChatGPT 5.6, via the consumer web app. Shaun ran this himself in a fresh chat with no custom instructions or project attached. Unlike the earlier Hartwell ChatGPT result, the version number was directly visible and is reported as given.
+- **Model and version:** ChatGPT 5.6, via the consumer web app. I ran this myself in a fresh chat with no custom instructions or project attached. Unlike the earlier Hartwell ChatGPT result, the version number was directly visible and is reported as given.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** Shaun's own ChatGPT account and plan; not specified further
-- **Custom instruction, project context or skill used:** no project was manually attached, but Shaun's account likely has persistent, account-level memory or personalization enabled that can apply even in a brand new chat. This went through the consumer product, not the raw API, so any default system behaviour or stored personalization ChatGPT applies may have shaped the output. No artifact of this was visibly present in this particular response, unlike the Claude consumer-app run on the same case.
+- **Account or plan, if relevant:** my own ChatGPT account and plan; not specified further
+- **Custom instruction, project context or skill used:** no project was manually attached, but my account likely has persistent, account-level memory or personalization enabled that can apply even in a brand new chat. This went through the consumer product, not the raw API, so any default system behaviour or stored personalization ChatGPT applies may have shaped the output. No artifact of this was visibly present in this particular response, unlike the Claude consumer-app run on the same case.
 
 ## Input
 
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from ChatGPT
+- **Link or file path:** raw output retained below, as I pasted it from ChatGPT
 - **Raw output retained:** yes
 - **Any human editing before scoring:** none
 

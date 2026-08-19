@@ -6,7 +6,7 @@
 - **Task:** the four deliverables named in the case (business case draft, evidence gap section, recommended measurement path, what must not be presented as confirmed)
 - **Model and version:** Gemini, via the consumer web app. Exact underlying model version not confirmed and not claimed here.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** Shaun's own Gemini account and plan; not specified further
+- **Account or plan, if relevant:** my own Gemini account and plan; not specified further
 - **Custom instruction, project context or skill used:** none confirmed, and no artifact of any account-level context appeared in this response, unlike some earlier consumer-app runs in this repository.
 
 ## Input
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from the Gemini web app
+- **Link or file path:** raw output retained below, as I pasted it from the Gemini web app
 - **Raw output retained:** yes
 - **Any human editing before scoring:** none
 

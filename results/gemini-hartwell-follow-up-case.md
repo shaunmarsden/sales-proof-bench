@@ -4,9 +4,9 @@
 
 - **Case:** [Hartwell Follow Up Case](../cases/hartwell-follow-up-case.md)
 - **Task:** the four deliverables named in the case (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
-- **Model and version:** Gemini, via the consumer web app. Shaun ran this himself; the exact underlying model version was not confirmed and is not claimed here.
+- **Model and version:** Gemini, via the consumer web app. I ran this myself; the exact underlying model version was not confirmed and is not claimed here.
 - **Date:** 3 August 2026
-- **Account or plan, if relevant:** Shaun's own Gemini account and plan; not specified further
+- **Account or plan, if relevant:** my own Gemini account and plan; not specified further
 - **Custom instruction, project context or skill used:** unknown. As with the ChatGPT run, this went through the consumer product, not the raw API, so any custom instruction, memory, or system prompt Gemini applies by default may have shaped the output. Not directly equivalent in method to the Sonnet 5 versus Haiku 4.5 comparison.
 
 ## Input
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from the Gemini web app
+- **Link or file path:** raw output retained below, as I pasted it from the Gemini web app
 - **Raw output retained:** yes, unedited
 - **Any human editing before scoring:** none
 

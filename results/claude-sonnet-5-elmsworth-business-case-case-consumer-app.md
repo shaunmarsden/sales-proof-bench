@@ -6,7 +6,7 @@
 - **Task:** the four deliverables named in the case (business case draft, evidence gap section, recommended measurement path, what must not be presented as confirmed)
 - **Model and version:** Claude Sonnet 5, via the consumer Claude.ai web app.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** Shaun's own Claude.ai account and plan; not specified further. Shaun's account likely carries persistent, account-level memory or personalization even in a new chat, the same pattern already established in the Marlow and Osmond consumer-app records. No visible artifact of that appeared in this particular response, unlike the earlier Osmond consumer-app run.
+- **Account or plan, if relevant:** my own Claude.ai account and plan; not specified further. My account likely carries persistent, account-level memory or personalization even in a new chat, the same pattern already established in the Marlow and Osmond consumer-app records. No visible artifact of that appeared in this particular response, unlike the earlier Osmond consumer-app run.
 - **Custom instruction, project context or skill used:** no project or skill was manually attached to this chat.
 
 ## Input
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from Claude.ai, in full
+- **Link or file path:** raw output retained below, as I pasted it from Claude.ai, in full
 - **Raw output retained:** yes
 - **Any human editing before scoring:** none
 

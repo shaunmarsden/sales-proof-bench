@@ -4,9 +4,9 @@
 
 - **Case:** [Hartwell Follow Up Case](../cases/hartwell-follow-up-case.md)
 - **Task:** the four deliverables named in the case (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
-- **Model and version:** ChatGPT, via the consumer web app. Shaun ran this himself and reported "worked for 18s", consistent with a reasoning model, but the exact underlying model version was not confirmed and is not claimed here.
+- **Model and version:** ChatGPT, via the consumer web app. I ran this myself and reported "worked for 18s", consistent with a reasoning model, but the exact underlying model version was not confirmed and is not claimed here.
 - **Date:** 3 August 2026
-- **Account or plan, if relevant:** Shaun's own ChatGPT account and plan; not specified further
+- **Account or plan, if relevant:** my own ChatGPT account and plan; not specified further
 - **Custom instruction, project context or skill used:** unknown. This went through the consumer product, not the raw API, so any custom instructions, memory, or system prompt ChatGPT applies by default may have shaped the output. This is a real difference from the Sonnet 5 and Haiku 4.5 runs, which were raw model calls with nothing else layered on top. Treat this pair of results as informative but not directly equivalent in method to the first pair.
 
 ## Input
@@ -17,7 +17,7 @@
 
 ## Output
 
-- **Link or file path:** raw output retained below, as pasted by Shaun from the ChatGPT web app
+- **Link or file path:** raw output retained below, as I pasted it from the ChatGPT web app
 - **Raw output retained:** yes. The email draft section included some visible product-interface text ("Send", "Recipients", a duplicated subject line) from ChatGPT's canvas view, kept in below exactly as pasted rather than cleaned up, since this is a genuine artifact of running the prompt through the product rather than the API
 - **Any human editing before scoring:** none beyond removing that interface chrome is noted, not performed, the raw text below is exactly what was received
 
