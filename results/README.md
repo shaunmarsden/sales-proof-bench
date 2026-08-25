@@ -4,7 +4,7 @@ This page lists every published run of Sales Proof Bench: the same fictional sal
 
 ## Published
 
-None of the 20 runs below triggered an automatic failure. Every score is the rubric result only. "Consumer app" means an unknown system prompt, account history or product feature may have shaped the output; "Claude Code" and "isolated agent" mean only the case file went in.
+None of the 17 runs below triggered an automatic failure. Every score is the rubric result only. "Consumer app" means an unknown system prompt, account history or product feature may have shaped the output; "Claude Code" and "isolated agent" mean only the case file went in.
 
 **Hartwell Follow Up Case**
 
