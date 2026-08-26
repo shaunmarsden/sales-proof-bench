@@ -45,3 +45,11 @@ A category describes the test pressure, not the expected result. Do not award a 
 The reviewer checks each factual statement against the input. They score every output using the same rubric and write down where judgement was required.
 
 If the score depends on a disputed interpretation, state that. A close result is not a winner just because one reviewer prefers its tone.
+
+### What One Reviewer Cannot Tell You
+
+Every result published here was scored by one person, and that person also ran the test. This is a real limit on what any single score carries, and it has a name: there is no inter-rater reliability check, meaning nobody has tested whether a second scorer, given the same rubric and the same output, would arrive at the same number.
+
+It matters most where a score rests on judgement rather than a checkable fact. Whether an output invented a figure is not a matter of opinion. Whether a thorough document is too long for the audience it was written for is.
+
+Closing the gap needs a second person scoring independently, from the same rubric and the same raw output, without seeing the first score. Until that happens, treat a one or two point difference between runs as inside the noise, and treat only a wide gap, or a specific named flaw, as telling you something.

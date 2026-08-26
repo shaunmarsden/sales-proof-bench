@@ -45,7 +45,7 @@ None of the 17 runs below triggered an automatic failure. Every score is the rub
 
 ## What the Results Show
 
-Same prompt, same source notes, same rubric, same reviewer, run once each. A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Every result had a real, specific flaw. Full detail is in each record's own "What this test cannot prove."
+Same prompt, same source notes, same rubric, same reviewer, run once each. One reviewer is itself a limit: nothing here has been through an [inter-rater reliability check](../methods/fair-comparison.md#what-one-reviewer-cannot-tell-you), so a one or two point gap between runs is inside the noise rather than a result. A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Every result had a real, specific flaw. Full detail is in each record's own "What this test cannot prove."
 
 ### Hartwell Follow Up
 
