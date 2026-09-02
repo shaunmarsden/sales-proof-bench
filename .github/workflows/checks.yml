@@ -1,0 +1,26 @@
+name: Repository checks
+
+# Two cheap, deterministic checks: broken relative links, and a model run
+# record whose score row does not add up to its stated total. They confirm
+# arithmetic and structure only. They cannot judge whether a score is the
+# right score.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository checks
+        run: python3 .github/scripts/repo_checks.py
