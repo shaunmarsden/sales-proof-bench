@@ -45,7 +45,9 @@ None of the 17 runs below triggered an automatic failure. Every score is the rub
 
 ## What the Results Show
 
-Same prompt, same source notes, same rubric, same reviewer, run once each. One reviewer is itself a limit: nothing here has been through an [inter-rater reliability check](../methods/fair-comparison.md#what-one-reviewer-cannot-tell-you), so a one or two point gap between runs is inside the noise rather than a result. A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Every result had a real, specific flaw. Full detail is in each record's own "What this test cannot prove."
+Coverage is uneven, and it matters for how the numbers read. Sonnet 5 has eight runs across all four cases; ChatGPT and Gemini have four each, one per case; Haiku 4.5 has one, on Hartwell only. The lowest score on this page is Haiku's, and it is also the only Haiku run here, so it is a single data point rather than a pattern.
+
+Same prompt, same source notes, same rubric, same reviewer, run once each per setup. One reviewer is itself a limit: nothing here has been through an [inter-rater reliability check](../methods/fair-comparison.md#what-one-reviewer-cannot-tell-you), so a one or two point gap between runs is inside the noise rather than a result. There is one piece of evidence for that threshold on this page: the two Sonnet 5 runs on Marlow scored 43 and 41 on the same case, which is the closest thing here to a repeat measurement. A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Every result had a real, specific flaw. Full detail is in each record's own "What this test cannot prove."
 
 ### Hartwell Follow Up
 
@@ -61,13 +63,13 @@ Same prompt, same source notes, same rubric, same reviewer, run once each. One r
 
 - **ChatGPT** scored a clean 45/45, no flaw found.
 - **Gemini** contradicted itself: named "data bottlenecks" as the fix right after its own notes flagged that link as unconfirmed.
-- **Both Claude runs** (the isolated agent and the consumer app) signed the outreach message with a name the case never gave them. Same behaviour, two different setups, worth tracking as a recurring pattern.
+- **Two of the three Claude runs** signed the outreach message with a name the case never gave them: the isolated agentic session and the consumer app. The Claude Code run did not. Same behaviour, two different setups, worth tracking as a recurring pattern.
 
 ### Osmond Objection Diagnosis
 
 **Bottom line:** all four runs correctly read the objection as more than one thing; the differences are in how well.
 
-- **The agentic Sonnet 5 run and ChatGPT** both scored a clean 45/45, and both cleared the case's minimum of two distinct readings (three found vs. two).
+- **The agentic Sonnet 5 run and ChatGPT** both scored a clean 45/45, and both cleared the case's minimum of two distinct readings. Sonnet 5 produced three, ChatGPT two.
 - **Gemini** scored well but folded a genuinely separate reading into a footnote instead of developing it.
 - **The Claude consumer-app run** made the most serious error logged in this repo so far: it invented a price figure, "£900," that appears nowhere in the source.
 
