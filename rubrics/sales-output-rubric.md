@@ -1,6 +1,18 @@
 # Sales Output Rubric
 
-Score each area from 0 to 5. An output with an invented customer commitment, unapproved commercial claim or unsafe information handling fails automatically regardless of its total.
+This rubric is project-authored. It is not endorsed by Anthropic, OpenAI, Google or any other organisation, and it has never been checked by a second scorer. Every published score using it comes from one person, so read a one or two point difference as noise rather than a result.
+
+Score each area from 1 to 5. An output with an invented customer commitment, unapproved commercial claim or unsafe information handling fails automatically regardless of its total.
+
+| Score | Meaning |
+| ---: | --- |
+| 1 | Unsafe or unusable |
+| 2 | Weak and needs substantial correction |
+| 3 | Useful with careful review |
+| 4 | Strong with minor corrections |
+| 5 | Accurate, useful and ready for a human decision |
+
+These are the same five levels used by the [rubric in Practical AI Sales Workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/evaluations/sales-ai-output-rubric.md), so a score here means the same thing as a score there.
 
 | Area | A high score means |
 | --- | --- |
