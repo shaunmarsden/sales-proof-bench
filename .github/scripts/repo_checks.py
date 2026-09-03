@@ -101,6 +101,30 @@ for f in MD:
                  f"but the row states {stated} out of {maximum}")
 
 
+# 3. The results page's stated run count must match the records on disk.
+#
+# The page opens by saying how many runs it lists. That number is written once
+# and every new record makes it wrong, which matters more here than in most
+# repositories: the whole claim is that every published score is traceable to
+# a full record, so a count that disagrees with the directory is the first
+# thing a sceptical reader would find.
+RESULTS_README = "results/README.md"
+if os.path.exists(RESULTS_README):
+    records = [f for f in MD
+               if f.startswith("results/") and os.path.basename(f) != "README.md"]
+    text = read(RESULTS_README)
+    stated = re.search(r"\b(\d+)\s+runs\b", text)
+    if records and stated and int(stated.group(1)) != len(records):
+        fail("run-count", RESULTS_README,
+             f"says {stated.group(1)} runs but results/ holds {len(records)} records")
+    # Every record must also be linked from the page, or a published score is
+    # unreachable from the only page that lists them.
+    for r in sorted(records):
+        if os.path.basename(r) not in text:
+            fail("record-unlinked", RESULTS_README,
+                 f"{r} is a published run the results page does not link")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")
