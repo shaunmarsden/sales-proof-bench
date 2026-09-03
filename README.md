@@ -15,7 +15,7 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 | Run the pre-call prep case | [Marlow Pre-Call Case](cases/marlow-pre-call-case.md) |
 | Run the objection diagnosis case | [Osmond Objection Diagnosis Case](cases/osmond-objection-diagnosis-case.md) |
 | Run the business case drafting case | [Elmsworth Business Case Case](cases/elmsworth-business-case-case.md) |
-| Score an output | [Sales Output Rubric](rubrics/sales-output-rubric.md) |
+| Score an output | [Sales Output Rubric](rubrics/sales-output-rubric.md), project-authored, not endorsed by any organisation |
 | Record a model run | [Model Run Record](templates/model-run-record.md) |
 | See what results are ready | [Results](results/README.md) |
 
@@ -35,7 +35,7 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 - Whether one output was better grounded in the supplied evidence
 - Whether it made useful questions, actions or drafts
 - Whether it kept uncertainty visible
-- Whether a setup instruction improved a repeated task
+- Whether a setup instruction improved a repeated task, though no published run has tested this yet: every record here states its setup instruction as none, unknown or an unattached consumer account
 
 ## What This Cannot Tell You Alone
 
@@ -43,6 +43,7 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 - Whether a model will improve revenue
 - Whether an output is safe for every customer situation
 - Whether a tool is approved by an organisation
+- Whether a small score difference is real. Every score here comes from one person scoring against a rubric they wrote, with no second scorer, so a gap of one or two points is inside the noise. [What one reviewer cannot tell you](methods/fair-comparison.md#what-one-reviewer-cannot-tell-you) explains why, and the [results](results/README.md) say which gaps are wide enough to carry weight.
 
 ## Current Status
 

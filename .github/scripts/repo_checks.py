@@ -125,6 +125,30 @@ if os.path.exists(RESULTS_README):
                  f"{r} is a published run the results page does not link")
 
 
+# 4. Every record's score row must have one cell per rubric area.
+#
+# This closes a hole in check 2. That check derives the maximum from the number
+# of score cells and skips any row where cells times five does not equal the
+# stated maximum, so a record whose cell count drifts away from the rubric is
+# silently unchecked rather than reported. Nine areas, nine cells, every time.
+RUBRIC = "rubrics/sales-output-rubric.md"
+if os.path.exists(RUBRIC):
+    rubric_areas = len(re.findall(
+        r"^\|\s*([A-Z][A-Za-z ]+?)\s*\|\s*(?:The|Every|Actions|A person|No |Facts|Direct)",
+        read(RUBRIC), re.M))
+    if rubric_areas:
+        for f in sorted(f for f in MD
+                        if f.startswith("results/")
+                        and os.path.basename(f) != "README.md"):
+            for m in SCORE_ROW.finditer(read(f)):
+                cells = len(re.findall(r"\d+", m.group(1)))
+                if cells != rubric_areas:
+                    line = read(f)[: m.start()].count("\n") + 1
+                    fail("score-cells", f"{f}:{line}",
+                         f"{cells} score cells but the rubric defines "
+                         f"{rubric_areas} areas")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")
