@@ -2,6 +2,10 @@
 
 You do not need to write a detailed review. A quick "the rubric missed this" or "the method felt fair" is genuinely useful.
 
+## Disagree With a Score
+
+The most useful thing anybody could do here takes about fifteen minutes: [score one model output yourself](score-a-run-yourself.md), against the same rubric, without seeing my number first. Every score in this repository is one person's.
+
 ## The Easy Option
 
 [Share feedback in the short form](https://github.com/shaunmarsden/sales-proof-bench/issues/new?template=feedback.yml).

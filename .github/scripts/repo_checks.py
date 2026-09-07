@@ -149,6 +149,39 @@ if os.path.exists(RUBRIC):
                          f"{rubric_areas} areas")
 
 
+# 5. The scoring pack's copy of an output must match the record.
+#
+# feedback/score-a-run-yourself.md reproduces one model output in full, so a
+# reader can score it without opening the record that holds my score. That
+# duplication is the point: it stops the exercise being spoiled by one scroll
+# too far. It also means two copies of the same output now exist, and a silent
+# drift between them would make the pack a test of something this repository
+# never published. Records are retained unedited by policy, so any difference
+# is a mistake rather than an update.
+PACK = "feedback/score-a-run-yourself.md"
+RECORD = "results/claude-haiku-4-5-osmond-objection-diagnosis-case.md"
+if os.path.exists(PACK) and os.path.exists(RECORD):
+    def slice_output(text, start_mark, end_mark):
+        if start_mark not in text or end_mark not in text:
+            return None
+        body = text.split(start_mark, 1)[1].split(end_mark, 1)[0]
+        return " ".join(body.split())
+    record_out = slice_output(read(RECORD), "## Two Distinct Readings", "## Score")
+    pack_out = slice_output(read(PACK), "## Two Distinct Readings", "## The Scale")
+    if record_out is None or pack_out is None:
+        fail("scoring-pack-shape", PACK,
+             "cannot locate the output in the pack or the record, so the two "
+             "copies cannot be compared")
+    elif pack_out.rstrip("- ") != record_out.rstrip("- "):
+        fail("scoring-pack-drift", PACK,
+             "the reproduced output no longer matches "
+             f"{RECORD}, so the pack would be scoring something unpublished")
+    # And the pack must not give the answer away.
+    if "31" in read(PACK).split("## Fill This In")[0].replace("2026", ""):
+        fail("scoring-pack-spoiler", PACK,
+             "the score appears above the blank table")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")
