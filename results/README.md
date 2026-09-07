@@ -4,7 +4,7 @@ This page lists every published run of Sales Proof Bench: the same fictional sal
 
 ## Published
 
-None of the 17 runs below triggered an automatic failure. Every score is the rubric result only. "Consumer app" means an unknown system prompt, account history or product feature may have shaped the output; "Claude Code" and "isolated agent" mean only the case file went in.
+None of the 20 runs below triggered an automatic failure. Every score is the rubric result only. "Consumer app" means an unknown system prompt, account history or product feature may have shaped the output; "Claude Code" and "isolated agent" mean only the case file went in.
 
 **Hartwell Follow Up Case**
 
@@ -24,6 +24,7 @@ None of the 17 runs below triggered an automatic failure. Every score is the rub
 | [Claude Sonnet 5, consumer app (my account)](claude-sonnet-5-marlow-pre-call-case-consumer-app.md) | 41/45 |
 | [ChatGPT, consumer app, version not confirmed](chatgpt-marlow-pre-call-case.md) | 45/45 |
 | [Gemini, consumer app, version not confirmed](gemini-marlow-pre-call-case.md) | 36/45 |
+| [Claude Haiku 4.5, isolated agent](claude-haiku-4-5-marlow-pre-call-case.md) | 42/45 |
 
 **Osmond Objection Diagnosis Case**
 
@@ -33,6 +34,7 @@ None of the 17 runs below triggered an automatic failure. Every score is the rub
 | [Claude Sonnet 5, consumer app (my account)](claude-sonnet-5-osmond-objection-diagnosis-case-consumer-app.md) | 37/45 |
 | [ChatGPT 5.6, consumer app, version confirmed](chatgpt-osmond-objection-diagnosis-case.md) | 45/45 |
 | [Gemini, consumer app, version not confirmed](gemini-osmond-objection-diagnosis-case.md) | 43/45 |
+| [Claude Haiku 4.5, isolated agent](claude-haiku-4-5-osmond-objection-diagnosis-case.md) | 31/45 |
 
 **Elmsworth Business Case Case**
 
@@ -42,10 +44,13 @@ None of the 17 runs below triggered an automatic failure. Every score is the rub
 | [Claude Sonnet 5, consumer app (my account)](claude-sonnet-5-elmsworth-business-case-case-consumer-app.md) | 44/45 |
 | [ChatGPT, consumer app, version not confirmed](chatgpt-elmsworth-business-case-case.md) | 43/45 |
 | [Gemini, consumer app, version not confirmed](gemini-elmsworth-business-case-case.md) | 45/45 |
+| [Claude Haiku 4.5, isolated agent](claude-haiku-4-5-elmsworth-business-case-case.md) | 40/45 |
 
 ## What the Results Show
 
-Coverage is uneven, and it matters for how the numbers read. Sonnet 5 has eight runs across all four cases; ChatGPT and Gemini have four each, one per case; Haiku 4.5 has one, on Hartwell only. The lowest score on this page is Haiku's, and it is also the only Haiku run here, so it is a single data point rather than a pattern.
+Coverage is now even across models on the four cases. Sonnet 5 has eight runs, ChatGPT and Gemini four each, and Haiku 4.5 four, one per case. Sonnet 5's extra runs are second attempts and consumer-app variants rather than additional cases.
+
+That changes what the Haiku numbers mean. On one run it looked simply like the weakest model here. Across four it is the most variable: 31, 33, 40 and 42, a spread of 11 points against 3 for Sonnet 5 and 4 for ChatGPT. Its best case beats several Gemini and Sonnet runs and its worst is the lowest score in the repository. A single average would hide both.
 
 Same prompt, same source notes, same rubric, same reviewer, run once each per setup. One reviewer is itself a limit: nothing here has been through an [inter-rater reliability check](../methods/fair-comparison.md#what-one-reviewer-cannot-tell-you), so a one or two point gap between runs is inside the noise rather than a result. There is one piece of evidence for that threshold on this page: the two Sonnet 5 runs on Marlow scored 43 and 41 on the same case, which is the closest thing here to a repeat measurement. A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Every result had a real, specific flaw. Full detail is in each record's own "What this test cannot prove."
 
@@ -63,15 +68,16 @@ Same prompt, same source notes, same rubric, same reviewer, run once each per se
 
 - **ChatGPT** scored a clean 45/45, no flaw found.
 - **Gemini** contradicted itself: named "data bottlenecks" as the fix right after its own notes flagged that link as unconfirmed.
-- **Two of the three Claude runs** signed the outreach message with a name the case never gave them: the isolated agentic session and the consumer app. The Claude Code run did not. Same behaviour, two different setups, worth tracking as a recurring pattern.
+- **Two of the four Claude runs** signed the outreach message with a name the case never gave them: the isolated agentic session and the consumer app. The Claude Code run did not, and neither did Haiku 4.5, which wrote a `[Your name]` placeholder and also refused to invent a name for the trade publication the case leaves unnamed. That restraint is worth noting because inventing plausible specifics is this model's weakness on two other cases here. Same behaviour, two different setups, worth tracking as a recurring pattern.
 
 ### Osmond Objection Diagnosis
 
-**Bottom line:** all four runs correctly read the objection as more than one thing; the differences are in how well.
+**Bottom line:** all five runs correctly read the objection as more than one thing; the differences are in how well, and in what one of them made up along the way.
 
 - **The agentic Sonnet 5 run and ChatGPT** both scored a clean 45/45, and both cleared the case's minimum of two distinct readings. Sonnet 5 produced three, ChatGPT two.
 - **Gemini** scored well but folded a genuinely separate reading into a footnote instead of developing it.
 - **The Claude consumer-app run** made the most serious error logged in this repo so far: it invented a price figure, "£900," that appears nowhere in the source.
+- **Haiku 4.5 scored 31/45, the lowest in the repository**, and not for missing structure. Its two readings are genuinely distinct and its prohibitions list is complete. It misstated what the case says David asked no questions about, then added a "sticker shock" moment and a cost question the notes never record, plus a "Q3" and a "two weeks" the case never mentions. Its clarifying question also proposes a phased rollout, which is the rebuttal the case explicitly warns against rather than a neutral probe.
 
 ### Elmsworth Business Case
 
@@ -79,11 +85,13 @@ Same prompt, same source notes, same rubric, same reviewer, run once each per se
 
 - **Both Sonnet 5 runs** scored 44/45 (one docked for a session-context leak, the other for a spelling error).
 - **Gemini** scored a clean 45/45.
+- **Haiku 4.5** scored 40/45 with the strongest evidence-gap section of any run on this case, six named metrics each with what to collect and why. It lost marks for omitting the assumptions section the case asked for, and for contradicting its own plan: phase three sits at week seven while the closing script promises the VP numbers in five.
 - **ChatGPT** did the most thorough evidence-gap analysis of any run here, but scored 43/45: an eleven-section, seventeen-item prohibited-claims list is not what someone asking for "something showing the impact so I can get this approved" can actually use in one sitting.
 
 ### What Appears Across Cases
 
 - Three of the six consumer-app runs on Marlow and Osmond produced an invented detail (the Marlow signature, Gemini's Marlow contradiction, the Osmond price figure). The Marlow signature also showed up once outside a consumer app, so this isn't exclusive to consumer products, but the concentration is worth tracking. Small sample, not a statistically meaningful rate.
+- **Haiku 4.5's failure mode is consistent across cases and is not vagueness.** On Hartwell it wrote "This should take 2-3 weeks" with no basis; on Osmond it invented a cost question, a quarter and a fortnight. Both read as sourced detail rather than as guesses, which makes them harder to catch than an honest gap would be. On the two cases where it scored well it invented nothing, so this is not a constant, and four runs cannot tell you what triggers it.
 - Elmsworth's clean sweep lines up with its prompt stating prohibitions explicitly (no percentage, no dollar figure, no hours, no satisfaction claim) rather than leaving gaps to fill.
 
 ## Adding a Further Result
