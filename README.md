@@ -51,6 +51,10 @@ The bench has four fictional cases now: Hartwell Follow Up, Marlow Pre-Call, Osm
 
 See the [roadmap](ROADMAP.md) for the next tests.
 
+## Disagree With a Score
+
+Every score here comes from one person against a rubric this project wrote, and nobody outside has scored anything. [Score one run yourself](feedback/score-a-run-yourself.md) is the smallest way to change that: one output, one rubric, about fifteen minutes, and you see my score only after you have written yours.
+
 ## Feedback
 
 Tried this? [Share feedback in the short form](https://github.com/shaunmarsden/sales-proof-bench/issues/new?template=feedback.yml) if something helped, felt unclear, or you would like to see next. See [what the form asks](feedback/README.md) before you start.
