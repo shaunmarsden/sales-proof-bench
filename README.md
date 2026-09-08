@@ -16,6 +16,7 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 | Run the objection diagnosis case | [Osmond Objection Diagnosis Case](cases/osmond-objection-diagnosis-case.md) |
 | Run the business case drafting case | [Elmsworth Business Case Case](cases/elmsworth-business-case-case.md) |
 | Score an output | [Sales Output Rubric](rubrics/sales-output-rubric.md), project-authored, not endorsed by any organisation |
+| Score a run in your browser | [Score a Run Yourself](https://shaunmarsden.github.io/sales-proof-bench/) |
 | Record a model run | [Model Run Record](templates/model-run-record.md) |
 | See what results are ready | [Results](results/README.md) |
 
@@ -53,7 +54,7 @@ See the [roadmap](ROADMAP.md) for the next tests.
 
 ## Disagree With a Score
 
-Every score here comes from one person against a rubric this project wrote, and nobody outside has scored anything. [Score one run yourself](feedback/score-a-run-yourself.md) is the smallest way to change that: one output, one rubric, about fifteen minutes, and you see my score only after you have written yours.
+Every score here comes from one person against a rubric this project wrote, and nobody outside has scored anything. [Score one run yourself](feedback/score-a-run-yourself.md) is the smallest way to change that: one output, one rubric, about fifteen minutes, and you see my score only after you have written yours. There is a [browser version](https://shaunmarsden.github.io/sales-proof-bench/) that scores as you go and then puts my number next to yours area by area. It also names the three of my nine scores I never wrote a reason for, which are the three easiest to argue with.
 
 ## Feedback
 

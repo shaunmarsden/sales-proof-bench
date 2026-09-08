@@ -118,4 +118,4 @@ I will publish what comes back, including if it contradicts me, and say so in th
 
 The useful result is not a matching total. **This repository already measures a one or two point gap as inside the noise**, so agreement at that distance tells us little. What would genuinely change something is a named area where you scored differently and can say why, or a judgement that the rubric cannot separate two things it claims to.
 
-If nobody does this, the honest position stays what it is: twenty runs, one scorer, consistently applied.
+If nobody does this, the honest position stays what it is: twenty-one runs, one scorer, consistently applied.
