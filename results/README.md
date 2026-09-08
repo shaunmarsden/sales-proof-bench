@@ -4,13 +4,14 @@ This page lists every published run of Sales Proof Bench: the same fictional sal
 
 ## Published
 
-None of the 20 runs below triggered an automatic failure. Every score is the rubric result only. "Consumer app" means an unknown system prompt, account history or product feature may have shaped the output; "Claude Code" and "isolated agent" mean only the case file went in.
+None of the 21 runs below triggered an automatic failure. Every score is the rubric result only. "Consumer app" means an unknown system prompt, account history or product feature may have shaped the output; "Claude Code" and "isolated agent" mean only the case file went in.
 
 **Hartwell Follow Up Case**
 
 | Setup | Score |
 |---|---|
 | [Claude Sonnet 5, Claude Code](claude-sonnet-5-hartwell-follow-up-case.md) | 42/45 |
+| [Claude Sonnet 5, agentic coding session](claude-sonnet-5-hartwell-follow-up-case-second-run.md) | 43/45 |
 | [Claude Haiku 4.5, isolated agent](claude-haiku-4-5-hartwell-follow-up-case.md) | 33/45 |
 | [ChatGPT, consumer app, version not confirmed](chatgpt-hartwell-follow-up-case.md) | 41/45 |
 | [Gemini, consumer app, version not confirmed](gemini-hartwell-follow-up-case.md) | 35/45 |
@@ -48,11 +49,13 @@ None of the 20 runs below triggered an automatic failure. Every score is the rub
 
 ## What the Results Show
 
-Coverage is now even across models on the four cases. Sonnet 5 has eight runs, ChatGPT and Gemini four each, and Haiku 4.5 four, one per case. Sonnet 5's extra runs are second attempts and consumer-app variants rather than additional cases.
+Coverage is now even across models on the four cases. Sonnet 5 has nine runs, ChatGPT and Gemini four each, and Haiku 4.5 four, one per case. Sonnet 5's extra runs are second attempts and consumer-app variants rather than additional cases, and two of them are same-case repeats used to test how much a single score can be trusted.
 
 That changes what the Haiku numbers mean. On one run it looked simply like the weakest model here. Across four it is the most variable: 31, 33, 40 and 42, a spread of 11 points against 3 for Sonnet 5 and 4 for ChatGPT. Its best case beats several Gemini and Sonnet runs and its worst is the lowest score in the repository. A single average would hide both.
 
-Same prompt, same source notes, same rubric, same reviewer, run once each per setup. One reviewer is itself a limit: nothing here has been through an [inter-rater reliability check](../methods/fair-comparison.md#what-one-reviewer-cannot-tell-you), so a one or two point gap between runs is inside the noise rather than a result. There is one piece of evidence for that threshold on this page: the two Sonnet 5 runs on Marlow scored 43 and 41 on the same case, which is the closest thing here to a repeat measurement. A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Every result had a real, specific flaw. Full detail is in each record's own "What this test cannot prove."
+Same prompt, same source notes, same rubric, same reviewer, run once each per setup. One reviewer is itself a limit: nothing here has been through an [inter-rater reliability check](../methods/fair-comparison.md#what-one-reviewer-cannot-tell-you), so a one or two point gap between runs is inside the noise rather than a result. There are now two same-case repeat pairs on this page, and together they support that threshold: Sonnet 5 scored 43 and 41 on Marlow, and 42 and 43 on Hartwell. Both pairs land within two points.
+
+The totals are the less interesting half. On Marlow the second run scored better on usefulness and worse on hallucination, and those partly cancelled, so a reader comparing only the totals would miss that one run invented a sender's name and the other did not. On Hartwell a single area moved. A stable total can sit on top of an unstable judgement, which is why each record shows its nine areas rather than only a number. A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Every result had a real, specific flaw. Full detail is in each record's own "What this test cannot prove."
 
 ### Hartwell Follow Up
 
