@@ -7,7 +7,11 @@ in .github/scripts/repo_checks.py then guards that it stays that way.
 
 Run from the repository root:
 
-    python3 docs/build_page.py
+    python3 scripts/build_page.py
+
+It lives outside docs/ on purpose. GitHub Pages serves everything under
+docs/, so a build script kept there is published to readers alongside the
+page it generates.
 """
 
 import os
