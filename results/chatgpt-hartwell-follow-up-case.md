@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Hartwell Follow Up Case](../cases/hartwell-follow-up-case.md)
-- **Task:** the four deliverables named in the case (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
-- **Model and version:** ChatGPT, via the consumer web app. I ran this myself and reported "worked for 18s", consistent with a reasoning model, but the exact underlying model version was not confirmed and is not claimed here.
+- **Task:** the four deliverables the case names (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
+- **Model and version:** ChatGPT, in the consumer web app. I ran this myself. It reported "worked for 18s", which fits a reasoning model, but I couldn't confirm the exact model version, so I don't claim one.
 - **Date:** 3 August 2026
-- **Account or plan, if relevant:** my own ChatGPT account and plan; not specified further
-- **Custom instruction, project context or skill used:** unknown. This went through the consumer product, not the raw API, so any custom instructions, memory, or system prompt ChatGPT applies by default may have shaped the output. This is a real difference from the Sonnet 5 and Haiku 4.5 runs, which were raw model calls with nothing else layered on top. Treat this pair of results as informative but not directly equivalent in method to the first pair.
+- **Account or plan, if relevant:** my own ChatGPT account and plan; nothing more specific
+- **Custom instruction, project context or skill used:** unknown. This went through the consumer product, not the raw API, so any custom instructions, memory or system prompt ChatGPT adds by default may have shaped the output. That's a real difference from the Sonnet 5 and Haiku 4.5 runs, which were plain model calls with nothing added. Treat this pair of results as useful, but not run the same way as the first pair.
 
 ## Input
 
@@ -90,7 +90,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** applied a Confirmed / Assumptions / Unknowns structure consistently across all four deliverables, not just the summary, more thoroughly than either the Sonnet 5 or Haiku 4.5 runs. Explicitly disclaimed exactly the things the task said not to invent: "I have not assumed that AI or another technology change is the answer, or that a test has been agreed" in the email itself, and never invented a timeline, unlike Haiku 4.5's fabricated "2-3 weeks". Ends the email with a genuine, specific question rather than a proposed plan dressed as agreed.
-- **What it got wrong:** two specific things. First, that same disclaiming sentence, while accurate, reads as the model narrating its own compliance rather than something a person would actually write to a customer, a real edit would cut it before sending, which is why Tone lost points rather than Hallucination. Second, in the CRM suggestions, "the opportunity stage should remain unchanged unless supported by existing CRM evidence" is labelled as an Assumption but is actually a guardrail instruction, not an assumption about the case itself, a minor mislabelling rather than a factual error.
-- **What a person still had to decide:** whether to cut the meta-commentary line from the email before sending, and whether the current opportunity stage genuinely has no supporting evidence to change it, since the case notes don't establish a stage at all.
-- **What this test cannot prove:** this ran through the ChatGPT product, not a raw API call, so any system prompt, custom instruction or memory the product applies by default is an unknown variable this record cannot rule out. That makes this a less controlled test than the Sonnet 5 versus Haiku 4.5 comparison, informative, not directly equivalent. One run, one case, one reviewer.
+- **What it did well:** it used a Confirmed / Assumptions / Unknowns structure across all four deliverables, not just the summary, and more thoroughly than the Sonnet 5 or Haiku 4.5 runs. It ruled out exactly what the task said not to make up, in the email itself: "I have not assumed that AI or another technology change is the answer, or that a test has been agreed". It never made up a timeline, unlike Haiku 4.5's "2-3 weeks". The email ends with a real, specific question, not a plan made to look agreed.
+- **What it got wrong:** two things. First, that same sentence is accurate but reads as the model describing its own rule-following, not as something a person would write to a customer. A real edit would cut it before sending, which is why it lost points on Tone and not on Hallucination. Second, in the CRM suggestions, "the opportunity stage should remain unchanged unless supported by existing CRM evidence" is labelled as an Assumption. It's really a guardrail, not an assumption about the case. That's a small labelling slip, not a factual mistake.
+- **What a person still had to decide:** whether to cut the line about its own rules from the email before sending, and whether anything supports changing the opportunity stage, since the case notes don't give a stage at all.
+- **What this test cannot prove:** this ran through the ChatGPT product, not a raw API call. Any system prompt, custom instruction or memory the product adds by default is an unknown I can't rule out. So this test is less controlled than the Sonnet 5 against Haiku 4.5 comparison: useful, but not run the same way. One run, one case, one reviewer.

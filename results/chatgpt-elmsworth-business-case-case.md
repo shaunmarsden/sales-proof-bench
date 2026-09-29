@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Elmsworth Business Case, Missing Baseline](../cases/elmsworth-business-case-case.md)
-- **Task:** the four deliverables named in the case (business case draft, evidence gap section, recommended measurement path, what must not be presented as confirmed)
-- **Model and version:** ChatGPT, via the consumer web app. Exact underlying model version not confirmed and not claimed here.
+- **Task:** the four deliverables the case names (business case draft, evidence gap section, recommended way to measure, what must not be presented as confirmed)
+- **Model and version:** ChatGPT, in the consumer web app. I couldn't confirm the exact model version, so I don't claim one.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** my own ChatGPT account and plan; not specified further
-- **Custom instruction, project context or skill used:** none confirmed, and no artifact of any account-level context appeared in this response.
+- **Account or plan, if relevant:** my own ChatGPT account and plan; nothing more specific
+- **Custom instruction, project context or skill used:** none that I can confirm, and nothing in this response showed any account-level context.
 
 ## Input
 
@@ -99,7 +99,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** the evidence gap analysis is the most thorough of any run of this case, correctly identifying categories the case did not explicitly ask for but that a real ROI claim would need, complete implementation cost, attribution against other explanatory factors like seasonal demand or staffing changes, and how to convert an operational benefit into an actual financial value rather than assuming time saved equals cash saved. It also correctly caught both of the source notes' own explicitly-flagged unknowns (whether the VP wants a number, or would accept a qualitative case) and listed them as things that must not be presented as confirmed either way, a level of fidelity to the source's own uncertainty that no other run of this case matched.
-- **What it got wrong:** no invented figure, factual error, or improper generalization was found. The real issue is fit for purpose rather than accuracy: an eleven-section document with a seventeen-item prohibited-claims list is not what a VP asked to approve a modest pilot expansion is likely to actually read closely. The rigor of the content does not automatically translate into something Marcus could realistically hand over as a one-sitting approval document, which is what the case's own framing ("something showing the impact so I can get this approved") implies he needs. Scored down under Usefulness and Tone for this reason, not for anything factually wrong.
-- **What a person still had to decide:** how to compress this into something an actual VP would read in one sitting without losing the substantive discipline it applies throughout.
-- **What this test cannot prove:** this is one run, one product, one reviewer. Depth and correctness are not the same as fitness for the stated audience, and this result shows a case where a model can be maximally careful about evidence while still under-serving the practical brief.
+- **What it did well:** its evidence gap analysis is the most thorough of any run of this case. It found things the case didn't ask for but a real ROI claim would need: the full cost of rolling it out, other possible causes such as seasonal demand or staff changes, and how to turn a working benefit into money rather than assuming time saved is cash saved. It also caught both unknowns the source notes flag themselves (whether the VP wants a number, or would accept a case without one). It listed both as things not to present as confirmed either way. No other run of this case stuck that closely to the source's own doubts.
+- **What it got wrong:** I found no made-up figure, factual mistake or overreach from a few people to the whole team. The problem is fit, not accuracy. A VP asked to approve a modest pilot expansion is unlikely to read an eleven-section document with seventeen banned claims closely. The case says Marcus needs "something showing the impact so I can get this approved", which means something he could hand over and have read in one sitting. This isn't that, however careful the content. I marked it down under Usefulness and Tone for this, not for anything factually wrong.
+- **What a person still had to decide:** how to cut this down to something a real VP would read in one sitting, without losing the care it takes throughout.
+- **What this test cannot prove:** this is one run, one product and one reviewer. Depth and accuracy aren't the same as fitting the reader. This result shows a model can be as careful as possible with evidence and still miss the practical brief.

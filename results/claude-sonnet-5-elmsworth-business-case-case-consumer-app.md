@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Elmsworth Business Case, Missing Baseline](../cases/elmsworth-business-case-case.md)
-- **Task:** the four deliverables named in the case (business case draft, evidence gap section, recommended measurement path, what must not be presented as confirmed)
-- **Model and version:** Claude Sonnet 5, via the consumer Claude.ai web app.
+- **Task:** the four deliverables the case names (business case draft, evidence gap section, recommended way to measure, what must not be presented as confirmed)
+- **Model and version:** Claude Sonnet 5, in the consumer Claude.ai web app.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** my own Claude.ai account and plan; not specified further. My account likely carries persistent, account-level memory or personalization even in a new chat, the same pattern already established in the Marlow and Osmond consumer-app records. No visible artifact of that appeared in this particular response, unlike the earlier Osmond consumer-app run.
-- **Custom instruction, project context or skill used:** no project or skill was manually attached to this chat.
+- **Account or plan, if relevant:** my own Claude.ai account and plan; nothing more specific. My account probably carries memory or personalisation even in a new chat, as the Marlow and Osmond consumer-app records already showed. Nothing in this response showed signs of it, unlike the earlier Osmond consumer-app run.
+- **Custom instruction, project context or skill used:** I didn't attach a project or skill to this chat.
 
 ## Input
 
@@ -108,7 +108,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** kept confirmed facts, the single quote, and assumptions in clearly separated, explicitly labelled sections. The evidence gap table names eight specific missing data points rather than a vague gap statement. The recommended path proposes a genuine comparison-group design and a pre-agreed decision point, consistent with the discipline the isolated subagent run also showed on this case. The "what this is not" section is a genuinely useful addition the case did not explicitly request, spelling out three specific misreadings of the quote to avoid.
-- **What it got wrong:** a spelling error, "sufient" instead of "sufficient," in the evidence gap section. Minor, but real, and worth catching in a document meant to go in front of a VP. No invented figure, factual error, or improper generalization was found anywhere else in the response.
-- **What a person still had to decide:** the specific comparison-group size ("eight to ten agents") is the model's own suggested parameter, not a confirmed fact, and would need to be agreed before use, the same caveat as the isolated subagent run's suggested parameters.
-- **What this test cannot prove:** this is one run of one model through one consumer account. Unlike the Marlow and Osmond consumer-app runs, no artifact of account-level personalization was visibly present here, and no figure was invented, a different, more favourable outcome for this case's specific trap (resisting an invented ROI number) than for the earlier two cases' traps (an unstated sender identity, an unstated price point). This may reflect that this case's prohibitions are more explicit and harder to route around by accident, not that consumer-app Claude is generally more reliable.
+- **What it did well:** it kept confirmed facts, the single quote and assumptions in separate, labelled sections. The evidence gap table names eight specific missing data points instead of a vague gap statement. The plan suggests a real comparison group and a decision point agreed in advance, the same care the isolated subagent run showed on this case. The "what this is not" section is a useful extra the case didn't ask for. It spells out three ways the quote could be misread.
+- **What it got wrong:** a spelling mistake, "sufient" instead of "sufficient," in the evidence gap section. It's small, but real, and worth catching in a document meant for a VP. I found no made-up figure, factual mistake or overreach anywhere else in the response.
+- **What a person still had to decide:** the size of the comparison group ("eight to ten agents") is the model's own suggestion, not a fact, and would need agreeing before use. The same goes for the isolated subagent run's suggestions.
+- **What this test cannot prove:** this is one run of one model through one consumer account. Unlike the Marlow and Osmond consumer-app runs, nothing here showed signs of account personalisation, and no figure was made up. That's a better outcome against this case's trap (making up an ROI number) than the earlier two cases got against theirs (a sender nobody named, a price nobody gave). It may be because this case's bans are clearer and harder to slip past by accident. It doesn't mean consumer-app Claude is generally more reliable.

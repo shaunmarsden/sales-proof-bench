@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Hartwell Follow Up Case](../cases/hartwell-follow-up-case.md)
-- **Task:** the four deliverables named in the case (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
+- **Task:** the four deliverables the case names (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
 - **Model and version:** Claude Sonnet 5, run inside Claude Code
 - **Date:** 3 August 2026
-- **Account or plan, if relevant:** not applicable, run directly from the case file with no product-specific setup
-- **Custom instruction, project context or skill used:** none. No project knowledge base, no custom instruction, no prior turns about Hartwell. Only the case file's own source notes and task were given.
+- **Account or plan, if relevant:** not applicable. It ran straight from the case file with no product setup
+- **Custom instruction, project context or skill used:** none. No project knowledge base, no custom instruction, no earlier messages about Hartwell. It got only the case file's source notes and task.
 
 ## Input
 
@@ -58,11 +58,11 @@ Best,
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 5 | 5 | 4 | 4 | 4 | 5 | 5 | 5 | 5 | 42 / 45 |
 
-No automatic failure: no invented customer commitment, no unapproved commercial claim, no unsafe information handling.
+No automatic failure: no made-up customer commitment, no unapproved commercial claim, no unsafe handling of information.
 
 ## Honest Notes
 
-- **What it did well:** stayed strictly inside the confirmed information. Did not invent a budget, a pilot, a meeting that had not been proposed, or a promised outcome, matching the case's own "did not say" list exactly. The email proposes a genuinely low-commitment next step (understand the process first) rather than pushing toward a tool decision Tunde had not asked for.
-- **What it got wrong:** nothing required a full rewrite, but fact and assumption separation relies on phrasing rather than an explicit label. A reviewer skimming quickly could miss that "Sales Operations would want to be involved" is Tunde's own stated condition, not the drafter's suggestion, since both read in a similar tone.
-- **What a person still had to decide:** whether proposing a joint conversation with Sales Operations, rather than a one-to-one first, is the right call for this specific relationship. That is a judgement about Tunde and Hartwell the case does not give enough to make, and the output correctly did not pretend to make it.
-- **What this test cannot prove:** this is one run, from one model, on one fictional case, scored by the person who ran it. It says nothing about how this model performs on a different task, how a different model would compare on the same one, or how consistent this score would be with a second, independent reviewer. It demonstrates the record format works end to end; it is not yet the comparison the bench is ultimately for.
+- **What it did well:** it stayed strictly inside the confirmed information. It didn't make up a budget, a pilot, a meeting nobody had proposed, or a promised outcome, and it matched the case's "did not say" list exactly. The email suggests a small next step (understand the process first) instead of pushing towards a tool decision Tunde hadn't asked for.
+- **What it got wrong:** nothing needed a full rewrite, but it keeps facts and assumptions apart through wording, not labels. A reviewer skimming quickly could miss that "Sales Operations would want to be involved" is Tunde's own condition, not the drafter's suggestion, since both read in a similar tone.
+- **What a person still had to decide:** whether to suggest a joint conversation with Sales Operations, instead of a one-to-one first, for this relationship. That's a judgement about Tunde and Hartwell the case doesn't give enough to make, and the output rightly didn't pretend to make it.
+- **What this test cannot prove:** this is one run, from one model, on one fictional case, scored by the person who ran it. It says nothing about how this model does on a different task, how a different model would compare on this one, or whether a second, separate reviewer would give the same score. It shows the record format works from start to finish. It isn't yet the comparison the bench is for.

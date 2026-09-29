@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Elmsworth Business Case, Missing Baseline](../cases/elmsworth-business-case-case.md)
-- **Task:** the four deliverables named in the case (business case draft, evidence gap section, recommended measurement path, what must not be presented as confirmed)
-- **Model and version:** Gemini, via the consumer web app. Exact underlying model version not confirmed and not claimed here.
+- **Task:** the four deliverables the case names (business case draft, evidence gap section, recommended way to measure, what must not be presented as confirmed)
+- **Model and version:** Gemini, in the consumer web app. I couldn't confirm the exact model version, so I don't claim one.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** my own Gemini account and plan; not specified further
-- **Custom instruction, project context or skill used:** none confirmed, and no artifact of any account-level context appeared in this response, unlike some earlier consumer-app runs in this repository.
+- **Account or plan, if relevant:** my own Gemini account and plan; nothing more specific
+- **Custom instruction, project context or skill used:** none that I can confirm, and nothing in this response showed any account-level context, unlike some earlier consumer-app runs here.
 
 ## Input
 
@@ -62,7 +62,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** cleanly separated confirmed information, direct quotes, and assumptions into distinct labelled sections. The evidence gap table names exactly what is missing in each of four categories rather than a vague "more data needed." The three-phase recommended path proposes concrete timeframes and a control-group comparison without asserting any of it as already true. The final section correctly forbids every item the case named, plus unsubstantiated consensus claims stated with appropriate specificity.
-- **What it got wrong:** on close review, no invented figure, factual error, or generalization from "a few" to the full team was found anywhere in this response.
-- **What a person still had to decide:** the specific phase lengths (2 weeks, 4 weeks) are the model's own suggested parameters and would need agreement with Marcus before use, not confirmed facts about the case.
-- **What this test cannot prove:** this is one run, one product, one reviewer. Compared with the isolated Sonnet 5 subagent run on this same case (44/45, docked only for a presentational session-leak preamble), this run found no comparable flaw of any kind, the strongest showing among the runs of this case so far.
+- **What it did well:** it kept confirmed information, direct quotes and assumptions in separate, labelled sections. The evidence gap table names what's missing in each of four categories, not a vague "more data needed." The three-phase plan suggests real timeframes and a comparison against a control group, without claiming any of it is already true. The last section forbids every item the case named, and adds claims that the whole team agrees, with the right amount of detail.
+- **What it got wrong:** I read it closely and found no made-up figure, factual mistake, or stretch from "a few" to the whole team anywhere in this response.
+- **What a person still had to decide:** the phase lengths (2 weeks, 4 weeks) are the model's own suggestions. They'd need agreeing with Marcus before use, and aren't facts about the case.
+- **What this test cannot prove:** this is one run, one product and one reviewer. The isolated Sonnet 5 subagent run on this case scored 44/45, losing a point only for an opening line leaked from its session. This run had no flaw like that, or any other. It's the best showing among the runs of this case so far.

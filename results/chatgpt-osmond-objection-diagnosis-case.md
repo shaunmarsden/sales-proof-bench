@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Osmond Objection Diagnosis Case](../cases/osmond-objection-diagnosis-case.md)
-- **Task:** the four deliverables named in the case (distinct readings of the objection, support and gaps for each, one clarifying question, what must not be assumed)
-- **Model and version:** ChatGPT 5.6, via the consumer web app. I ran this myself in a fresh chat with no custom instructions or project attached. Unlike the earlier Hartwell ChatGPT result, the version number was directly visible and is reported as given.
+- **Task:** the four deliverables the case names (distinct readings of the objection, support and gaps for each, one clarifying question, what must not be assumed)
+- **Model and version:** ChatGPT 5.6, in the consumer web app. I ran this myself in a new chat with no custom instructions or project attached. Unlike the earlier Hartwell ChatGPT result, the version number was on screen, so I give it as shown.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** my own ChatGPT account and plan; not specified further
-- **Custom instruction, project context or skill used:** no project was manually attached, but my account likely has persistent, account-level memory or personalization enabled that can apply even in a brand new chat. This went through the consumer product, not the raw API, so any default system behaviour or stored personalization ChatGPT applies may have shaped the output. No artifact of this was visibly present in this particular response, unlike the Claude consumer-app run on the same case.
+- **Account or plan, if relevant:** my own ChatGPT account and plan; nothing more specific
+- **Custom instruction, project context or skill used:** I didn't attach a project, but my account probably has memory or personalisation switched on, which can apply even in a new chat. This went through the consumer product, not the raw API, so ChatGPT's default behaviour or stored personal settings may have shaped the output. Nothing in this response showed signs of it, unlike the Claude consumer-app run on the same case.
 
 ## Input
 
@@ -39,7 +39,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** produced two genuinely distinct, well-developed readings rather than one interpretation restated. Every piece of support was explicitly hedged ("the most literal reading," "does not establish," "may be relevant, but it does not prove"), and it correctly avoided all four assumptions the case named as forbidden, plus two more of its own. The clarifying question is specific and non-presumptive, asking David to locate the uncertainty rather than justify it.
-- **What it got wrong:** on close review, no invented detail, factual error, or discipline lapse was found in this run.
-- **What a person still had to decide:** the same split every Osmond run has left, which reading to lead with if David's answer to the clarifying question does not cleanly resolve one way.
-- **What this test cannot prove:** this is one run, one product, one reviewer, through ChatGPT's consumer web app rather than a raw API. It matches the isolated-subagent Sonnet 5 run's score of 45/45 while developing only two readings against that run's three, meeting the case's stated minimum ("at least two") thoroughly rather than falling short of an unstated ideal of three. This one comparison does not establish that ChatGPT is generally as capable as Sonnet 5 on this kind of task, only that it performed at this level on this case, this once.
+- **What it did well:** it gave two distinct, well worked readings, not one reading said twice. Every piece of support was hedged ("the most literal reading," "does not establish," "may be relevant, but it does not prove"). It avoided all four assumptions the case forbids, and two more of its own. The clarifying question is specific and doesn't presume an answer. It asks David to say where the doubt lies, not to justify it.
+- **What it got wrong:** I read it closely and found no made-up detail, factual mistake or slip in discipline.
+- **What a person still had to decide:** the same choice every Osmond run has left: which reading to lead with if David's answer to the clarifying question doesn't settle it.
+- **What this test cannot prove:** this is one run, one product and one reviewer, through ChatGPT's consumer web app rather than a raw API. It matches the isolated-subagent Sonnet 5 run's score of 45/45 with two readings to that run's three. The case asks for "at least two", so two done thoroughly meets it, and three isn't a hidden target. This one comparison doesn't show that ChatGPT is generally as good as Sonnet 5 at this kind of task. It shows that it did this well on this case, once.

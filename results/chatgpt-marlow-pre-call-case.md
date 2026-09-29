@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Marlow Pre-Call Case](../cases/marlow-pre-call-case.md)
-- **Task:** the four deliverables named in the case (prep summary, first outreach message, three call questions, what must not be assumed)
-- **Model and version:** ChatGPT, via the consumer web app. Exact underlying model version not confirmed and not claimed here.
+- **Task:** the four deliverables the case names (prep summary, first outreach message, three call questions, what must not be assumed)
+- **Model and version:** ChatGPT, in the consumer web app. I couldn't confirm the exact model version, so I don't claim one.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** my own ChatGPT account and plan; not specified further
-- **Custom instruction, project context or skill used:** no project was manually attached, but my account likely has persistent, account-level memory or personalization enabled that can apply even in a brand new chat. This went through the consumer product, not the raw API. No artifact of this was visibly present in this particular response.
+- **Account or plan, if relevant:** my own ChatGPT account and plan; nothing more specific
+- **Custom instruction, project context or skill used:** I didn't attach a project, but my account probably has memory or personalisation switched on, which can apply even in a new chat. This went through the consumer product, not the raw API. Nothing in this response showed signs of it.
 
 ## Input
 
@@ -53,7 +53,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** the outreach message asks whether improving "the data and workflow around supplier setup" is something Priya is exploring without asserting what the specific cause is, avoiding the exact overreach the Gemini run on this same case made. The "what must not be assumed" list runs to eight items, well beyond the case's three explicitly forbidden assumptions, and stays internally consistent with the prep summary's own hedges throughout.
-- **What it got wrong:** on review, no invented detail, factual error, or internal inconsistency was found in this run.
-- **What a person still had to decide:** whether to name the trade press outlet specifically in the message, the same open question the earlier raw-API Sonnet 5 run on this case also left.
-- **What this test cannot prove:** this is one run, one product, one reviewer, through ChatGPT's consumer web app rather than a raw API.
+- **What it did well:** the outreach message asks whether improving "the data and workflow around supplier setup" is something Priya is looking at, without saying what the cause is. That avoids the exact overreach the Gemini run made on this case. The "what must not be assumed" list has eight items, well beyond the three the case forbids, and it agrees with the prep summary's own caveats throughout.
+- **What it got wrong:** I found no made-up detail, factual mistake or contradiction in this run.
+- **What a person still had to decide:** whether to name the trade press outlet in the message. The earlier raw-API Sonnet 5 run on this case left the same question open.
+- **What this test cannot prove:** this is one run, one product and one reviewer, through ChatGPT's consumer web app rather than a raw API.

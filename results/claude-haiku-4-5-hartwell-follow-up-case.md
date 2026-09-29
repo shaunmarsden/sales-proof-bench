@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Hartwell Follow Up Case](../cases/hartwell-follow-up-case.md)
-- **Task:** the four deliverables named in the case (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
-- **Model and version:** Claude Haiku 4.5, run as an isolated agent with no memory of the earlier Claude Sonnet 5 run on this same case
+- **Task:** the four deliverables the case names (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
+- **Model and version:** Claude Haiku 4.5, run as an isolated agent with no memory of the earlier Claude Sonnet 5 run on this case
 - **Date:** 3 August 2026
-- **Account or plan, if relevant:** not applicable, run directly from the case file with no product-specific setup
-- **Custom instruction, project context or skill used:** none. Same exact prompt and source material as the Sonnet 5 run, deliberately unchanged, so this is a Model test, not a Setup test.
+- **Account or plan, if relevant:** not applicable. It ran straight from the case file with no product setup
+- **Custom instruction, project context or skill used:** none. I kept the prompt and source material exactly the same as the Sonnet 5 run, so this is a Model test, not a Setup test.
 
 ## Input
 
@@ -70,11 +70,11 @@ Shaun
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 4 | 4 | 3 | 4 | 3 | 4 | 5 | 4 | 2 | 33 / 45 |
 
-No automatic failure: nothing here is an invented customer commitment or an unapproved commercial claim, but the hallucination found below is real and specific enough to cost genuine points, not just a rounding difference.
+No automatic failure. Nothing here is a made-up customer commitment or an unapproved commercial claim. But the made-up detail below is real and specific enough to cost real points, not just a rounding difference.
 
 ## Honest Notes
 
-- **What it did well:** the internal summary structure, explicit Confirmed / Assumptions / Unknowns / Not Said labels, is more visibly separated than the Sonnet 5 run's more narrative version. The discovery actions and CRM suggestions stay grounded in the source notes, with no invented specifics about Hartwell itself.
-- **What it got wrong:** the email draft states "This should take 2-3 weeks" for the proposed discovery calls. Nothing in the source notes gives any timeframe, and this is exactly the kind of plausible-sounding detail the task explicitly said not to invent. It reads confidently, not as a guess, which makes it easy to miss on a quick read. This is the single concrete reason this run scores lower than the Sonnet 5 run, not a vaguer "it felt less careful."
-- **What a person still had to decide:** whether "2-3 weeks" is even in the right range before sending anything, since the model invented a number with no basis to check it against. That is a worse position than being told nothing, since an invented specific reads as more trustworthy than an honest unknown would have.
-- **What this test cannot prove:** this is one run each, from two different models, on one fictional case, scored by the same person who ran both. It says nothing about how either model performs on a different task, or how consistent either score would be with a second, independent reviewer. It is a genuine Model comparison in the fair-comparison method's own sense (same prompt, same source, same rubric, same reviewer), not a Setup or Workflow comparison, and it is a sample of one case, not a general verdict on either model.
+- **What it did well:** the internal summary labels everything as Confirmed, Assumptions, Unknowns or Not Said, which keeps them further apart than the Sonnet 5 run's more narrative version. The discovery actions and CRM suggestions stick to the source notes, with no made-up details about Hartwell itself.
+- **What it got wrong:** the email draft says "This should take 2-3 weeks" for the proposed discovery calls. Nothing in the source notes gives any timeframe, and this is exactly the kind of plausible detail the task said not to make up. It reads as sure, not as a guess, so it's easy to miss on a quick read. This one specific thing is why this run scores lower than the Sonnet 5 run. It isn't a vaguer sense that "it felt less careful."
+- **What a person still had to decide:** whether "2-3 weeks" is even roughly right before sending anything. The model made up a number, so there's nothing to check it against. That's worse than being told nothing, because a made-up detail reads as more reliable than an honest unknown.
+- **What this test cannot prove:** this is one run each, from two models, on one fictional case, and I ran and scored both. It says nothing about how either model does on a different task, or whether a second, separate reviewer would give the same scores. It's a real Model comparison in the fair comparison method's sense (same prompt, same source, same rubric, same reviewer), not a Setup or Workflow comparison. But it's one case, not a verdict on either model.

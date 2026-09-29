@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Marlow Pre-Call Case](../cases/marlow-pre-call-case.md)
-- **Task:** the four deliverables named in the case (prep summary, first outreach message, three call questions, what must not be assumed)
+- **Task:** the four deliverables the case names (prep summary, first outreach message, three call questions, what must not be assumed)
 - **Model and version:** Claude Sonnet 5, run inside Claude Code
 - **Date:** 3 August 2026
-- **Account or plan, if relevant:** not applicable, run directly from the case file with no product-specific setup
-- **Custom instruction, project context or skill used:** none. Only the case file's own source notes and task were given.
+- **Account or plan, if relevant:** not applicable. It ran straight from the case file with no product setup
+- **Custom instruction, project context or skill used:** none. It got only the case file's source notes and task.
 
 ## Input
 
@@ -60,7 +60,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** kept public information, secondhand supplied information, and assumptions visibly separate throughout, and specifically did not conflate the procurement team's one-line, secondhand comment with a confirmed company-wide priority, exactly the trap this case was built to test. The outreach message names the source of its opener plainly ("I noticed your comment in the trade press") rather than a vague "I saw you're growing".
-- **What it got wrong:** nothing required correction against the source material.
-- **What a person still had to decide:** whether reaching out to Priya directly is the right first move, or whether it is worth trying to learn more about the procurement team's comment first; and whether the trade press outlet should be named specifically in the message rather than referred to generically.
-- **What this test cannot prove:** this is one run, one case, one reviewer. It says nothing about how this model, or any other, handles a pre-call case where the public signal is weaker, stronger, or contradictory, and it does not establish a general pattern from a single clean result.
+- **What it did well:** it kept public information, secondhand supplied information and assumptions apart throughout. It didn't mistake the procurement team's one-line, secondhand comment for a confirmed company-wide priority, which is the trap this case was built to test. The outreach message names where its opener came from ("I noticed your comment in the trade press") instead of a vague "I saw you're growing".
+- **What it got wrong:** nothing needed correcting against the source material.
+- **What a person still had to decide:** whether contacting Priya directly is the right first move, or whether to try to learn more about the procurement team's comment first. Also, whether to name the trade press outlet in the message or just refer to it.
+- **What this test cannot prove:** this is one run, one case and one reviewer. It says nothing about how this model, or any other, handles a pre-call case where the public signal is weaker, stronger or contradictory. One clean result doesn't make a pattern.
