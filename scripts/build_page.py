@@ -235,19 +235,19 @@ TEMPLATE = """<!doctype html>
 <header class="top">
   <div class="kicker">Sales Proof Bench</div>
   <h1>Score a Run Yourself</h1>
-  <p class="lede">Every score in this repository was given by one person, me, against a rubric this project wrote. Nobody outside has scored anything, and that is the largest limit on what any number here is worth. This page is the smallest way to change it: one model output, nine areas, about fifteen minutes. Score it before you see what I gave it.</p>
+  <p class="lede">I gave every score in this repository, against a rubric this project wrote. Nobody else has scored anything, and that limits what any number here is worth more than anything else. This page is the smallest way to change that: one model output, nine areas, about 15 minutes. Score it before you see what I gave it.</p>
   <a class="backlink" href="https://github.com/shaunmarsden/sales-proof-bench">&larr; Back to the repository</a>
 </header>
 
 <section class="panel">
   <h2>Why this particular run</h2>
-  <p>You are scoring Claude Haiku 4.5 on the Osmond objection diagnosis case.</p>
+  <p>You're scoring Claude Haiku 4.5 on the Osmond objection diagnosis case.</p>
   <ul>
-    <li><strong>My score for it is the lowest in this repository.</strong> If I have been unfair to a model anywhere, this is the most likely place.</li>
-    <li><strong>It was scored using score meanings added to the rubric the day before.</strong> That scale is barely tested.</li>
-    <li><strong>The structure is all there.</strong> This is not a weak answer with obvious holes. Deciding what it is worth needs judgement, which is exactly what two people disagree about.</li>
+    <li><strong>My score for it is the lowest in this repository.</strong> If I've been unfair to a model anywhere, this is the likeliest place.</li>
+    <li><strong>I scored it using score meanings I added to the rubric the day before.</strong> That scale is barely tested.</li>
+    <li><strong>The structure is all there.</strong> This isn't a weak answer with obvious holes. Deciding what it's worth takes judgement, which is exactly where two people disagree.</li>
   </ul>
-  <p>There is also a reason to distrust me specifically, and you will see it at the end: <strong>three of my nine scores have no recorded reason at all.</strong></p>
+  <p>There's also a reason to distrust me, and you'll see it at the end: <strong>three of my nine scores have no recorded reason.</strong></p>
 </section>
 
 <details class="case">
@@ -281,8 +281,8 @@ TEMPLATE = """<!doctype html>
 </details>
 
 <section class="panel">
-  <h2>The output you are scoring, reproduced unedited</h2>
-  <p style="color:var(--ink-soft);margin-top:0">Claude Haiku 4.5, given only the case file and its task wording, in an isolated context. This block is sliced out of the published record when the page is built, so it cannot drift from what was scored.</p>
+  <h2>The output you're scoring, unedited</h2>
+  <p style="color:var(--ink-soft);margin-top:0">Claude Haiku 4.5, given only the case file and its task wording, in an isolated context. This block is copied from the published record when the page is built, so it can't differ from what was scored.</p>
 <pre class="source" id="model-output">__OUTPUT__</pre>
 </section>
 
@@ -311,14 +311,14 @@ TEMPLATE = """<!doctype html>
 <section class="panel" id="result" hidden></section>
 
 <footer>
-  <p><strong>What this page cannot do.</strong> It is a static page, so nothing you type here is sent anywhere or recorded. The comparison happens in your browser and disappears when you close the tab. My scores and reasons are in this page's source code, so if you go looking before you have scored it, the exercise stops working. That is the honest limit of doing this without a backend.</p>
-  <p><strong>What would actually be useful.</strong> Not a matching total. This repository already treats a one or two point gap as inside the noise, so agreement at that distance tells us little. What would change something is a named area where you scored differently and can say why, or a judgement that the rubric cannot separate two things it claims to.</p>
-  <p><strong>If you use AI to help</strong>, say so and say which tool. It is still useful, but it is a second model applying the rubric rather than a second person, and this output came from Claude, so another Claude model would be partly marking its own family's work. I will label it that way rather than counting it as independent human scoring.</p>
+  <p><strong>What this page can't do.</strong> It's a static page, so nothing you type is sent anywhere or recorded. The comparison happens in your browser and vanishes when you close the tab. My scores and reasons are in the page's source code, so if you look before you've scored, the exercise stops working. That's the limit of doing this without a backend.</p>
+  <p><strong>What would help.</strong> Not a matching total. This repository already treats a one or two point gap as noise, so agreement that close tells us little. What would change something is an area where you scored differently and can say why, or a judgement that the rubric can't tell apart two things it claims to.</p>
+  <p><strong>If you use AI to help</strong>, say so and say which tool. It's still useful, but it's a second model applying the rubric, not a second person. This output came from Claude, so another Claude model would partly be marking its own family's work. I'll label it that way, not count it as independent human scoring.</p>
   <ul>
     <li>The written version of this exercise, with the same output and a blank table: <a href="https://github.com/shaunmarsden/sales-proof-bench/blob/main/feedback/score-a-run-yourself.md">Score a Run Yourself</a></li>
     <li>The full rubric, with what each area is asking: <a href="https://github.com/shaunmarsden/sales-proof-bench/blob/main/rubrics/sales-output-rubric.md">Sales Output Rubric</a>. Project-authored, not endorsed by any organisation</li>
-    <li>Why one reviewer is a limit rather than a caveat: <a href="https://github.com/shaunmarsden/sales-proof-bench/blob/main/methods/fair-comparison.md#what-one-reviewer-cannot-tell-you">What one reviewer cannot tell you</a></li>
-    <li><strong>Do not open until you have finished:</strong> the <a href="https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/claude-haiku-4-5-osmond-objection-diagnosis-case.md">full record</a> with my reasoning, and the <a href="https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/README.md">results page</a> with every score in a table</li>
+    <li>Why one reviewer is a limit, not a caveat: <a href="https://github.com/shaunmarsden/sales-proof-bench/blob/main/methods/fair-comparison.md#what-one-reviewer-cannot-tell-you">What one reviewer cannot tell you</a></li>
+    <li><strong>Don't open until you've finished:</strong> the <a href="https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/claude-haiku-4-5-osmond-objection-diagnosis-case.md">full record</a> with my reasoning, and the <a href="https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/README.md">results page</a> with every score in a table</li>
   </ul>
 </footer>
 </div>
@@ -329,11 +329,11 @@ TEMPLATE = """<!doctype html>
     { key: "Accuracy", name: "Factual accuracy",
       high: "Every claim matches the supplied source.",
       mine: 2,
-      why: "It misstates the source. The case says David asked no questions about implementation timeline or rollout support. Reading 1 turns that into no follow-up questions about features, ROI or value, which is a different claim the notes do not make." },
+      why: "It misstates the source. The case says David asked no questions about implementation timeline or rollout support. Reading 1 turns that into no follow-up questions about features, ROI or value, which is a different claim, and the notes don't make it." },
     { key: "Fidelity", name: "Evidence fidelity",
       high: "The result uses the important context and preserves meaningful uncertainty.",
       mine: 3,
-      why: "It uses the important context, but two of Reading 1's three supporting bullets do not survive a check against the notes." },
+      why: "It uses the important context, but two of Reading 1's three supporting bullets don't hold up against the notes." },
     { key: "Separation", name: "Fact separation",
       high: "Facts, assumptions, estimates and suggestions are visibly different.",
       mine: 4,
@@ -341,11 +341,11 @@ TEMPLATE = """<!doctype html>
     { key: "Usefulness", name: "Commercial usefulness",
       high: "The output helps a sensible next conversation or action.",
       mine: 4,
-      why: "The two readings are genuinely distinct rather than one interpretation twice, and the structure the case asked for is all present." },
+      why: "The two readings are distinct, not one interpretation twice, and all the structure the case asked for is there." },
     { key: "Next step", name: "Next step clarity",
       high: "Actions are specific, owned and do not pretend to be agreed.",
       mine: 3,
-      why: "The clarifying question proposes a phased rollout, which is a remedy for Reading 2 rather than a neutral probe. It does explain how to read the answer, which is why this is a 3 rather than lower." },
+      why: "The clarifying question proposes a phased rollout, which is a remedy for Reading 2, not a neutral probe. It does explain how to read the answer, which is why this is a 3 and not lower." },
     { key: "Tone", name: "Tone",
       high: "Direct, clear and appropriate for the audience.",
       mine: 4, why: null },
@@ -440,8 +440,8 @@ TEMPLATE = """<!doctype html>
       if (a.why) {
         html += "<p class=\\"why\\">" + esc(a.why) + "</p>";
       } else {
-        html += "<p class=\\"why none\\">I did not record a reason for this score. " +
-                "If you disagree with it, I have nothing to argue back with.</p>";
+        html += "<p class=\\"why none\\">I didn't record a reason for this score. " +
+                "If you disagree, I have nothing to argue back with.</p>";
       }
       html += "</td><td class=\\"n\\">" + picked[i] + "</td><td class=\\"n\\">" + a.mine + "</td>" +
               "<td><span class=\\"gap " + gapClass(g) + "\\">" + gapLabel(g) + "</span></td></tr>";
@@ -454,35 +454,35 @@ TEMPLATE = """<!doctype html>
     var totalGap = Math.abs(yourTotal - MINE_TOTAL);
     html += "<h3>What your result does and does not tell us</h3>";
     if (totalGap <= 2) {
-      html += "<p>Your total is within two points of mine, which this repository treats as " +
-              "inside the noise rather than agreement. It is not evidence that the score is right. " +
-              "Two scorers can reach the same total through different areas, and this bench has " +
+      html += "<p>Your total is within two points of mine. This repository treats that as " +
+              "noise, not agreement, and it isn't evidence that the score is right. " +
+              "Two scorers can reach the same total through different areas. This bench has " +
               "already published a pair of runs where the totals moved two points while three " +
               "separate areas moved underneath them.</p>";
     } else {
-      html += "<p>Your total is " + totalGap + " points from mine, which is wider than the " +
-              "one or two points this repository treats as noise. That is the interesting outcome, " +
-              "not the embarrassing one: a second person reading this rubric differently is the " +
-              "thing the bench has never had. It only counts for anything if you send it, " +
-              "because nothing on this page reaches me on its own.</p>";
+      html += "<p>Your total is " + totalGap + " points from mine, wider than the " +
+              "one or two points this repository treats as noise. That's the interesting outcome, " +
+              "not the embarrassing one: the bench has never had a second person read this rubric " +
+              "differently. It only counts if you send it, " +
+              "because nothing on this page reaches me by itself.</p>";
     }
     if (biggest && biggest.gap > 0) {
       html += "<p><strong>Your widest disagreement is " + esc(biggest.area.name) + "</strong>, " +
               "where you gave " + biggest.yours + " and I gave " + biggest.area.mine + ". " +
               (biggest.area.why
-                ? "My reason is above. If it does not hold, say so."
-                : "I recorded no reason for that one, so there is nothing there for you to argue with. " +
-                  "That is a gap in my record rather than a gap in your reading.") +
+                ? "My reason is above. If it doesn't hold, say so."
+                : "I recorded no reason for that one, so you have nothing to argue with. " +
+                  "That's a gap in my record, not in your reading.") +
               "</p>";
     }
     html += "<p><strong>Three of my nine scores have no recorded reason:</strong> tone, privacy and " +
             "approval discipline. I gave them 4, 5 and 4 and wrote nothing down about why. " +
-            "Those are the three easiest to challenge, and until somebody does, they are just " +
+            "Those three are the easiest to challenge, and until somebody does, they're just " +
             "numbers I typed.</p>";
 
     html += "<h3>Send it back</h3>";
-    html += "<p>This page cannot submit anything. The link below opens the repository's feedback " +
-            "form with your scores already filled in, for you to edit or delete before you post it. " +
+    html += "<p>This page can't submit anything. The link below opens the repository's feedback " +
+            "form with your scores already filled in. Edit or delete them before you post. " +
             "Nothing is sent until you press the button on GitHub.</p>";
     html += "<p><a class=\\"sendbtn\\" href=\\"" + issueUrl(yourTotal, biggest) +
             "\\" target=\\"_blank\\" rel=\\"noopener\\">Open the feedback form with these scores</a></p>";
