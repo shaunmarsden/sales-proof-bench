@@ -48,7 +48,7 @@ It is not a leaderboard. A model can be good at drafting a follow up and poor at
 
 ## Current Status
 
-The bench has four fictional cases now: Hartwell Follow Up, Marlow Pre-Call, Osmond Objection Diagnosis and Elmsworth Business Case. Four results have been published against the Hartwell case: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini. The Marlow case has five results across three models. The Osmond and Elmsworth cases each have four results across three models. See the [results](results/README.md) for what these actually show and do not.
+The bench has four fictional cases now: Hartwell Follow Up, Marlow Pre-Call, Osmond Objection Diagnosis and Elmsworth Business Case. Four results have been published against the Hartwell case: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini. The Marlow case has six results across four models. The Osmond and Elmsworth cases each have five results across four models. See the [results](results/README.md) for what these actually show and do not.
 
 See the [roadmap](ROADMAP.md) for the next tests.
 
