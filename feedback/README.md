@@ -1,10 +1,10 @@
 # Feedback
 
-You do not need to write a detailed review. A quick "the rubric missed this" or "the method felt fair" is genuinely useful.
+You don't need to write a detailed review. A quick "the rubric missed this" or "the method felt fair" helps.
 
 ## Disagree With a Score
 
-The most useful thing anybody could do here takes about fifteen minutes: [score one model output yourself](score-a-run-yourself.md), against the same rubric, without seeing my number first. Every score in this repository is one person's.
+The most useful thing you could do here takes about fifteen minutes: [score one model output yourself](score-a-run-yourself.md), against the same rubric, without seeing my number first. I gave every score in this repo myself.
 
 ## The Easy Option
 
@@ -19,14 +19,14 @@ It asks four things:
 
 ## If You Are Not Ready To Try It Yet
 
-You can still say what would make this more useful for your own comparisons. For example:
+You can still tell me what would make this more useful for your own comparisons. For example:
 
 > I would use this to compare [tools or setups]. I need a case for [type of task]. I am unsure whether [thing that puts you off].
 
-That is enough to improve the next version.
+That's enough to improve the next version.
 
 ## Keep It Safe
 
-Do not add customer, employer, confidential or personal information to a public issue. Describe the type of task and the point where you got stuck instead.
+Don't put customer, employer, confidential or personal information in a public issue. Describe the kind of task and where you got stuck instead.
 
-If you are adapting this inside your own organisation, use the feedback route your organisation has approved.
+If you're adapting this inside your own organisation, use the feedback route your organisation has approved.

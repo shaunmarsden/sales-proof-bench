@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Marlow Pre-Call Case](../cases/marlow-pre-call-case.md)
-- **Task:** the four deliverables named in the case (prep summary, first outreach message to Priya, three questions to ask, what must not be assumed)
+- **Task:** the four deliverables the case names (prep summary, first outreach message to Priya, three questions to ask, what must not be assumed)
 - **Model and version:** Claude Haiku 4.5, run as an isolated agent with no memory of any other run on this case
 - **Date:** 7 September 2026
-- **Account or plan, if relevant:** not applicable, run directly from the case file with no product-specific setup
-- **Custom instruction, project context or skill used:** none. Same source material as the Sonnet 5, ChatGPT and Gemini runs, so this is a Model test, not a Setup test.
+- **Account or plan, if relevant:** not applicable. It ran straight from the case file with no product setup
+- **Custom instruction, project context or skill used:** none. It had the same source material as the Sonnet 5, ChatGPT and Gemini runs, so this is a Model test, not a Setup test.
 
 ## Input
 
@@ -82,12 +82,12 @@ If not the right time, totally understood.
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 5 | 5 | 5 | 4 | 4 | 4 | 5 | 5 | 5 | 42 / 45 |
 
-No automatic failure. Nothing is invented about Marlow, no call is treated as booked, and the procurement comment is not presented as a company priority.
+No automatic failure. It makes up nothing about Marlow, treats no call as booked, and doesn't present the procurement comment as a company priority.
 
 ## Honest Notes
 
-- **What it did well:** the three-way split into Public Information, Supplied Information and Assumptions to Test is exactly what the case asked for, and every one of the case's three prohibitions appears in the assumptions list rather than being quietly adopted as fact. The outreach message anchors to the one genuinely verifiable thing available, the press quote, and then does something better than most: it says outright "I'm not sure where Marlow is in exploring approaches, or if you're even looking right now", which declines to assume the appetite the case says has not been established.
-- **A specific piece of good discipline:** the case never names the trade publication, and the message writes `[Publication]` rather than inventing a masthead. On the same case, this run's own weakest habit elsewhere is inventing plausible specifics, so the restraint here is worth recording rather than assuming.
-- **What it got wrong:** nothing factual. The marks come off for craft. The subject line puts a placeholder inside it, `Priya's comment from [Publication]`, which reads oddly for a message meant to be sent, and quoting a person's own remark back at them in a subject line is a slightly strange opener. The third discovery question introduces "cut the timeline by half" as a hypothetical, which is fine as framing but is a number the case does not support and a real prospect may hear as a claim.
-- **What a person still had to decide:** whether to send the message at all, given that the case establishes no appetite. The model prepared a draft and left the judgement open, which is the right shape.
-- **What this test cannot prove:** one run, one fictional case, scored by the same person who ran it. It says nothing about how this model handles a pre-call case with a weaker public signal, and nothing about how consistent this score would be with a second reviewer.
+- **What it did well:** it splits the summary into Public Information, Supplied Information and Assumptions to Test, which is exactly what the case asked for. All three of the case's bans appear in the assumptions list instead of slipping in as fact. The outreach message opens with the one thing that can be checked, the press quote, and then does better than most. It says "I'm not sure where Marlow is in exploring approaches, or if you're even looking right now", which declines to assume an interest the case says hasn't been shown.
+- **A specific piece of good discipline:** the case never names the trade publication, and the message writes `[Publication]` instead of making one up. On other cases, this model's weakest habit is making up plausible details, so the restraint here is worth recording rather than taking for granted.
+- **What it got wrong:** nothing factual. It loses marks for craft. The subject line has a placeholder in it, `Priya's comment from [Publication]`, which reads oddly in a message meant to be sent. Quoting someone's own remark back at them in a subject line is also a slightly strange way to open. The third discovery question offers "cut the timeline by half" as a hypothetical. That's fine as framing, but the case doesn't support the number, and a real prospect may hear it as a claim.
+- **What a person still had to decide:** whether to send the message at all, since the case shows no interest yet. The model drafted it and left that call open, which is right.
+- **What this test cannot prove:** one run, one fictional case, scored by the same person who ran it. It says nothing about how this model handles a pre-call case with a weaker public signal, or whether a second reviewer would give the same score.

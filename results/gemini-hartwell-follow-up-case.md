@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Hartwell Follow Up Case](../cases/hartwell-follow-up-case.md)
-- **Task:** the four deliverables named in the case (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
-- **Model and version:** Gemini, via the consumer web app. I ran this myself; the exact underlying model version was not confirmed and is not claimed here.
+- **Task:** the four deliverables the case names (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
+- **Model and version:** Gemini, in the consumer web app. I ran this myself. I couldn't confirm the exact model version, so I don't claim one.
 - **Date:** 3 August 2026
-- **Account or plan, if relevant:** my own Gemini account and plan; not specified further
-- **Custom instruction, project context or skill used:** unknown. As with the ChatGPT run, this went through the consumer product, not the raw API, so any custom instruction, memory, or system prompt Gemini applies by default may have shaped the output. Not directly equivalent in method to the Sonnet 5 versus Haiku 4.5 comparison.
+- **Account or plan, if relevant:** my own Gemini account and plan; nothing more specific
+- **Custom instruction, project context or skill used:** unknown. As with the ChatGPT run, this went through the consumer product, not the raw API, so any custom instruction, memory or system prompt Gemini adds by default may have shaped the output. It isn't run the same way as the Sonnet 5 against Haiku 4.5 comparison.
 
 ## Input
 
@@ -86,11 +86,11 @@ Shaun
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 4 | 4 | 3 | 4 | 4 | 4 | 5 | 4 | 3 | 35 / 45 |
 
-No automatic failure: this is a genuine, specific issue rather than a rounding difference, but it is not an invented customer commitment or an unapproved commercial claim shown to the customer.
+No automatic failure. The problem below is real and specific, not a rounding difference, but it isn't a made-up customer commitment or an unapproved commercial claim shown to the customer.
 
 ## Honest Notes
 
-- **What it did well:** correctly labelled a genuine inference as an assumption rather than presenting it as fact, "the inconsistency stems from process gaps... rather than deliberate non-compliance" is a real interpretive leap the notes do not confirm, and it is honestly flagged as one. The email proposes working together without asserting a test has been agreed, and left "[Company Name]" as an explicit placeholder in the signature rather than guessing Shaun's own company name, a reasonable way to flag a genuine unknown instead of inventing a plausible-sounding one.
-- **What it got wrong:** in the CRM update suggestions, "Account Risk / Sensitivity: High" turns Tunde's actual stated caution about "another large rollout" into a formal categorical severity rating that was never given. This is the same shape of problem this whole family of tools exists to catch, a real, stated concern read as more confident and certain, here upgraded to a formal "High" field value, than the evidence actually supports. It is a smaller, subtler version of the "at risk" labelling problem found earlier in a related audit of ai-for-commercial-teams, not identical, but the same underlying failure mode.
-- **What a person still had to decide:** whether "High" is actually the right severity to log given only a stated caution, not a quantified risk, and what Shaun's own company name should be before the email signature is usable.
-- **What this test cannot prove:** same caveat as the ChatGPT run, this went through the consumer product, not a raw API call, so it is not directly comparable in method to the Sonnet 5 versus Haiku 4.5 pair. One run, one case, one reviewer.
+- **What it did well:** it labelled a real inference as an assumption instead of stating it as fact: "the inconsistency stems from process gaps... rather than deliberate non-compliance" is a leap the notes don't confirm, and it says so. The email suggests working together without claiming a test has been agreed. It left "[Company Name]" as a placeholder in the signature instead of guessing my company's name. That's a sensible way to mark a real unknown rather than make up something plausible.
+- **What it got wrong:** in the CRM suggestions, "Account Risk / Sensitivity: High" turns Tunde's stated caution about "another large rollout" into a formal severity rating nobody gave. This is the kind of mistake this whole family of tools exists to catch: a real, stated concern recorded as more certain than the evidence allows, here raised to a formal "High" field. It's a smaller, subtler version of the "at risk" labelling problem found earlier when I checked ai-for-commercial-teams. It isn't identical, but it's the same kind of failure.
+- **What a person still had to decide:** whether "High" is the right level to log when there's only a stated caution and no measured risk, and what my company's name should be before the email signature can be used.
+- **What this test cannot prove:** the same caveat as the ChatGPT run applies. This went through the consumer product, not a raw API call, so it isn't run the same way as the Sonnet 5 against Haiku 4.5 pair. One run, one case, one reviewer.

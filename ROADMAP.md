@@ -3,24 +3,24 @@
 ## First Results
 
 - ~~A cold comparison using the Hartwell follow up case~~ done: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini, see [results](results/README.md)
-- A setup comparison showing cold versus a carefully scoped instruction
-- A workflow comparison showing one off prompting versus a repeatable checklist
+- A setup comparison: no instruction against a carefully scoped one
+- A workflow comparison: one-off prompting against a repeatable checklist
 
 ## Later Cases
 
-- ~~Pre call preparation using public and supplied information~~ done: the Marlow case, a genuine cross-model comparison across Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini, see [results](results/README.md)
-- ~~Objection diagnosis with ambiguous buyer wording~~ done: the Osmond case, a genuine cross-model comparison across Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini, see [results](results/README.md)
-- ~~Business case drafting with missing baseline evidence~~ done: the Elmsworth case, a genuine cross-model comparison across Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini, the cleanest result of any case so far, no run invented a figure, see [results](results/README.md)
+- ~~Pre call preparation using public and supplied information~~ done: the Marlow case, compared across Sonnet 5, Haiku 4.5, ChatGPT and Gemini, see [results](results/README.md)
+- ~~Objection diagnosis with ambiguous buyer wording~~ done: the Osmond case, compared across Sonnet 5, Haiku 4.5, ChatGPT and Gemini, see [results](results/README.md)
+- ~~Business case drafting with missing baseline evidence~~ done: the Elmsworth case, compared across Sonnet 5, Haiku 4.5, ChatGPT and Gemini. It's the cleanest result of any case so far: no run made up a figure. See [results](results/README.md)
 
-All three cases originally listed here are now built. The next expansion here should come from real use exposing a genuine new trap, not from adding a fourth case for its own sake.
+I've now built all three cases this list started with. The next one should come from real use turning up a new trap, not from adding a fourth case for the sake of it.
 
-## Guardrails Before Expansion
+## Guardrails Before Adding More
 
-- Publish only fictional or clearly approved material
-- Do not compare tools using changing or hidden context
-- Do not claim a result means a model is generally best
-- Keep failures visible
-- Watch for an invented sender identity or other unrequested personal detail filling a gap a case does not specify; two independent Marlow runs showed this specifically
-- Treat a consumer-app result as "this model plus whatever the account was carrying," never as a clean read on the model. Every flaw found across the Marlow and Osmond comparisons, invented signatures, an invented price figure, a self-contradicting outreach message, came from a consumer-app run with account-level context or defaults active, not from a raw API call or an isolated subagent. State the account's likely personalization or memory status plainly in the record rather than assuming a fresh chat means nothing is carried over
-- A case with explicit, itemised prohibitions (no percentage, no dollar figure, no hours, no satisfaction claim) produced zero invented figures across five runs and four models, the cleanest result of any case so far, compared with the subtler gap-filling traps in Marlow and Osmond (an unstated sender, an unstated price). When writing a new case, naming the specific forbidden claims explicitly, not just the general shape of the trap, appears to help; this is one small set of results, not a proven design rule
-- Thoroughness is not the same as fitness for the case's own stated audience. A model can be maximally careful about evidence while still producing something too long for the person in the case to actually use, as ChatGPT's eleven-section Elmsworth response showed. Score usefulness against what the case's own fictional requester actually needs, not just against factual correctness
+- Publish only fictional or clearly approved material.
+- Don't compare tools when the context is changing or hidden.
+- Don't claim a result means a model is best overall.
+- Keep failures visible.
+- Watch for a made-up sender name, or other personal detail nobody asked for, filling a gap the case leaves open. Two separate Marlow runs did this.
+- Treat a consumer-app result as "this model plus whatever the account was carrying," never as a clean read on the model. Every flaw I found across the Marlow and Osmond comparisons came from a consumer-app run with account settings or memory switched on, not from a raw API call or an isolated subagent. Those flaws were made-up signatures, a made-up price and an outreach message that contradicted itself. Say plainly in the record whether the account probably had personalisation or memory on. Don't assume a fresh chat carries nothing over.
+- A case that lists exactly what not to claim (no percentage, no dollar figure, no hours, no satisfaction claim) got no made-up figures across five runs and four models. That's the cleanest result of any case so far. Marlow and Osmond set subtler traps, where the model had to notice a gap on its own (a sender nobody named, a price nobody gave). So when you write a new case, naming the claims it forbids, not just the kind of trap, seems to help. This is one small set of results, not a proven rule.
+- Thorough isn't the same as useful to the person in the case. A model can be as careful as possible with evidence and still write something too long for that person to use, as ChatGPT's eleven-section Elmsworth answer showed. Score usefulness against what the case's fictional requester needs, not just against whether the facts are right.

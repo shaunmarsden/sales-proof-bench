@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Osmond Objection Diagnosis Case](../cases/osmond-objection-diagnosis-case.md)
-- **Task:** the four deliverables named in the case (distinct readings of the objection, support and gaps for each, one clarifying question, what must not be assumed)
-- **Model and version:** Gemini, via the consumer web app. I ran this myself in a fresh chat with no custom instructions, project, or Gem attached. Exact underlying model version not confirmed and not claimed here.
+- **Task:** the four deliverables the case names (distinct readings of the objection, support and gaps for each, one clarifying question, what must not be assumed)
+- **Model and version:** Gemini, in the consumer web app. I ran this myself in a new chat with no custom instructions, project or Gem attached. I couldn't confirm the exact model version, so I don't claim one.
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** my own Gemini account and plan; not specified further
-- **Custom instruction, project context or skill used:** none confirmed. This went through the consumer product, not the raw API, so any default system prompt Gemini applies may have shaped the output. Treat this alongside the other consumer-app results in this set, not as directly equivalent in method to a raw API or isolated-subagent run.
+- **Account or plan, if relevant:** my own Gemini account and plan; nothing more specific
+- **Custom instruction, project context or skill used:** none that I can confirm. This went through the consumer product, not the raw API, so any default system prompt Gemini adds may have shaped the output. Group this with the other consumer-app results here. It isn't run the same way as a raw API or isolated-subagent run.
 
 ## Input
 
@@ -49,7 +49,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** found two genuinely distinct readings, kept every piece of support explicitly separate from what remains unconfirmed, avoided all four assumptions the case named as forbidden, and added a fifth caution of its own (the meaning of "everything else on our plate"). The clarifying question cleanly splits budget versus bandwidth without presupposing either.
-- **What it got wrong:** nothing invented or factually wrong. The one real gap is depth rather than error: it folded the "value relative to price" distinction into Reading 1's unconfirmed list rather than treating it as its own reading, so a genuinely separate hypothesis (David sees the demo's value but not at this price) is present only as a passing clause, not developed on its own terms the way it was in an isolated same-model run of this case.
-- **What a person still had to decide:** which of the two readings to lead with if David's answer to the clarifying question is itself unclear, and whether the underdeveloped value-versus-price angle deserves a follow-up question of its own.
-- **What this test cannot prove:** this is one run, one product, one reviewer. It went through Gemini's consumer web app, not a raw API, so any default system behaviour the product applies may have shaped the output in ways this record cannot isolate.
+- **What it did well:** it found two distinct readings and kept each piece of support apart from what's still unconfirmed. It avoided all four assumptions the case forbids, and added a fifth caution of its own, about what "everything else on our plate" means. The clarifying question separates budget from capacity without presuming either.
+- **What it got wrong:** nothing made up or factually wrong. The one gap is depth, not error. It put the "value relative to price" point in Reading 1's list of unknowns instead of making it a reading of its own. So a separate idea, that David sees the demo's value but not at this price, gets only a passing clause. ChatGPT's run gave a close cousin of it, whether the solution merits priority at this price, a reading of its own.
+- **What a person still had to decide:** which reading to lead with if David's answer to the clarifying question is itself unclear, and whether the thin value-against-price point deserves its own follow-up question.
+- **What this test cannot prove:** this is one run, one product and one reviewer. It went through Gemini's consumer web app, not a raw API, so default behaviour in the product may have shaped the output in ways this record can't separate out.

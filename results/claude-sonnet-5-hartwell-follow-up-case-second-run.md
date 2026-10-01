@@ -3,15 +3,15 @@
 ## Test Setup
 
 - **Case:** [Hartwell Follow Up Case](../cases/hartwell-follow-up-case.md)
-- **Task:** the four deliverables named in the case (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
+- **Task:** the four deliverables the case names (internal summary, email draft to Tunde, three discovery actions, CRM update suggestions)
 - **Model and version:** Claude Sonnet 5
 - **Date:** 7 September 2026
-- **Account or plan, if relevant:** run as an isolated subagent inside an agentic coding assistant session, not a raw API call and not a consumer web app. This is the same setup as the Marlow second run, and a different one from the first Hartwell run, which was made inside Claude Code.
-- **Custom instruction, project context or skill used:** none for the task itself. Only the case file's own source notes and task were given to the subagent. It had no visibility into the first run's output, its score, or the fact that a comparison was being made.
+- **Account or plan, if relevant:** run as an isolated subagent inside an agentic coding assistant session. That's neither a raw API call nor a consumer web app. It's the same setup as the second Marlow run, and different from the first Hartwell run, which I ran inside Claude Code.
+- **Custom instruction, project context or skill used:** none for the task itself. The subagent got only the case file's source notes and task. It couldn't see the first run's output or score, or know that I was comparing them.
 
 ## Why This Run Exists
 
-The bench had one Sonnet 5 run per case, so its apparent stability rested on single runs while the Haiku runs had just shown an 11-point spread across cases. Only Marlow had a same-case repeat. This adds a second, so the claim that a one or two point gap is inside the noise rests on two pairs rather than one.
+The bench had one Sonnet 5 run per case, so Sonnet 5 only looked steady on single runs, while the Haiku runs had just shown an 11-point spread across cases. Only Marlow had a repeat of the same case. This adds a second, so the claim that a one or two point gap is noise now rests on two pairs, not one.
 
 ## Input
 
@@ -70,7 +70,7 @@ Shaun
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 5 | 5 | 5 | 4 | 4 | 5 | 5 | 5 | 5 | 43 / 45 |
 
-No automatic failure. Nothing is invented: no meeting is treated as booked, no pilot, budget, approval or promised outcome appears, and AI is not presented as the agreed answer.
+No automatic failure. It makes up nothing: no meeting is treated as booked, no pilot, budget, approval or promised outcome appears, and AI isn't presented as the agreed answer.
 
 ## Comparison With the First Run
 
@@ -87,21 +87,21 @@ No automatic failure. Nothing is invented: no meeting is treated as booked, no p
 | Hallucination | 5 | 5 |
 | **Total** | **42** | **43** |
 
-One point apart, and only one area moved. That is the least eventful repeat in this repository, and it is a useful result rather than a boring one: the first Hartwell run's own honest notes recorded no invented detail, and this run does not either, so both agree where the earlier Haiku run on this same case went wrong.
+One point apart, and only one area moved. It's the least eventful repeat in this repo, and that's useful, not boring. The first Hartwell run's notes recorded no made-up detail, and this run has none either. So both runs avoid the mistake the Haiku run made on this case.
 
-Set against the Marlow pair, though, a pattern shows up that the totals hide.
+Next to the Marlow pair, though, a pattern shows that the totals hide.
 
 | Case | First | Second | Total moved | Areas that moved |
 | --- | ---: | ---: | ---: | --- |
 | Marlow | 43 | 41 | 2 | Usefulness up, Approval down, Hallucination down 5 to 3 |
 | Hartwell | 42 | 43 | 1 | Separation up |
 
-On Marlow the second run was better on usefulness and materially worse on hallucination, and those partly cancelled in the total. A reader comparing only the totals, 43 against 41, would see a small wobble and miss that one run invented a sender's name and the other did not. **A stable total can sit on top of an unstable judgement**, which is the same finding the sibling repository reached from a nine-run test on a different rubric.
+On Marlow the second run scored higher on usefulness and much lower on hallucination, and the two partly cancelled out in the total. Someone comparing only the totals, 43 against 41, would see a small wobble and miss that one run made up a sender's name and the other didn't. **A steady total can hide an unsteady judgement.** The related repo reached the same finding from a nine-run test on a different rubric.
 
 ## Honest Notes
 
-- **What it did well:** the Unknowns list maps one-to-one onto the case's five "did not say" items, which is the most direct way of proving the model read that section rather than skimming it. The CRM suggestions go further than the task required by recording the negatives explicitly, "no budget, project approval, AI solution, or pilot has been agreed", which is the entry a careless CRM update would leave out and a later reader would most want.
-- **A choice worth noticing:** under Assumptions it wrote "None stated, no assumptions should be added at this stage" rather than manufacturing two or three plausible ones to fill the heading. The case asks for confirmed, assumptions and unknowns kept separate, and an empty section is a defensible reading of a case that prohibits invention. A second scorer might reasonably mark this down as dodging a requested deliverable. I scored it as discipline, and it is the single most likely place for a reviewer to disagree with me on this run.
-- **What it got wrong:** nothing factual. The marks come off for thinness. The three discovery actions are sound but generic, and would fit most accounts with a CRM complaint. None of them carries an owner or a timeframe, so the Next Step row stays at 4: they are specific about what to do and silent on who and when.
-- **What a person still had to decide:** whether to send the email at all before Sales Operations has been approached, since the message proposes involving them without establishing that Tunde has raised it internally.
-- **What this test cannot prove:** two runs of one model on one fictional case, both scored by the same person who ran them. It says nothing about a third run, and the single-scorer limit applies to the comparison as much as to either score. If you want to test that, [score a run yourself](../feedback/score-a-run-yourself.md).
+- **What it did well:** its Unknowns list matches the case's five "did not say" items one for one, which is the clearest proof the model read that section and didn't skim it. The CRM suggestions go further than the task asked by recording what hasn't happened: "no budget, project approval, AI solution, or pilot has been agreed". A careless CRM update would leave that out, and a later reader would most want it.
+- **A choice worth noticing:** under Assumptions it wrote "None stated, no assumptions should be added at this stage" instead of inventing two or three plausible ones to fill the heading. The case asks for confirmed facts, assumptions and unknowns kept apart, and an empty section is a fair reading of a case that bans making things up. A second scorer might fairly mark this down for dodging a deliverable. I scored it as discipline, and it's the place on this run where a reviewer is most likely to disagree with me.
+- **What it got wrong:** nothing factual. It loses marks for being thin. The three discovery actions are sound but generic, and would fit most accounts with a CRM complaint. None has an owner or a timeframe, so Next Step stays at 4: they say what to do but not who or when.
+- **What a person still had to decide:** whether to send the email at all before anyone has approached Sales Operations. The message suggests involving them without knowing whether Tunde has raised it internally.
+- **What this test cannot prove:** two runs of one model on one fictional case, both scored by the person who ran them. It says nothing about a third run, and the single-scorer limit applies to the comparison as much as to either score. If you want to test that, [score a run yourself](../feedback/score-a-run-yourself.md).

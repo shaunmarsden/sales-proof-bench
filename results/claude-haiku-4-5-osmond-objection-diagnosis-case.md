@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Osmond Objection Diagnosis Case](../cases/osmond-objection-diagnosis-case.md)
-- **Task:** the four deliverables named in the case (at least two distinct readings, support and gaps for each, one clarifying question, what must not be assumed)
+- **Task:** the four deliverables the case names (at least two distinct readings, support and gaps for each, one clarifying question, what must not be assumed)
 - **Model and version:** Claude Haiku 4.5, run as an isolated agent with no memory of any other run on this case
 - **Date:** 7 September 2026
-- **Account or plan, if relevant:** not applicable, run directly from the case file with no product-specific setup
-- **Custom instruction, project context or skill used:** none. Same source material as the Sonnet 5, ChatGPT and Gemini runs, so this is a Model test, not a Setup test.
+- **Account or plan, if relevant:** not applicable. It ran straight from the case file with no product setup
+- **Custom instruction, project context or skill used:** none. It had the same source material as the Sonnet 5, ChatGPT and Gemini runs, so this is a Model test, not a Setup test.
 
 ## Input
 
@@ -72,13 +72,13 @@ This question separates the readings: a yes signals capacity is the real blocker
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2 | 3 | 4 | 4 | 3 | 4 | 5 | 4 | 2 | 31 / 45 |
 
-No automatic failure: it does not treat budget as the confirmed blocker, invent a competing vendor, or claim David lacks authority. The invented call detail below is a scoring problem, not one of the rubric's automatic-failure conditions.
+No automatic failure. It doesn't treat budget as the confirmed blocker, make up a competing vendor, or claim David lacks authority. The made-up call detail below costs points, but it isn't one of the rubric's automatic-failure conditions.
 
 ## Honest Notes
 
-- **What it did well:** the two readings are genuinely distinct rather than one interpretation twice, each carries its own "what remains unconfirmed" list, and the "must not be assumed" section covers all four of the case's prohibitions plus a useful fifth, that the objection is not a no. The structure the case asked for is all present.
-- **What it got wrong, and this is the run's main problem:** it misstates the source and then invents call detail on top of it. The case says David "asked no questions about implementation timeline or rollout support". Reading 1 turns that into "asked no follow-up questions about features, ROI, or value", which is a different claim the notes do not make. Reading 1 then adds that "he didn't ask 'So how much does this cost?' until the moment of sticker shock", which is invented: the case never records him asking about cost at any point, and never describes that sequence. Two further specifics appear from nowhere, "Q3 crunch" for a quarter the case leaves unnamed, and "leaves room for a yes in two weeks" for a timeframe nothing supports.
-- **The pattern is the same one this model showed on the Hartwell case**, where it wrote "This should take 2-3 weeks" with no basis. Across both cases the failure is not vagueness, it is confident, specific detail that reads as sourced and is not. That is harder to catch on a quick read than an obvious gap would be.
-- **A second, subtler miss:** the case asks for "one clarifying question that would help tell the readings apart, not a rebuttal that assumes one of them is correct." The question offered proposes a phased rollout, which is a remedy for Reading 2 rather than a neutral probe. It does explain how to interpret the answer, which is why this scores 3 rather than lower, but it puts a solution on the table before the diagnosis is settled, which is the thing the case warned against.
-- **What a person still had to decide:** whether any of Reading 1's supporting evidence is real before repeating it. Two of its three bullets do not survive a check against the notes, so a salesperson taking this at face value would walk into the next call believing things about the last one that did not happen.
-- **What this test cannot prove:** one run, one fictional case, scored by the same person who ran it, and only two readings against a case that asks for at least two. It says nothing about whether a second run of this model would invent the same details or different ones.
+- **What it did well:** the two readings are distinct, not one reading given twice. Each has its own "what remains unconfirmed" list. The "must not be assumed" section covers all four of the case's bans, plus a useful fifth: that the objection isn't a no. All the structure the case asked for is there.
+- **What it got wrong, and the run's main problem:** it gets the source wrong and then makes up call detail on top. The case says David "asked no questions about implementation timeline or rollout support". Reading 1 turns that into "asked no follow-up questions about features, ROI, or value", which is a different claim the notes don't make. Reading 1 then adds that "he didn't ask 'So how much does this cost?' until the moment of sticker shock". That's made up. The case never records him asking about cost at any point, and never describes that order of events. Two more details come from nowhere: "Q3 crunch", for a quarter the case never names, and "leaves room for a yes in two weeks", for a timeframe nothing supports.
+- **It's the same pattern this model showed on the Hartwell case**, where it wrote "This should take 2-3 weeks" with nothing behind it. On both cases the failure isn't vagueness. It's sure, specific detail that reads as if it came from the source and didn't. That's harder to catch on a quick read than an obvious gap.
+- **A second, subtler miss:** the case asks for "one clarifying question that would help tell the readings apart, not a rebuttal that assumes one of them is correct." The question it offers suggests a phased rollout. That's a fix for Reading 2, not a neutral question. It does explain how to read the answer, which is why this scores 3 rather than lower. But it puts a solution on the table before the diagnosis is settled, which is what the case warned against.
+- **What a person still had to decide:** whether any of Reading 1's supporting evidence is real before repeating it. Two of its three points don't hold up against the notes. A salesperson who took this at face value would go into the next call believing things about the last one that didn't happen.
+- **What this test cannot prove:** one run, one fictional case, scored by the same person who ran it, with only two readings for a case that asks for at least two. It says nothing about whether a second run of this model would make up the same details or different ones.

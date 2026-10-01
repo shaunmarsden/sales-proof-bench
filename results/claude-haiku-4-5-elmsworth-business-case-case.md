@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Elmsworth Business Case, Missing Baseline](../cases/elmsworth-business-case-case.md)
-- **Task:** the four deliverables named in the case (business case draft, explicit evidence gap section, a recommended way to measure a baseline, what must not be presented as confirmed)
+- **Task:** the four deliverables the case names (business case draft, a clear evidence gap section, a recommended way to measure a baseline, what must not be presented as confirmed)
 - **Model and version:** Claude Haiku 4.5, run as an isolated agent with no memory of any other run on this case
 - **Date:** 7 September 2026
-- **Account or plan, if relevant:** not applicable, run directly from the case file with no product-specific setup
-- **Custom instruction, project context or skill used:** none. Same source material as the Sonnet 5, ChatGPT and Gemini runs, so this is a Model test, not a Setup test.
+- **Account or plan, if relevant:** not applicable. It ran straight from the case file with no product setup
+- **Custom instruction, project context or skill used:** none. It had the same source material as the Sonnet 5, ChatGPT and Gemini runs, so this is a Model test, not a Setup test.
 
 ## Input
 
@@ -120,14 +120,14 @@ This positions you as data-driven, shows the VP you learned from the pilot's sho
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 5 | 4 | 4 | 5 | 4 | 4 | 5 | 5 | 4 | 40 / 45 |
 
-No automatic failure. Every one of the case's four prohibitions is respected: no percentage, no dollar figure, no hours claim, and no assertion that customer satisfaction improved.
+No automatic failure. It keeps to all four of the case's bans: no percentage, no dollar figure, no hours claim, and no claim that customer satisfaction went up.
 
 ## Honest Notes
 
-- **What it did well, and it is the strongest thing in this run:** the evidence gap section is exactly what the case asked for and better than the task strictly required. Six named metrics, each with what would need collecting and why it matters, and a "What We Cannot Claim" list that refuses the four specific inventions the case prohibits. It also catches the trap the case is built around: "Scope of 'a few': unclear whether this means 2, 3, or all 4" is precisely the ambiguity a weaker answer would have smoothed over into "the team found it helpful".
-- **Every figure it states is correct**, and two are derived rather than copied: 4 of 20 agents is 20 per cent, and 16 agents remain untrained. It also declines to invent pilot dates, writing `[to be specified]`, and uses `X%` and `Y%` as placeholders in the examples of what not to claim rather than filling them in.
-- **What it got wrong:** the case asks for a draft "keeping confirmed information, direct quotes, and assumptions visibly separate", and there is no assumptions section. Confirmed information and evidence gaps are cleanly split, but the third of those three groups is missing, so one of the four deliverables is only partly delivered.
-- **A second, smaller problem:** the run contradicts its own plan. Phase 3 sits at week 7, but the closing script tells the VP there will be numbers "in 5 weeks". Nothing in the case supports either figure, and they do not agree with each other, which is the kind of detail a VP would notice before the plan starts.
-- **The proposed week numbers are a judgement call rather than an error.** The case asked for a recommended way to measure going forward, and a plan needs a shape. These are labelled as a proposal rather than presented as agreed, which is why they cost nothing on the hallucination row where the Osmond run's invented call detail cost two points.
-- **What a person still had to decide:** whether the VP actually wants a quantified case at all. The case explicitly leaves that unknown, and this run assumes quantification is required, building a whole measurement programme on that assumption. It may be right. It is not established.
-- **What this test cannot prove:** one run, one fictional case, scored by the same person who ran it. It says nothing about whether the missing assumptions section would recur on a second run.
+- **What it did well, and the best thing in this run:** the evidence gap section is exactly what the case asked for, and better than it needed to be. It names six metrics, each with what to collect and why it matters, and a "What We Cannot Claim" list that refuses the four things the case bans. It also catches the trap the case is built around: "Scope of 'a few': unclear whether this means 2, 3, or all 4". A weaker answer would have smoothed that over into "the team found it helpful".
+- **Every figure it gives is right**, and it worked out two of them rather than copying them: 4 of 20 agents is 20 per cent, and 16 agents are still untrained. It also doesn't make up pilot dates. It writes `[to be specified]`, and uses `X%` and `Y%` as placeholders in its examples of what not to claim instead of filling them in.
+- **What it got wrong:** the case asks for a draft "keeping confirmed information, direct quotes, and assumptions visibly separate", and there's no assumptions section. Confirmed information and evidence gaps are kept apart, but the third group is missing, so one of the four deliverables is only partly there.
+- **A second, smaller problem:** it contradicts its own plan. Phase 3 sits at week 7, but the closing script tells the VP there will be numbers "in 5 weeks". Nothing in the case supports either figure, and they don't agree, which is the kind of thing a VP would notice before the plan even starts.
+- **The week numbers it suggests are a judgement call, not a mistake.** The case asked for a recommended way to measure from here, and a plan needs a shape. It labels them as a proposal, not as agreed. That's why they cost nothing on the hallucination row, where the Osmond run's made-up call detail cost two points.
+- **What a person still had to decide:** whether the VP wants numbers at all. The case leaves that unknown on purpose. This run assumes numbers are needed and builds a whole measuring plan on that. It may be right, but it isn't established.
+- **What this test cannot prove:** one run, one fictional case, scored by the same person who ran it. It says nothing about whether a second run would also leave out the assumptions section.

@@ -3,11 +3,11 @@
 ## Test Setup
 
 - **Case:** [Osmond Objection Diagnosis Case](../cases/osmond-objection-diagnosis-case.md)
-- **Task:** the four deliverables named in the case (distinct readings of the objection, support and gaps for each, one clarifying question, what must not be assumed)
+- **Task:** the four deliverables the case names (distinct readings of the objection, support and gaps for each, one clarifying question, what must not be assumed)
 - **Model and version:** Claude Sonnet 5
 - **Date:** 5 August 2026
-- **Account or plan, if relevant:** run as an isolated subagent inside an agentic coding assistant session, not a raw API call and not a consumer web app, same setup as the second Marlow run
-- **Custom instruction, project context or skill used:** none. Only the case file's own source notes and task were given. The subagent had no visibility into the rubric or any scoring criteria before producing its output.
+- **Account or plan, if relevant:** run as an isolated subagent inside an agentic coding assistant session. That's neither a raw API call nor a consumer web app. It's the same setup as the second Marlow run
+- **Custom instruction, project context or skill used:** none. It got only the case file's source notes and task. The subagent couldn't see the rubric or any scoring criteria before writing its output.
 
 ## Input
 
@@ -63,7 +63,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** correctly refused to treat this as a single price objection, the naive and most likely wrong response to this wording. It produced three genuinely distinct readings rather than padding one interpretation with restated variants, kept every piece of supporting evidence explicitly hedged ("consistent with," "fitting," never "confirms" or "proves"), and avoided all four assumptions the case explicitly named as forbidden, plus several more it was never told to avoid, for example not assuming David's authority in either direction, and not assuming "this quarter" implies later interest rather than a soft no. The clarifying question is genuinely diagnostic, not a rebuttal in disguise, and it explicitly notes that even a vague answer would itself carry information.
-- **What it got wrong:** on close review, no clear factual, hallucination or discipline flaw was found in this run. This is stated plainly rather than manufactured into a deduction for the sake of matching the pattern of every other result in this results set having a flagged flaw.
-- **What a person still had to decide:** which reading to actually lead with in the next conversation if David's answer to the clarifying question is itself ambiguous, and how directly to raise the "stretched thin" comment, which the output correctly declined to connect to the objection but did not say whether it is worth asking about separately.
-- **What this test cannot prove:** this is one run, one case, one reviewer, the same limitation as every other result in this set. A clean score on a genuinely hard, deliberately ambiguous case is a stronger signal than a clean score on an easy one, but it is still one data point, not evidence that this model, or any model, reliably resists the "just answer the price objection" trap in general. The setup also matches the second Marlow run rather than a raw API call, run inside an agentic coding assistant session rather than in isolation.
+- **What it did well:** it refused to treat this as a simple price objection, which is the obvious and most likely wrong response to this wording. It gave three distinct readings instead of one reading dressed up in several ways. It hedged every piece of supporting evidence ("consistent with," "fitting," never "confirms" or "proves"). It avoided all four assumptions the case forbids, and several more it was never warned about. For example, it didn't assume David's authority either way, and didn't assume "this quarter" means interest later rather than a soft no. The clarifying question finds something out and isn't a rebuttal in disguise. It even notes that a vague answer would itself tell you something.
+- **What it got wrong:** I read it closely and found no clear flaw in facts, made-up detail or discipline. I'm saying so plainly instead of inventing a deduction just so it matches every other result here having a flagged flaw.
+- **What a person still had to decide:** which reading to lead with in the next conversation if David's answer to the clarifying question is itself unclear. Also, how directly to raise the "stretched thin" comment. The output rightly didn't link it to the objection, but didn't say whether it's worth asking about separately.
+- **What this test cannot prove:** this is one run, one case and one reviewer, the same limit as every other result here. A clean score on a hard, deliberately unclear case says more than a clean score on an easy one. But it's still one result, not evidence that this model, or any model, reliably resists the "just answer the price objection" trap. The setup also matches the second Marlow run, an agentic coding assistant session, not a raw API call or a run in isolation.
