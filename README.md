@@ -54,7 +54,7 @@ The [roadmap](ROADMAP.md) lists the next tests.
 
 ## Disagree With a Score
 
-I've scored everything here myself, and nobody else has scored anything. [Score one run yourself](feedback/score-a-run-yourself.md) is the easiest way to change that. It's one output and one rubric, and takes about fifteen minutes. You only see my score after you've written yours. The [browser version](https://shaunmarsden.github.io/sales-proof-bench/) adds up your scores as you go, then shows mine next to yours, area by area. It also names the three of my nine scores that I never gave a reason for. Those are the easiest three to argue with.
+I've scored everything here myself, and nobody else has scored anything. [Score one run yourself](feedback/score-a-run-yourself.md) is the easiest way to change that. It's one output and one rubric, and takes about 15 minutes. You only see my score after you've written yours. The [browser version](https://shaunmarsden.github.io/sales-proof-bench/) adds up your scores as you go, then shows mine next to yours, area by area. It also names the three of my nine scores that I never gave a reason for. Those are the easiest three to argue with.
 
 ## Feedback
 

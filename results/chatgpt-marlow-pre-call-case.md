@@ -53,7 +53,7 @@ No automatic failure.
 
 ## Honest Notes
 
-- **What it did well:** the outreach message asks whether improving "the data and workflow around supplier setup" is something Priya is looking at, without saying what the cause is. That avoids the exact overreach the Gemini run made on this case. The "what must not be assumed" list has eight items, well beyond the three the case forbids, and it agrees with the prep summary's own caveats throughout.
+- **What it did well:** the outreach message asks whether improving "the data and workflow around supplier setup" is something Priya is looking at, without stating that this is the cause, though it pairs the question with the analyst role, which the case doesn't link to onboarding. That avoids stating it as fact, which is what the Gemini run did on this case. The "what must not be assumed" list has eight items, well beyond the three the case forbids, and it agrees with the prep summary's own caveats throughout.
 - **What it got wrong:** I found no made-up detail, factual mistake or contradiction in this run.
-- **What a person still had to decide:** whether to name the trade press outlet in the message. The earlier raw-API Sonnet 5 run on this case left the same question open.
+- **What a person still had to decide:** whether to name the trade press outlet in the message. The earlier Claude Code run of Sonnet 5 on this case left the same question open.
 - **What this test cannot prove:** this is one run, one product and one reviewer, through ChatGPT's consumer web app rather than a raw API.

@@ -2,14 +2,14 @@
 
 I gave every score in this repo myself, against a rubric I wrote. Nobody else has scored anything. That's the biggest limit on what any number here is worth, and [the method page](../methods/fair-comparison.md#what-one-reviewer-cannot-tell-you) says so.
 
-This page is the easiest way to change that. It's one model output and one rubric, and takes about fifteen minutes.
+This page is the easiest way to change that. It's one model output and one rubric, and takes about 15 minutes.
 
 ## Why This Particular Run
 
 You're scoring Claude Haiku 4.5 on the Osmond objection diagnosis case. There are three reasons to challenge this one:
 
 - My score for it is the lowest in this repo. If I've been unfair to a model anywhere, it's most likely here.
-- I scored it on 7 September 2026, using score meanings I'd added to the rubric the day before. These runs were the first real use of that scale, so it has hardly been tested.
+- I scored it on 7 September 2026, using score meanings I'd added to the rubric on 3 September. These runs were the first real use of that scale, so it has hardly been tested.
 - All the structure is there. It isn't a weak answer with obvious holes. Deciding what it's worth takes judgement, and that's where two people are most likely to disagree.
 
 ## What to Read
@@ -118,4 +118,4 @@ I'll publish what comes back, even if it contradicts me, and say so in the recor
 
 A matching total isn't the useful result. I already treat a one or two point gap as noise, so agreeing that closely tells us little. What would change something is an area where you scored differently and can say why. So would a case where the rubric can't tell apart two things it claims to.
 
-If nobody does this, the position stays as it is: twenty-one runs, one scorer, scoring the same way each time.
+If nobody does this, the position stays as it is: 21 runs, one scorer, scoring the same way each time.
