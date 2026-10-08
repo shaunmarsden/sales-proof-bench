@@ -51,17 +51,17 @@ None of the 21 runs below triggered an automatic failure. Every score is the rub
 
 Each model now has at least one run on all four cases. Sonnet 5 has nine runs, ChatGPT and Gemini four each, and Haiku 4.5 four, one per case. Sonnet 5's extra runs are second attempts and consumer-app versions, not extra cases. Two of them repeat a case, to test how far a single score can be trusted.
 
-That changes what the Haiku numbers mean. After one run it looked like the weakest model here. After four it's the least consistent: 31, 33, 40 and 42. That's a spread of 11 points, against 3 for Sonnet 5 and 4 for ChatGPT. Its best score beats several Gemini and Sonnet runs, and its worst is the lowest in the repo. An average would hide both.
+That changes what the Haiku numbers mean. After one run it looked like the weakest model here. After four it's one of the two least consistent: 31, 33, 40 and 42. That's a spread of 11 points, against 10 for Gemini (35, 36, 43 and 45), 8 for Sonnet 5 across its nine runs (37 to 45) and 4 for ChatGPT. Take only Sonnet 5's first run on each case (42, 43, 45 and 44) and its spread is 3. The one point between Haiku and Gemini is inside the noise this page already allows for. Haiku's best score beats several Gemini and Sonnet runs, and its worst is the lowest in the repo. An average would hide both.
 
 Each setup got the same prompt, the same source notes and the same rubric, with the same reviewer, once. One reviewer is a limit in itself. Nothing here has had an [inter-rater reliability check](../methods/fair-comparison.md#what-one-reviewer-cannot-tell-you), so a gap of one or two points between runs is noise, not a result. Two pairs of repeat runs on this page back up that threshold. Sonnet 5 scored 43 and 41 on Marlow, and 42 and 43 on Hartwell. Both pairs land within two points.
 
 The totals are the less interesting half. On Marlow the second run scored higher on usefulness and lower on hallucination, and the two partly cancelled out. Someone comparing only totals would miss that one run made up a sender's name and the other didn't. On Hartwell a single area moved. A steady total can hide an unsteady judgement, which is why each record shows all nine areas and not just a number.
 
-A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Every result had a real, specific flaw. The detail is in each record's own "What this test cannot prove."
+A consumer-app result is always "this model plus whatever that account happened to be carrying," not a clean read on the model alone. Most results had a real, specific flaw, and the detail is in each record's "What it got wrong." Five records say I found none in the content.
 
 ### Hartwell Follow Up
 
-**Bottom line:** every model added something the source notes never said.
+**Bottom line:** Haiku 4.5 and Gemini each added something the source notes never said.
 
 - **Haiku 4.5** made up a timeline. It wrote "this should take 2-3 weeks," stated as fact, with nothing to base it on.
 - **Gemini** turned a stated worry into a rating. It logged "Account Risk / Sensitivity: High" from a comment that was only caution.
@@ -77,7 +77,7 @@ A consumer-app result is always "this model plus whatever that account happened 
 
 ### Osmond Objection Diagnosis
 
-**Bottom line:** all five runs saw that the objection could mean more than one thing. They differ in how well they showed it, and in what one of them made up.
+**Bottom line:** all five runs saw that the objection could mean more than one thing. They differ in how well they showed it, and in what two of them made up.
 
 - **The agentic Sonnet 5 run and ChatGPT** both scored 45/45, and both met the case's minimum of two distinct readings. Sonnet 5 gave three, ChatGPT two.
 - **Gemini** scored well, but squeezed a separate reading into a passing note instead of working it through.
@@ -90,15 +90,15 @@ A consumer-app result is always "this model plus whatever that account happened 
 
 - **Both Sonnet 5 runs** scored 44/45. One lost a point for text leaking in from its session, the other for a spelling mistake.
 - **Gemini** scored 45/45.
-- **Haiku 4.5** scored 40/45. It had the best evidence gap section of any run on this case: six named metrics, each with what to collect and why. It lost marks for leaving out the assumptions section the case asked for, and for contradicting its own plan. Phase three sits at week seven, but the closing script promises the VP numbers in five.
-- **ChatGPT** did the most thorough evidence gap analysis of any run here, but scored 43/45. Someone asking for "something showing the impact so I can get this approved" can't use an eleven-section answer, with a list of seventeen banned claims, in one sitting.
+- **Haiku 4.5** scored 40/45. It had a strong evidence gap section: six named metrics, each with what to collect and why. It lost marks for leaving out the assumptions section the case asked for, and for contradicting its own plan. Phase three sits at week seven, but the closing script promises the VP numbers in five.
+- **ChatGPT** did the most thorough evidence gap analysis of any run here, but scored 43/45. Someone asking for "something showing the impact so I can get this approved" can't use an 11-section answer, with a list of 17 banned claims, in one sitting.
 
 ### What Appears Across Cases
 
 - Three of the six consumer-app runs on Marlow and Osmond produced a made-up detail: the Marlow signature, Gemini's Marlow contradiction and the Osmond price. The Marlow signature also turned up once outside a consumer app, so it isn't only a consumer-app problem. But the cluster is worth watching. The sample is small, so this isn't a meaningful rate.
-- **Haiku 4.5 fails the same way across cases, and the failure isn't vagueness.** On Hartwell it wrote "This should take 2-3 weeks" with nothing behind it. On Osmond it made up a question about cost, a quarter and a fortnight. Each reads as if it came from the source, not as a guess, which makes it harder to catch than an honest gap. On the two cases where it scored well it made up nothing, so it doesn't happen every time, and four runs can't tell you what sets it off.
-- Elmsworth's clean sweep matches the way its prompt lists what not to claim (no percentage, no dollar figure, no hours, no satisfaction claim) instead of leaving gaps to fill.
-- **Most of a wider catalogue comes from this page.** [Which AI Mistakes Actually Get Through](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/guides/which-ai-mistakes-get-through.md) sorts every flaw found across this bench and two related repos by whether a careful reader would have caught it. Seven of the eleven it lists as hard to catch come from this page, including the Marlow signature, the Osmond price and both of Haiku's made-up details. Four of the five it lists as obvious come from here too. That's the more flattering half, and the less useful one.
+- **Haiku 4.5 failed the same way on two cases, and the failure isn't vagueness.** On Hartwell it wrote "This should take 2-3 weeks" with nothing behind it. On Osmond it made up a question about cost, a quarter and a fortnight. Each reads as if it came from the source, not as a guess, which makes it harder to catch than an honest gap. On the two cases where it scored well the made-up detail was smaller: a line on Elmsworth saying no formal survey was held, and a Marlow claim that it sees teams struggle with slow supplier intake. So how much it makes up varies, and four runs can't tell you what sets it off.
+- Elmsworth's clean sweep on ROI figures matches the way its prompt lists what not to claim (no percentage, no dollar figure, no hours, no satisfaction claim) instead of leaving gaps to fill.
+- **Most of a wider catalogue comes from this page.** [Which AI Mistakes Actually Get Through](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/guides/which-ai-mistakes-get-through.md) sorts every flaw found across this bench and two related repos by whether a careful reader would have caught it. Seven of the 11 it lists as hard to catch come from this page, including the Marlow signature, the Osmond price and both of Haiku's made-up details. Four of the five it lists as obvious come from here too. That's the more flattering half, and the less useful one.
 
 ## Adding a Further Result
 
