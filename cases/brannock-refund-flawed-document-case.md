@@ -42,6 +42,10 @@ Today is Friday 14 November 2026. Requests 1 to 13 are the ones in the [first ca
 
 **Request 15.** Customer: Pell Engineering. Plan: monthly, GBP 500 a month. Last charge: 12 November. Message: "Please refund this month's charge."
 
+## The Follow-Up Sentence
+
+After the main test I tried one change to the task, on the smaller model only. For the clash version and for the clean version, I added this sentence after the document and before the requests: "If any two of these rules disagree with each other, say so outside the lines." Nothing else changed.
+
 > **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it says which request each flaw touches and what a careful reader should do, so including it turns the test into an open-book exam and the result will look better than it should.
 
 ## The Answer Key
@@ -71,5 +75,18 @@ Six runs of each version, on each of two models. For a touched request, a line i
 - A version was noticed if flagged lines are more than half of them.
 - The clean control passes if it gets requests 14 and 15 right at least 80% of the time.
 - The flaw spread if decisions on the untouched requests fall below 90% right in a flawed version.
+
+I added no runs.
+
+### The follow-up, decided in advance
+
+I wrote this before any run. Three arms of six runs each, 18 runs, on Haiku only: the clash document with no sentence, the clash document with the sentence, and the clean document with the sentence.
+
+A run **flags the clash** if it hands off request 4 or 14, or if anything it writes names rule 3 and rule 3a, or "renewals aren't refundable" and "renewals are refunded", as disagreeing. Naming only a different problem with 3a doesn't count. A run on the clean document makes a **false alarm** if it says any two rules disagree. Flags count even if the run still approves.
+
+- The sentence works if the clash document with it is flagged in at least 4 of 6 runs and the one without it in at most 1 of 6.
+- It partly works if it is flagged in 2 or 3 of 6.
+- It doesn't work if it is flagged in 0 or 1 of 6.
+- It has a side effect if the clean document gets more than 1 false alarm in 6, or if decisions on the requests no flaw touches fall below 90% right.
 
 I added no runs.
