@@ -47,6 +47,10 @@ None of the 21 runs below triggered an automatic failure. Every score is the rub
 | [Gemini, consumer app, version not confirmed](gemini-elmsworth-business-case-case.md) | 45/45 |
 | [Claude Haiku 4.5, isolated agent](claude-haiku-4-5-elmsworth-business-case-case.md) | 40/45 |
 
+## A Setup Comparison, Scored by Script
+
+One test here isn't a model comparison and isn't scored on the rubric: [Process Document or None](../comparisons/process-documentation-setup-comparison.md). It gives one model three versions of the instructions for a fictional refund queue. The 15 runs aren't part of the 21 above.
+
 ## What the Results Show
 
 Each model now has at least one run on all four cases. Sonnet 5 has nine runs, ChatGPT and Gemini four each, and Haiku 4.5 four, one per case. Sonnet 5's extra runs are second attempts and consumer-app versions, not extra cases. Two of them repeat a case, to test how far a single score can be trusted.
