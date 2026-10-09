@@ -80,8 +80,8 @@ Seventeen Haiku runs for other tests were cut off by a usage limit and rerun, an
 - **The short and vague versions are two points I picked.** A better short summary would do better.
 - **I didn't time a reviewer.** The hand-off counts are a rough guide to review work. With the vague version, 47 of 65 came back for a person to decide.
 - **It starts with a finished document.** It doesn't test whether writing a process down brings its exceptions to light, which is the harder part for a real team.
-- **A document can be wrong.** I didn't test one with a gap, an old rule or two rules that clash.
+- **A document can be wrong.** This page doesn't test one. The [flawed-document test](flawed-process-document-comparison.md) does, for a gap, an overlap and two rules that clash.
 
 ## What I'd Do Next
 
-I haven't built anything on this. The obvious next test is a document with a flaw in it, because a process that is written down and wrong may be worse than none.
+I've since run the obvious next test, a document with a flaw in it: see [the flawed-document comparison](flawed-process-document-comparison.md).
