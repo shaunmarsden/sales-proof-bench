@@ -16,6 +16,7 @@ It isn't a leaderboard. A model can be good at drafting a follow-up and poor at 
 | Run the objection diagnosis case | [Osmond Objection Diagnosis Case](cases/osmond-objection-diagnosis-case.md) |
 | Run the business case drafting case | [Elmsworth Business Case Case](cases/elmsworth-business-case-case.md) |
 | Compare a process document with none | [Brannock Refund Queue Case](cases/brannock-refund-process-case.md) |
+| Test a process document with a flaw in it | [Brannock Flawed Document Case](cases/brannock-refund-flawed-document-case.md) |
 | Score an output | [Sales Output Rubric](rubrics/sales-output-rubric.md), which I wrote and no organisation endorses |
 | Score a run in your browser | [Score a Run Yourself](https://shaunmarsden.github.io/sales-proof-bench/) |
 | Record a model run | [Model Run Record](templates/model-run-record.md) |
@@ -37,7 +38,7 @@ It isn't a leaderboard. A model can be good at drafting a follow-up and poor at 
 - Whether one output stuck closer to the evidence it was given
 - Whether it gave useful questions, actions or drafts
 - Whether it kept doubts visible
-- Whether a setup instruction improves a repeated task. One test has: the [Brannock refund queue](comparisons/process-documentation-setup-comparison.md), on one invented process. The model runs on the four cases give their setup instruction as none, unknown or a consumer account with nothing attached
+- Whether a setup instruction improves a repeated task. One test has: the [Brannock refund queue](comparisons/process-documentation-setup-comparison.md), on one invented process, and a [second test](comparisons/flawed-process-document-comparison.md) of the same document with a flaw in it. The model runs on the four cases give their setup instruction as none, unknown or a consumer account with nothing attached
 
 ## What This Cannot Tell You Alone
 
