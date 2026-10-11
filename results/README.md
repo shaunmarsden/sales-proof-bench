@@ -49,7 +49,7 @@ None of the 21 runs below triggered an automatic failure. Every score is the rub
 
 ## A Setup Comparison, Scored by Script
 
-One test here isn't a model comparison and isn't scored on the rubric: [Process Document or None](../comparisons/process-documentation-setup-comparison.md). It gives one model three versions of the instructions for a fictional refund queue. The 15 runs aren't part of the 21 above.
+One test here isn't a model comparison and isn't scored on the rubric: [Process Document or None](../comparisons/process-documentation-setup-comparison.md). It gives two models three versions of the instructions for a fictional refund queue. The 30 runs aren't part of the 21 above.
 
 ## What the Results Show
 
