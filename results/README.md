@@ -47,9 +47,12 @@ None of the 21 runs below triggered an automatic failure. Every score is the rub
 | [Gemini, consumer app, version not confirmed](gemini-elmsworth-business-case-case.md) | 45/45 |
 | [Claude Haiku 4.5, isolated agent](claude-haiku-4-5-elmsworth-business-case-case.md) | 40/45 |
 
-## A Setup Comparison, Scored by Script
+## Setup Comparisons, Scored by Script
 
-One test here isn't a model comparison and isn't scored on the rubric: [Process Document or None](../comparisons/process-documentation-setup-comparison.md). It gives two models three versions of the instructions for a fictional refund queue. The 30 runs aren't part of the 21 above.
+Two tests use a fictional refund queue and a scoring script rather than the rubric above. Their runs are separate from the 21 model records.
+
+- [Process Document or None](../comparisons/process-documentation-setup-comparison.md) compares a full process document, a short summary and one vague sentence. It has 30 runs: three versions, five runs each, on two model settings.
+- [A Process Document With a Flaw](../comparisons/flawed-process-document-comparison.md) tests a clean document and three flawed versions. It has 48 runs across two model settings, then an 18-run follow-up on the smaller model. That's 66 completed runs. The follow-up sentence didn't fix the real clash and produced false alarms on the clean document.
 
 ## What the Results Show
 
