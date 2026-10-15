@@ -120,3 +120,7 @@ Each new result should include:
 7. a clear statement of what the test cannot prove.
 
 A screenshot, a winner badge or a single number isn't enough.
+
+## A Change After the Runs
+
+In October 2026 I gave the Operations Director in the Marlow pre-call case a different fictional name, in the case and in the six recorded outputs. The models were run with the earlier name. The role, the quote and everything else are unchanged.

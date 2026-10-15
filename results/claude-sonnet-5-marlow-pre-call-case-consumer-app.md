@@ -11,7 +11,7 @@
 
 ## Input
 
-- **Exact prompt:** identical to the earlier Marlow runs: "Using only the source notes below, create: 1. a prep summary, keeping public information, supplied information and assumptions to test visibly separate; 2. a short first outreach message to Priya, anchored to something real and verifiable, not a generic opener; 3. three questions to actually ask if a first call happens; and 4. what must not be assumed walking in. Do not invent that Priya has confirmed a problem, that a call is booked, or that the procurement team's comment reflects a company-wide priority."
+- **Exact prompt:** identical to the earlier Marlow runs: "Using only the source notes below, create: 1. a prep summary, keeping public information, supplied information and assumptions to test visibly separate; 2. a short first outreach message to Judith, anchored to something real and verifiable, not a generic opener; 3. three questions to actually ask if a first call happens; and 4. what must not be assumed walking in. Do not invent that Judith has confirmed a problem, that a call is booked, or that the procurement team's comment reflects a company-wide priority."
 - **Source material:** the case's own public information, supplied information, and "what was not said" lists, verbatim
 - **Anything intentionally excluded:** none
 
@@ -23,17 +23,17 @@
 
 ### 1. Prep Summary
 
-**Public information (independently verifiable):** Marlow Foods (mid-size food distributor) posted a job listing for a "Supply Chain Data Analyst" three weeks ago. Priya Deshmukh, Marlow's Operations Director, was quoted in trade press last month saying the company was "looking at ways to speed up supplier onboarding this year."
+**Public information (independently verifiable):** Marlow Foods (mid-size food distributor) posted a job listing for a "Supply Chain Data Analyst" three weeks ago. Judith Teague, Marlow's Operations Director, was quoted in trade press last month saying the company was "looking at ways to speed up supplier onboarding this year."
 
-**Supplied information (secondhand, unverified):** a colleague had a brief conversation with someone from Marlow's procurement team at an industry event. That person said bringing on a new supplier "takes forever." No further detail was given, and this wasn't Priya.
+**Supplied information (secondhand, unverified):** a colleague had a brief conversation with someone from Marlow's procurement team at an industry event. That person said bringing on a new supplier "takes forever." No further detail was given, and this wasn't Judith.
 
-**Assumptions (not confirmed, must not be treated as fact):** that supplier onboarding is a live, budgeted priority for Marlow right now, beyond the one quote; that the procurement team member's comment reflects Priya's view or a company-wide position; that the data analyst hire is connected to supplier onboarding at all, it could be, but nothing ties them together yet; that there's any appetite for an external conversation on this topic.
+**Assumptions (not confirmed, must not be treated as fact):** that supplier onboarding is a live, budgeted priority for Marlow right now, beyond the one quote; that the procurement team member's comment reflects Judith's view or a company-wide position; that the data analyst hire is connected to supplier onboarding at all, it could be, but nothing ties them together yet; that there's any appetite for an external conversation on this topic.
 
-### 2. First Outreach Message to Priya
+### 2. First Outreach Message to Judith
 
 Anchored to her own quote, not the secondhand comment or the job listing.
 
-> Hi Priya,
+> Hi Judith,
 >
 > I read your comment in [publication] last month about looking at ways to speed up supplier onboarding this year. I work in this space and I'm curious what's driving that, whether it's volume, manual steps, something else.
 >
@@ -53,12 +53,12 @@ These test the quote rather than assume it means anything specific, and surface 
 
 ### 4. What Must Not Be Assumed Walking In
 
-- That Priya has confirmed a problem exists. She's made one public comment, that's all.
+- That Judith has confirmed a problem exists. She's made one public comment, that's all.
 - That a call is booked. It isn't, and none has been arranged.
-- That the procurement team's "takes forever" comment reflects Marlow's priorities, Priya's view, or anything beyond one person's frustration in passing.
+- That the procurement team's "takes forever" comment reflects Marlow's priorities, Judith's view, or anything beyond one person's frustration in passing.
 - That there's budget, a project, or timeline attached to this.
 - That the data analyst hire and supplier onboarding are linked.
-- Priya's contact details or availability, neither is known.
+- Judith's contact details or availability, neither is known.
 
 ## Score
 
