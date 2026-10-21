@@ -4,7 +4,7 @@
 
 ## Source Notes
 
-Midway through a second call, right after a live demo, David Okafor, Head of Operations at Osmond Group, said:
+Midway through a second call, right after a live demo, David Penhale, Head of Operations at Osmond Group, said:
 
 "Honestly, this is more than we were expecting to spend on this right now, and I'd need to think about how this fits with everything else on our plate this quarter."
 

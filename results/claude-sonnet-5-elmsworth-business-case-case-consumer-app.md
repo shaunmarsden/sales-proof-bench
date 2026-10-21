@@ -24,7 +24,7 @@
 # Business Case: Expanding the AI Email Drafting Pilot
 
 **Prepared for:** VP review
-**Prepared by:** Marcus Webb, Head of Customer Support
+**Prepared by:** Rupert Fenner, Head of Customer Support
 **Subject:** Request to extend AI email drafting tool from pilot group to full support team
 
 ## 1. Business Case Draft
@@ -42,7 +42,7 @@ Over a three-week period, four support agents used an AI drafting tool to help w
 
 ### What was said (direct quote, clearly marked as such)
 
-On a follow-up call, Marcus reported the following as his own impression of the pilot:
+On a follow-up call, Rupert reported the following as his own impression of the pilot:
 
 > "Honestly the team seems to be getting through emails quicker, a few of them mentioned it feels like a real time-saver."
 
@@ -54,7 +54,7 @@ The quote above should not be read as meaning: that email handling time has actu
 
 ### The ask
 
-Marcus is requesting budget to roll the tool out from four agents to the full team of twenty.
+Rupert is requesting budget to roll the tool out from four agents to the full team of twenty.
 
 ### Recommendation to the VP
 
