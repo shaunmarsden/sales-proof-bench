@@ -11,7 +11,7 @@
 
 ## Input
 
-- **Exact prompt:** the case's own task wording verbatim, identical to the isolated subagent run: "Using only the source notes below, create: 1. a business case draft for Marcus to bring to his VP, keeping confirmed information, direct quotes, and assumptions visibly separate; 2. an explicit evidence gap section naming exactly what would be needed to make a credible return-on-investment claim, and what the case says instead in the absence of that data; 3. a recommended path: a way to measure a real baseline going forward, rather than inventing numbers now; and 4. what must not be presented as confirmed in the case. Do not invent a percentage time saved, a dollar figure, a specific number of hours, or that customer satisfaction improved. Do not present 'a few' agents' informal comments as if they represent the full team's experience."
+- **Exact prompt:** the case's own task wording verbatim, identical to the isolated subagent run: "Using only the source notes below, create: 1. a business case draft for Rupert to bring to his VP, keeping confirmed information, direct quotes, and assumptions visibly separate; 2. an explicit evidence gap section naming exactly what would be needed to make a credible return-on-investment claim, and what the case says instead in the absence of that data; 3. a recommended path: a way to measure a real baseline going forward, rather than inventing numbers now; and 4. what must not be presented as confirmed in the case. Do not invent a percentage time saved, a dollar figure, a specific number of hours, or that customer satisfaction improved. Do not present 'a few' agents' informal comments as if they represent the full team's experience."
 - **Source material:** the case's own source notes, verbatim
 - **Anything intentionally excluded:** none
 
@@ -25,7 +25,7 @@
 
 **Objective:** proposal to evaluate budget allocation for expanding an AI email drafting tool from a 4-agent pilot to all 20 customer support agents at Elmsworth Retail.
 
-**Confirmed Information:** Marcus Webb, Head of Customer Support at Elmsworth Retail, ran a three-week trial with four support agents using an AI tool to draft customer email replies, targeting expansion to the entire 20-agent team. No time-tracking data was gathered prior to or during the pilot, and no metrics were collected regarding ticket volume, first-response time, or resolution time.
+**Confirmed Information:** Rupert Fenner, Head of Customer Support at Elmsworth Retail, ran a three-week trial with four support agents using an AI tool to draft customer email replies, targeting expansion to the entire 20-agent team. No time-tracking data was gathered prior to or during the pilot, and no metrics were collected regarding ticket volume, first-response time, or resolution time.
 
 **Direct Quotes:** "Honestly the team seems to be getting through emails quicker, a few of them mentioned it feels like a real time-saver." "Can you help me put together something showing the impact so I can get this approved?"
 
@@ -64,5 +64,5 @@ No automatic failure.
 
 - **What it did well:** it kept confirmed information, direct quotes and assumptions in separate, labelled sections. The evidence gap table names what's missing in each of four categories, not a vague "more data needed." The three-phase plan suggests real timeframes and a comparison against a control group, without claiming any of it is already true. The last section forbids every item the case named, and adds claims that the whole team agrees, with the right amount of detail.
 - **What it got wrong:** I read it closely and found no made-up figure, factual mistake, or stretch from "a few" to the whole team anywhere in this response.
-- **What a person still had to decide:** the phase lengths (2 weeks, 4 weeks) are the model's own suggestions. They'd need agreeing with Marcus before use, and aren't facts about the case.
+- **What a person still had to decide:** the phase lengths (2 weeks, 4 weeks) are the model's own suggestions. They'd need agreeing with Rupert before use, and aren't facts about the case.
 - **What this test cannot prove:** this is one run, one product and one reviewer. The isolated Sonnet 5 subagent run on this case scored 44/45, losing a point only for an opening line leaked from its session. This run had no flaw like that, or any other. It's the best showing among the runs of this case so far.

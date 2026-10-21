@@ -254,7 +254,7 @@ TEMPLATE = """<!doctype html>
   <summary>The case, which is the source material. Fictional. Open this first.</summary>
   <div class="inner">
     <h3>Source notes</h3>
-    <p>Midway through a second call, right after a live demo, David Okafor, Head of Operations at Osmond Group, said:</p>
+    <p>Midway through a second call, right after a live demo, David Penhale, Head of Operations at Osmond Group, said:</p>
     <p><em>"Honestly, this is more than we were expecting to spend on this right now, and I'd need to think about how this fits with everything else on our plate this quarter."</em></p>
     <p><strong>What was said earlier in the same call:</strong></p>
     <ul>
