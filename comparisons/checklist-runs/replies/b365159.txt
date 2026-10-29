@@ -1,0 +1,19 @@
+START
+CASE 1 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 90 | RULE: 2 | NOTE: The 6 November charge was queried within 14 days, and GBP 90 is at or under GBP 500.
+CASE 2 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 2,400 | RULE: 3 | NOTE: First ever payment was 20 October, 25 days ago, and GBP 2,400 is in the GBP 501 to 5,000 band.
+CASE 3 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 3 | NOTE: First ever payment was 2 September, 73 days ago, which is past the 30-day window for annual plans.
+CASE 4 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 1,800 | RULE: 3a | NOTE: The renewal charged on 5 November was queried within 30 days, and renewals get a full refund; GBP 1,800 is in the GBP 501 to 5,000 band.
+CASE 5 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 30 | RULE: 4 | NOTE: The 3 November outage lasted 9h10m, which is two full 4-hour blocks, so a credit note for 10% of the GBP 300 monthly fee, not cash.
+CASE 6 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 4 | NOTE: The 9 November outage lasted 3 hours, under the 4-hour threshold for any outage credit.
+CASE 7 | DECISION: approve | WHO: Finance Director | AMOUNT: GBP 8,000 | RULE: 3 | NOTE: First ever payment was 28 October, 17 days ago; GBP 8,000 is over GBP 5,000, so the account manager must be told before the customer.
+CASE 8 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 5 | NOTE: Invoice INV-0412 is 41 days overdue, so no refund until it is paid; this overrides the 14-day monthly refund in rule 2, and Finance must be told.
+CASE 9 | DECISION: hand-off | WHO: Legal | AMOUNT: none | RULE: 6 | NOTE: The customer mentions a solicitor, so nothing is decided here; this overrides the 14-day monthly refund in rule 2.
+CASE 10 | DECISION: hand-off | WHO: Risk team | AMOUNT: none | RULE: 7 | NOTE: The customer says the charge was not theirs and is disputing it with their bank, so no refund; this overrides the 14-day monthly refund in rule 2.
+CASE 11 | DECISION: hand-off | WHO: Support Lead | AMOUNT: none | RULE: 8 | NOTE: Partial seat refunds under a reseller partner agreement with partner invoicing are not covered by any rule.
+CASE 12 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 16.67 | RULE: 4 | NOTE: The 8 November outage lasted 7h20m, one full 4-hour block, so a credit note for 5% of the GBP 333.33 monthly equivalent (GBP 4,000 / 12), not cash.
+CASE 13 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 100 | RULE: 4 | NOTE: The 30-hour outage gives 7 full 4-hour blocks (35%), capped at 25% of the GBP 400 monthly fee, so a credit note for GBP 100, not cash.
+CASE 14 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 1,200 | RULE: 3a | NOTE: The renewal charged on 28 October was queried within 30 days, so the full renewal is refunded; GBP 1,200 is in the GBP 501 to 5,000 band.
+CASE 15 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 500 | RULE: 2 | NOTE: The 12 November charge was queried within 14 days, and GBP 500 is the top of the Support Lead band.
+END
+
+Outside the lines: Case 8 needs Finance told about INV-0412, and Case 7 needs the account manager told before the customer.

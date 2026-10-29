@@ -1,0 +1,19 @@
+START
+CASE 1 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 90 | RULE: 2 | NOTE: Charge of 6 November is 8 days old, so this month's charge is refunded; the cancellation itself is not covered by these rules.
+CASE 2 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 2,400 | RULE: 3 | NOTE: First ever payment of 20 October is 25 days old, inside the 30-day new-customer window for the full year.
+CASE 3 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 3 | NOTE: First ever payment of 2 September is 73 days old, outside the 30-day window.
+CASE 4 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 1,800 | RULE: 3a | NOTE: Renewal charged 5 November is 9 days old, so a full refund applies on any plan.
+CASE 5 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 30 | RULE: 4 | NOTE: The 9h10m outage gives two full 4-hour blocks, 10% of the GBP 300 monthly fee; issue as a credit note, not cash.
+CASE 6 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 4 | NOTE: The 9 November outage lasted 3 hours, under the 4-hour threshold for any credit.
+CASE 7 | DECISION: approve | WHO: Finance Director | AMOUNT: GBP 8,000 | RULE: 3 | NOTE: First ever payment of 28 October is 17 days old; over GBP 5,000, so the account manager is told before the customer.
+CASE 8 | DECISION: decline | WHO: Finance | AMOUNT: none | RULE: 5 | NOTE: Invoice INV-0412 (GBP 600) is 41 days overdue, so no refund until it is paid; Finance to be told.
+CASE 9 | DECISION: hand-off | WHO: Legal | AMOUNT: none | RULE: 6 | NOTE: The customer has said their solicitor will write, so this goes to Legal undecided.
+CASE 10 | DECISION: hand-off | WHO: Risk team | AMOUNT: none | RULE: 7 | NOTE: The customer says the charge was not theirs and is disputing it with their bank.
+CASE 11 | DECISION: hand-off | WHO: Support Lead | AMOUNT: none | RULE: 8 | NOTE: Seat reduction on a partner-invoiced reseller agreement is not covered by the rules.
+CASE 12 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 16.67 | RULE: 4 | NOTE: The 7h20m outage gives one full 4-hour block, 5% of the GBP 333.33 monthly fee (GBP 4,000 / 12); credit note, not cash.
+CASE 13 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 100 | RULE: 4 | NOTE: The 30-hour outage is capped at 25% of the GBP 400 monthly fee; credit note, not cash.
+CASE 14 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 1,200 | RULE: 3a | NOTE: Renewal charged 28 October is 17 days old, so a full refund applies on any plan.
+CASE 15 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 500 | RULE: 2 | NOTE: The 12 November charge is within 14 days; GBP 500 or less goes to the Support Lead.
+END
+
+Assumptions outside the lines: I found no overdue invoices except Wardle Packaging (Case 8), since the queue says nothing about the other accounts. Rowan Legal Services (Case 14) is only a company name, with no legal threat. For Case 8 I chose decline with Finance told, because rule 5 says to tell Finance and gives no refund until the invoice is paid. Case 11 has no amount because the quarter's unused-seat value is not given.
