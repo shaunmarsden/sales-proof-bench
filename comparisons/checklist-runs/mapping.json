@@ -1,0 +1,74 @@
+{
+ "b206297": {
+  "arm": "clash-checklist",
+  "run": 2
+ },
+ "b216836": {
+  "arm": "clash-checklist",
+  "run": 3
+ },
+ "b694322": {
+  "arm": "clean-checklist",
+  "run": 5
+ },
+ "b478923": {
+  "arm": "clean-checklist",
+  "run": 2
+ },
+ "b906195": {
+  "arm": "clash-none",
+  "run": 6
+ },
+ "b746767": {
+  "arm": "clash-none",
+  "run": 3
+ },
+ "b519075": {
+  "arm": "clean-checklist",
+  "run": 3
+ },
+ "b365148": {
+  "arm": "clash-none",
+  "run": 1
+ },
+ "b639143": {
+  "arm": "clash-checklist",
+  "run": 6
+ },
+ "b321769": {
+  "arm": "clash-none",
+  "run": 4
+ },
+ "b365159": {
+  "arm": "clash-checklist",
+  "run": 5
+ },
+ "b466045": {
+  "arm": "clash-none",
+  "run": 2
+ },
+ "b155829": {
+  "arm": "clean-checklist",
+  "run": 6
+ },
+ "b564100": {
+  "arm": "clash-checklist",
+  "run": 4
+ },
+ "b121630": {
+  "arm": "clean-checklist",
+  "run": 4
+ },
+ "b230819": {
+  "arm": "clash-none",
+  "run": 5
+ },
+ "b461578": {
+  "arm": "clash-checklist",
+  "run": 1
+ },
+ "b220954": {
+  "arm": "clean-checklist",
+  "run": 1
+ }
+}

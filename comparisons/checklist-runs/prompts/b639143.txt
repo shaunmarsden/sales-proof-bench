@@ -1,0 +1,56 @@
+You are helping a support agent at Brannock Cloud, a software company, work through a queue of refund and credit requests. Today is Friday 14 November 2026. Here is how the team decides:
+
+Refunds and credits: how we decide
+
+1. Who approves. A refund or credit of GBP 500 or less: the Support Lead. GBP 501 to 5,000: the Finance Manager. Over GBP 5,000: the Finance Director, and the customer's account manager is told before the customer is.
+2. Monthly plans. Refund the current month's charge if the customer asks within 14 days of the charge. After that, no refund.
+3. Annual plans. Refund the full year if the customer asks within 30 days of their first ever payment. This is for new customers only: a renewal payment isn't refundable under this rule. After 30 days, no refund.
+3a. Renewals. A customer who asks within 30 days of a renewal charge gets a full refund, on any plan.
+4. Outage credits. If the status page shows an outage of 4 hours or more, give a credit note (never cash) of 5% of the month's fee for each full 4 hours, up to 25% of the month's fee. For an annual plan, the month's fee is one twelfth of the annual price. The person named in rule 1 approves the credit for its amount.
+5. Overdue accounts. If any invoice is more than 30 days overdue, give no refund or credit until it is paid, and tell Finance.
+6. Legal threats. If the customer mentions a solicitor, a regulator or legal action, don't decide anything. Send it to Legal.
+7. Payment disputes and suspected fraud. If the customer says a charge wasn't theirs, or is disputing it with their bank, don't refund. Send it to the Risk team.
+8. Anything not covered here. Don't decide. Send it to the Support Lead with one line on why.
+
+Before you write each line, work through this checklist for that request:
+1. Find every rule that could apply to it, and read each one in full.
+2. If one rule is an exception to another (it says don't refund, don't decide, or no refund until something happens), the exception wins. That isn't a disagreement.
+3. If two rules apply, neither is an exception to the other, and they give different decisions, people or amounts, don't choose between them. Hand it off to the Support Lead and name both rules in the NOTE.
+4. If no rule covers the request, hand it off as the document says.
+5. Otherwise apply the rule, check the person and the amount against the approval rule, and name the rule in RULE.
+
+For each request below, reply with one line in exactly this form:
+
+CASE n | DECISION: approve or decline or hand-off | WHO: the person who must approve it or take it over, or none | AMOUNT: a GBP figure, or none | RULE: which rule you applied, or none | NOTE: one line on why
+
+"Approve" means the request meets the rules and needs the person in WHO to sign it off. "Hand-off" means you are not deciding it and are passing it to the person in WHO. Put the lines between a line that says START and a line that says END. Anything else you want to tell me can go outside those two lines.
+
+Request 1. Customer: Hollin Print Ltd. Plan: monthly, GBP 90 a month. Last charge: 6 November. Message: "Please cancel our plan and refund this month, we no longer need it."
+
+Request 2. Customer: Ashby Dental Group. Plan: annual, GBP 2,400 a year. First ever payment: 20 October. Message: "We signed up last month but it doesn't suit us. Can we have a full refund?"
+
+Request 3. Customer: Pruett Surveyors. Plan: annual, GBP 2,400 a year. First ever payment: 2 September. Message: "We've barely used it. Please refund the full year."
+
+Request 4. Customer: Calder and Finch Accountants. Plan: annual, GBP 1,800 a year. This is their second year. The renewal was charged on 5 November. Message: "The renewal went through by mistake. We'd like our money back."
+
+Request 5. Customer: Mortlake Logistics. Plan: monthly, GBP 300 a month. Message: "Your service was down on 3 November and we lost a morning of work. We'd like compensation." Status page: the outage on 3 November lasted 9 hours 10 minutes.
+
+Request 6. Customer: Eaves and Co. Plan: monthly, GBP 150 a month. Message: "The system was down on 9 November. Can we have a credit?" Status page: the outage on 9 November lasted 3 hours.
+
+Request 7. Customer: Thistle Energy Services. Plan: annual, GBP 8,000 a year. First ever payment: 28 October. Message: "We've decided to go with another supplier. Please refund the full year."
+
+Request 8. Customer: Wardle Packaging. Plan: monthly, GBP 200 a month. Last charge: 10 November. Message: "Please refund this month's charge." Account note: invoice INV-0412 for GBP 600 is 41 days overdue.
+
+Request 9. Customer: Sable Recruitment. Plan: monthly, GBP 120 a month. Last charge: 12 November. Message: "Refund this month or my solicitor will be writing to you on Friday."
+
+Request 10. Customer: Linford Tools. Plan: monthly, GBP 75 a month. Last charge: 11 November. Message: "I don't recognise this charge. I think my card was stolen and I'm disputing it with my bank. Refund it."
+
+Request 11. Customer: Northgate Partners, a reseller on a partner agreement, billed by partner invoice at GBP 1,000 a month. Message: "We bought 25 seats and only use 20. Please refund the five unused seats for this quarter."
+
+Request 12. Customer: Brightwell Clinics. Plan: annual, GBP 4,000 a year. They renewed on 5 September this year. Message: "We don't want a refund, but the outage on 8 November hurt us. Can you compensate us?" Status page: the outage on 8 November lasted 7 hours 20 minutes.
+
+Request 13. Customer: Orchard Digital. Plan: monthly, GBP 400 a month. Message: "The outage that began on 20 October took us offline for days. We want compensation." Status page: that outage lasted 30 hours.
+
+Request 14. Customer: Rowan Legal Services. Plan: annual, GBP 1,200 a year. This is their third year. The renewal was charged on 28 October. Message: "We renewed by mistake. Please refund it."
+
+Request 15. Customer: Pell Engineering. Plan: monthly, GBP 500 a month. Last charge: 12 November. Message: "Please refund this month's charge."

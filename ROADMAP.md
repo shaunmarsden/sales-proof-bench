@@ -5,7 +5,7 @@
 - ~~A cold comparison using the Hartwell follow up case~~ done: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini, see [results](results/README.md)
 - ~~A setup comparison: no instruction against a carefully scoped one~~ done on one invented process: a full document, a short summary and one vague sentence, see [the result](comparisons/process-documentation-setup-comparison.md)
 - ~~A process document with a flaw in it~~ done on the same invented process: a clash, an overlap and a hole, six runs each on two models, see [the result](comparisons/flawed-process-document-comparison.md)
-- A workflow comparison: one-off prompting against a repeatable checklist
+- ~~A workflow comparison: one-off prompting against a repeatable checklist~~ done on the flawed refund document, on Haiku: a five-step checklist didn't get the clash flagged (0 of 6, the same as no checklist) and caused no false alarms, see [the result](comparisons/flawed-process-document-comparison.md#did-a-checklist-help-a-second-follow-up)
 
 ## Later Cases
 

@@ -1,0 +1,110 @@
+{
+ "b121630": {
+  "doc": "clean",
+  "false_alarm": 0,
+  "untouched_right": "12/12",
+  "renewals": "hand-off or decline"
+ },
+ "b155829": {
+  "doc": "clean",
+  "false_alarm": 0,
+  "untouched_right": "12/12",
+  "renewals": "hand-off or decline"
+ },
+ "b206297": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b216836": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b220954": {
+  "doc": "clean",
+  "false_alarm": 0,
+  "untouched_right": "12/12",
+  "renewals": "hand-off or decline"
+ },
+ "b230819": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b321769": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b365148": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b365159": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b461578": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b466045": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b478923": {
+  "doc": "clean",
+  "false_alarm": 0,
+  "untouched_right": "12/12",
+  "renewals": "hand-off or decline"
+ },
+ "b519075": {
+  "doc": "clean",
+  "false_alarm": 0,
+  "untouched_right": "12/12",
+  "renewals": "hand-off or decline"
+ },
+ "b564100": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b639143": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b694322": {
+  "doc": "clean",
+  "false_alarm": 0,
+  "untouched_right": "12/12",
+  "renewals": "hand-off or decline"
+ },
+ "b746767": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ },
+ "b906195": {
+  "doc": "clash",
+  "flagged": 0,
+  "approved_both_renewals": 1,
+  "untouched_right": "13/13"
+ }
+}

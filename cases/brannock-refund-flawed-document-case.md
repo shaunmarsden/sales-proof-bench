@@ -46,6 +46,19 @@ Today is Friday 14 November 2026. Requests 1 to 13 are the ones in the [first ca
 
 After the main test I tried one change to the task, on the smaller model only. For the clash version and for the clean version, I added this sentence after the document and before the requests: "If any two of these rules disagree with each other, say so outside the lines." Nothing else changed.
 
+## The Checklist
+
+The roadmap asks whether a repeatable checklist does better than a one-off prompt. After the follow-up sentence failed, I wrote a short checklist a team could use on any queue, not just this one. It doesn't mention renewals or any rule by number. It goes where the follow-up sentence went, after the document and before the requests, and nothing else changes:
+
+```text
+Before you write each line, work through this checklist for that request:
+1. Find every rule that could apply to it, and read each one in full.
+2. If one rule is an exception to another (it says don't refund, don't decide, or no refund until something happens), the exception wins. That isn't a disagreement.
+3. If two rules apply, neither is an exception to the other, and they give different decisions, people or amounts, don't choose between them. Hand it off to the Support Lead and name both rules in the NOTE.
+4. If no rule covers the request, hand it off as the document says.
+5. Otherwise apply the rule, check the person and the amount against the approval rule, and name the rule in RULE.
+```
+
 > **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it says which request each flaw touches and what a careful reader should do, so including it turns the test into an open-book exam and the result will look better than it should.
 
 ## The Answer Key
@@ -90,3 +103,15 @@ A run **flags the clash** if it hands off request 4 or 14, or if anything it wri
 - It has a side effect if the clean document gets more than 1 false alarm in 6, or if decisions on the requests no flaw touches fall below 90% right.
 
 I added no runs.
+
+### The checklist test, decided in advance
+
+I wrote this on 29 October 2026, before any run. Three arms of six runs each, 18 runs, on Haiku only, as in the follow-up: the clash document with no checklist, the clash document with the checklist, and the clean document with the checklist. The task, the requests and the reply format are the same as every other run. Flagging the clash and a false alarm mean what they mean in the follow-up above.
+
+- The checklist works if the clash document with it is flagged in at least 4 of 6 runs and the one without it in at most 1 of 6.
+- It partly works if it is flagged in 2 or 3 of 6.
+- It doesn't work if it is flagged in 0 or 1 of 6.
+- It has a side effect if the clean document gets more than 1 false alarm in 6, or if decisions on the requests no flaw touches fall below 90% right in either checklist arm.
+- I also count how many clash runs approve both renewals, the money question. I expect the checklist to cut that, because step 3 says to hand the request off, but I haven't set a line for it.
+
+I score the replies with the script, then read every touched line and everything outside the lines, before I look at which arm each reply came from.

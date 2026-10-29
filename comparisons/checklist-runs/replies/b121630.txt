@@ -1,0 +1,23 @@
+START
+CASE 1 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 90 | RULE: 2 (approver from 1) | NOTE: The 6 Nov charge is 8 days old, inside the 14-day monthly window; the plan cancellation is a separate matter from the refund.
+CASE 2 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 2,400 | RULE: 3 (approver from 1) | NOTE: First ever payment on 20 Oct is 25 days ago, inside the 30-day new-customer window, so the full year is refundable; GBP 2,400 needs Finance Manager sign-off.
+CASE 3 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 3 | NOTE: First ever payment on 2 Sep is 73 days ago, outside the 30-day window, and low usage is not an exception.
+CASE 4 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 3 | NOTE: A renewal payment is not refundable under the new-customer rule, and the first ever payment was more than 30 days ago.
+CASE 5 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 30 | RULE: 4 (approver from 1) | NOTE: A 9h 10m outage gives two full 4-hour blocks, so 10% of the GBP 300 monthly fee, issued as a credit note and not cash.
+CASE 6 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 4 | NOTE: The 3-hour outage is under the 4-hour threshold, so no credit is due.
+CASE 7 | DECISION: approve | WHO: Finance Director | AMOUNT: GBP 8,000 | RULE: 3 (approver from 1) | NOTE: First ever payment on 28 Oct is 17 days ago, inside the 30-day window; over GBP 5,000, so the account manager must be told before the customer.
+CASE 8 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 5 | NOTE: INV-0412 (GBP 600) is 41 days overdue, so no refund until it is paid; this overrides the 14-day monthly rule, and Finance must be told.
+CASE 9 | DECISION: hand-off | WHO: Legal | AMOUNT: none | RULE: 6 | NOTE: The solicitor threat means no decision here, even though the monthly refund would otherwise fall under rule 2.
+CASE 10 | DECISION: hand-off | WHO: Risk team | AMOUNT: none | RULE: 7 | NOTE: The customer is disputing the charge with their bank, so no refund; this goes to Risk.
+CASE 11 | DECISION: hand-off | WHO: Support Lead | AMOUNT: none | RULE: 8 | NOTE: Partner-invoiced reseller accounts and a quarterly unused-seat refund are not covered by any rule.
+CASE 12 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 16.67 | RULE: 4 | NOTE: A 7h 20m outage gives one full 4-hour block, so 5% of the GBP 333.33 monthly equivalent (GBP 4,000 divided by 12), as a credit note only.
+CASE 13 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 100 | RULE: 4 | NOTE: A 30-hour outage gives seven full 4-hour blocks, capped at 25% of the GBP 400 monthly fee, as a credit note only.
+CASE 14 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 3 | NOTE: A renewal payment is not refundable under the new-customer rule, and the first ever payment was years ago, so no refund applies.
+CASE 15 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 500 | RULE: 2 (approver from 1) | NOTE: The 12 Nov charge is 2 days old, inside the 14-day window; GBP 500 is the top of the Support Lead limit.
+END
+
+Notes outside the lines:
+- Cases 4 and 14 are judgement calls. Both customers say the renewal was a mistake. No rule covers a billing error as such, but rule 3 says renewals are not refundable under the new-customer rule and the 30-day window runs from the first ever payment, so I declined. If either customer can show a genuine billing error, that is outside the rules and should go to the Support Lead under rule 8.
+- Case 1: the cancellation request should be handled separately from the refund.
+- Case 8: Finance needs to be told about INV-0412.
+- Case 7: the account manager must be told before the customer hears of the decision.

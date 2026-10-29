@@ -77,6 +77,26 @@ By my readings it didn't work: the clash was flagged in 0 of 6 runs, and my line
 - **All six clash runs still approved both renewals.** Nothing changed on the money.
 - **On the clean document it made no difference to the decisions.** Haiku handed off both renewals in all six runs, as it did without the sentence.
 
+## Did a Checklist Help? A Second Follow-Up
+
+The roadmap asked whether a repeatable checklist does better than a one-off prompt. After one sentence failed, I wrote a five-step checklist a team could use on any queue: find every rule that could apply, let an exception win, hand off when two rules give different answers, hand off when no rule covers it, otherwise apply the rule. It doesn't mention renewals or any rule by number. The checklist and the readings are in the [case](../cases/brannock-refund-flawed-document-case.md), committed before any run. As in the first follow-up, I ran Haiku six times on each of three arms: the clash document with no checklist, the clash document with the checklist, and the clean document with the checklist. These 18 runs were made on 29 October 2026, and their prompts, replies, blind scores and mapping are in [checklist-runs](checklist-runs/).
+
+| Of 6 Haiku runs | Clash, no checklist | Clash, with the checklist | Clean, with the checklist |
+| --- | ---: | ---: | ---: |
+| Flagged the clash between rules 3 and 3a | 0 | 0 | not applicable |
+| Approved both renewals | 6 | 6 | 0 |
+| False alarms | not applicable | not applicable | 0 |
+| Right on the requests no flaw touches | 78 of 78 | 78 of 78 | 72 of 72 |
+
+By my readings it didn't work: the clash was flagged in 0 of 6 runs with the checklist, and my line was 4. It had no side effect either: no false alarms, and every untouched request right.
+
+- **The checklist made Haiku look at both rules, then pick one.** Five of the six checklist runs applied rule 3a and mentioned rule 3 in the same renewal note, for example "rule 3 excludes renewals but rule 3a covers them" or "rule 3 does not cover renewals". None of the six runs without the checklist mentioned rule 3 there. Each of the five read 3a as settling the question, not as contradicting rule 3, so none counts as a flag, and all five approved. (My blind scores counted three such notes, the ones that name both rules; two more say "rule 3 does not cover renewals" while applying 3a.) Step 3 says to hand off when two rules "give different decisions". Haiku didn't see a renewal refund under 3a and no refund under 3 as different decisions.
+- **It fixed the false alarms the sentence caused.** The one-sentence follow-up got five false alarms in six clean runs. The checklist got none. Its exception step worked as written: one clean run said rules 5, 6 and 7 override rule 2, which is right.
+- **Nothing changed on the money.** All 12 clash runs approved GBP 3,000 of renewals.
+- **On the clean document Haiku handed request 14 off in five runs and declined it in one.** That's the same pattern as before, and my key says decline.
+
+So a generic checklist doesn't get this model to catch this clash. It may need the rules compared pairwise, or a larger model. I haven't tested either.
+
 ## What Went Wrong, and What I Can't Tell
 
 - **I wrote the flaws.** Three flaws, each a few words long. A real document's flaws are less tidy, and mine may be easier to see, or harder, than a real one.
@@ -90,4 +110,4 @@ By my readings it didn't work: the clash was flagged in 0 of 6 runs, and my line
 
 ## What I'd Do Next
 
-I haven't built anything on this. The useful finding is that the larger model's notes are where the flaw shows, and the smaller model's replies hide it. A person reading only the answer lines would miss every clash. I tried one short instruction, "say if any two rules disagree", in the follow-up above. It didn't get Haiku to flag the clash, and it produced false alarms. The next thing to try is a different instruction, one that names the check, for example comparing each rule that mentions renewals, but I haven't, and the result may not transfer to a different flaw.
+I haven't built anything on this. The useful finding is that the larger model's notes are where the flaw shows, and the smaller model's replies hide it. A person reading only the answer lines would miss every clash. I tried one short instruction, "say if any two rules disagree", in the follow-up above. It didn't get Haiku to flag the clash, and it produced false alarms. A five-step checklist, in the second follow-up, didn't either, though it caused no false alarms. The next thing to try is an instruction that names the check, for example comparing each rule that mentions renewals, but that's close to telling the model where the flaw is, and the result may not transfer to a different flaw.

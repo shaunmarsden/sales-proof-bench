@@ -1,0 +1,19 @@
+START
+CASE 1 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 90 | RULE: Rule 2 | NOTE: Monthly charge taken 6 Nov, 8 days ago, so this month's charge is refundable.
+CASE 2 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 2,400 | RULE: Rule 3 | NOTE: First ever payment 20 Oct, 25 days ago, so the full year is refundable.
+CASE 3 | DECISION: decline | WHO: none | AMOUNT: none | RULE: Rule 3 | NOTE: First ever payment 2 Sep is more than 30 days ago, so no refund.
+CASE 4 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 1,800 | RULE: Rule 3a | NOTE: Renewal charged 5 Nov, 9 days ago, so the full renewal is refundable.
+CASE 5 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 30 | RULE: Rule 4 | NOTE: 9h10m outage gives two full 4-hour blocks, 10% of GBP 300, as a credit note, not cash.
+CASE 6 | DECISION: decline | WHO: none | AMOUNT: none | RULE: Rule 4 | NOTE: The 3-hour outage is under 4 hours, so no credit is due.
+CASE 7 | DECISION: approve | WHO: Finance Director | AMOUNT: GBP 8,000 | RULE: Rule 3 | NOTE: First ever payment 28 Oct, 17 days ago; over GBP 5,000, so the account manager is told before the customer.
+CASE 8 | DECISION: decline | WHO: none | AMOUNT: none | RULE: Rule 5 | NOTE: INV-0412 is 41 days overdue, so no refund until it is paid; Finance must be told.
+CASE 9 | DECISION: hand-off | WHO: Legal | AMOUNT: none | RULE: Rule 6 | NOTE: The customer mentions a solicitor, so I am not deciding the refund.
+CASE 10 | DECISION: hand-off | WHO: Risk team | AMOUNT: none | RULE: Rule 7 | NOTE: The customer is disputing the charge with their bank and says the card was stolen, so no refund.
+CASE 11 | DECISION: hand-off | WHO: Support Lead | AMOUNT: none | RULE: Rule 8 | NOTE: Seat refunds on a partner-billed reseller agreement are not covered by these rules.
+CASE 12 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 16.67 | RULE: Rule 4 | NOTE: 7h20m outage gives one full 4-hour block, 5% of a GBP 333.33 monthly fee, as a credit note, not cash.
+CASE 13 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 100 | RULE: Rule 4 | NOTE: 30-hour outage is 7 full blocks, capped at 25% of the GBP 400 monthly fee, as a credit note, not cash.
+CASE 14 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 1,200 | RULE: Rule 3a | NOTE: Renewal charged 28 Oct, 17 days ago, so the full renewal is refundable.
+CASE 15 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 500 | RULE: Rule 2 | NOTE: Monthly charge taken 12 Nov, 2 days ago, and GBP 500 is within the Support Lead limit.
+END
+
+Outside the lines: tell Finance about Wardle Packaging (case 8), and tell Thistle Energy Services' account manager before Thistle hears about the refund (case 7).

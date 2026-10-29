@@ -1,0 +1,19 @@
+START
+CASE 1 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 90 | RULE: 2 | NOTE: The 6 Nov charge is 8 days old, within 14 days; the cancellation itself is outside these rules.
+CASE 2 | DECISION: approve | WHO: Finance Manager | AMOUNT: GBP 2,400 | RULE: 3 | NOTE: First payment on 20 Oct is 25 days ago, within 30 days, and a new customer; over GBP 500 so the Finance Manager signs.
+CASE 3 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 3 | NOTE: First payment on 2 Sep is 73 days ago, outside 30 days; low usage doesn't change the rule.
+CASE 4 | DECISION: hand-off | WHO: Support Lead | AMOUNT: GBP 1,800 | RULE: 8 (rule 3 excludes renewals) | NOTE: A mistaken renewal charge on 5 Nov isn't covered by any refund rule.
+CASE 5 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 30 | RULE: 4 | NOTE: A 9h10m outage gives two full 4-hour blocks, 10% of GBP 300; issue as a credit note, not cash.
+CASE 6 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 4 | NOTE: The 3-hour outage is under the 4-hour minimum, so no credit.
+CASE 7 | DECISION: approve | WHO: Finance Director | AMOUNT: GBP 8,000 | RULE: 3 | NOTE: First payment on 28 Oct is 17 days ago; over GBP 5,000, so the account manager is told before the customer.
+CASE 8 | DECISION: decline | WHO: none | AMOUNT: none | RULE: 5 | NOTE: INV-0412 is 41 days overdue, so no refund until it is paid; tell Finance. This exception overrides rule 2.
+CASE 9 | DECISION: hand-off | WHO: Legal | AMOUNT: GBP 120 | RULE: 6 | NOTE: The solicitor threat means we decide nothing; rule 2 would otherwise cover the refund.
+CASE 10 | DECISION: hand-off | WHO: Risk team | AMOUNT: GBP 75 | RULE: 7 | NOTE: The customer is disputing the charge with their bank and says the card was stolen, so no refund.
+CASE 11 | DECISION: hand-off | WHO: Support Lead | AMOUNT: none | RULE: 8 | NOTE: A partner-billed refund of unused seats for a quarter isn't covered; rule 2 only refunds the current month, and the amount isn't clear.
+CASE 12 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 16.67 | RULE: 4 | NOTE: A 7h20m outage gives one full 4-hour block, 5% of GBP 333.33 (one twelfth of GBP 4,000); credit note, not cash.
+CASE 13 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 100 | RULE: 4 | NOTE: A 30-hour outage is seven full blocks (35%), capped at 25% of GBP 400; credit note, not cash.
+CASE 14 | DECISION: hand-off | WHO: Support Lead | AMOUNT: GBP 1,200 | RULE: 8 (rule 3 excludes renewals) | NOTE: A mistaken renewal charge on 28 Oct isn't covered by any refund rule.
+CASE 15 | DECISION: approve | WHO: Support Lead | AMOUNT: GBP 500 | RULE: 2 | NOTE: The 12 Nov charge is 2 days old; GBP 500 or less, so the Support Lead signs.
+END
+
+Outside the lines: Cases 4 and 14 look alike, and I have handed both off rather than decline them, because rule 3 excludes renewals from its own refund but no other rule covers them. Case 1's cancellation and Case 11's amount need a decision from the Support Lead, since the rules don't cover them.
