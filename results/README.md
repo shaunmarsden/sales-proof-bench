@@ -52,7 +52,7 @@ None of the 21 runs below triggered an automatic failure. Every score is the rub
 Two tests use a fictional refund queue and a scoring script rather than the rubric above. Their runs are separate from the 21 model records.
 
 - [Process Document or None](../comparisons/process-documentation-setup-comparison.md) compares a full process document, a short summary and one vague sentence. It has 30 runs: three versions, five runs each, on two model settings.
-- [A Process Document With a Flaw](../comparisons/flawed-process-document-comparison.md) tests a clean document and three flawed versions. It has 48 runs across two model settings, then an 18-run follow-up on the smaller model. That's 66 completed runs. The follow-up sentence didn't fix the real clash and produced false alarms on the clean document.
+- [A Process Document With a Flaw](../comparisons/flawed-process-document-comparison.md) tests a clean document and three flawed versions. It has 48 runs across two model settings, then two 18-run follow-ups on the smaller model, one with a sentence and one with a checklist. That's 84 completed runs. The follow-up sentence didn't fix the real clash and produced false alarms on the clean document. The checklist didn't fix it either, but caused no false alarms.
 
 ## What the Results Show
 
