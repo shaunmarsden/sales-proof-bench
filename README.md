@@ -38,7 +38,7 @@ It isn't a leaderboard. A model can be good at drafting a follow-up and poor at 
 - Whether one output stuck closer to the evidence it was given
 - Whether it gave useful questions, actions or drafts
 - Whether it kept doubts visible
-- Whether a setup instruction improves a repeated task. One test has: the [Brannock refund queue](comparisons/process-documentation-setup-comparison.md), on one invented process, and a [second test](comparisons/flawed-process-document-comparison.md) of the same document with a flaw in it. The model runs on the four cases give their setup instruction as none, unknown or a consumer account with nothing attached
+- Whether a setup instruction improves a repeated task. In one test, the [Brannock refund queue](comparisons/process-documentation-setup-comparison.md), it did, on one invented process. A [second test](comparisons/flawed-process-document-comparison.md) of the same document with a flaw in it found a one-sentence instruction and a five-step checklist both failed to get the smaller model to flag the clash. The model runs on the four cases give their setup instruction as none, unknown or a consumer account with nothing attached
 
 ## What This Cannot Tell You Alone
 
@@ -50,7 +50,7 @@ It isn't a leaderboard. A model can be good at drafting a follow-up and poor at 
 
 ## Current Status
 
-The bench has four fictional cases: Hartwell Follow Up, Marlow Pre-Call, Osmond Objection Diagnosis and Elmsworth Business Case. Four models have run every case: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini. Sonnet 5 also has second attempts and consumer-app versions, so Hartwell has five results, Marlow six, and Osmond and Elmsworth five each. That's 21 in all. The [results](results/README.md) say what these show and what they don't.
+The bench has four fictional cases for comparing models: Hartwell Follow Up, Marlow Pre-Call, Osmond Objection Diagnosis and Elmsworth Business Case. Two more cases, both on the Brannock refund queue, test setup instructions instead. Four models have run every case: Claude Sonnet 5, Claude Haiku 4.5, ChatGPT and Gemini. Sonnet 5 also has second attempts and consumer-app versions, so Hartwell has five results, Marlow six, and Osmond and Elmsworth five each. That's 21 in all. The [results](results/README.md) say what these show and what they don't.
 
 The [roadmap](ROADMAP.md) lists the next tests.
 
